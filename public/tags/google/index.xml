@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on What is wrong with your dog</title>
-    <link>http://example.org/tags/google/</link>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/google/</link>
     <description>Recent content in Google on What is wrong with your dog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 18 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="http://example.org/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lets check the Map!</title>
-      <link>http://example.org/posts/lets-check-the-map/</link>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/lets-check-the-map/</link>
       <pubDate>Sun, 18 Dec 2022 09:05:28 -0600</pubDate>
       
-      <guid>http://example.org/posts/lets-check-the-map/</guid>
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/lets-check-the-map/</guid>
       <description>Lets check the Map! The modern internet is the antithesis of curation. This is, for the most part, the common ground for the problems that haunt large web-sites such as YouTube, Facebook and others. They get so many submissions and at such a high rate that it is humanly impossible to sort them in any manner. Machine learning has been trotted out as a solution to at least the worse types of content being submitted by people but the problems of scale and a lack of human input extend to many services available online, not the least of which are maps.</description>
     </item>
     
     <item>
       <title>When you wish upon a...</title>
-      <link>http://example.org/posts/when-you-wish/</link>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/when-you-wish/</link>
       <pubDate>Thu, 15 Dec 2022 09:05:28 -0600</pubDate>
       
-      <guid>http://example.org/posts/when-you-wish/</guid>
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/when-you-wish/</guid>
       <description>When you wish upon a&amp;hellip; Star light, star bright,
 First star I see tonight;
 I wish I may, I wish I might

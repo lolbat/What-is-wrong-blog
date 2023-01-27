@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on What is wrong with your dog</title>
-    <link>http://example.org/tags/meta/</link>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/meta/</link>
     <description>Recent content in Meta on What is wrong with your dog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="http://example.org/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When you wish upon a...</title>
-      <link>http://example.org/posts/when-you-wish/</link>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/when-you-wish/</link>
       <pubDate>Thu, 15 Dec 2022 09:05:28 -0600</pubDate>
       
-      <guid>http://example.org/posts/when-you-wish/</guid>
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/when-you-wish/</guid>
       <description>When you wish upon a&amp;hellip; Star light, star bright,
 First star I see tonight;
 I wish I may, I wish I might
@@ -23,10 +23,10 @@ Know if you are a Starlink satellite
     
     <item>
       <title>All things will die</title>
-      <link>http://example.org/posts/all-things-will-die/</link>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/all-things-will-die/</link>
       <pubDate>Wed, 07 Dec 2022 09:05:28 -0600</pubDate>
       
-      <guid>http://example.org/posts/all-things-will-die/</guid>
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/all-things-will-die/</guid>
       <description>All things will die The Guardian posted an article today looking at the impact and future of Meta’s Metaverse project. It is not a good read if you are holding Meta stock but I guess nothing really has been for the last few months. What I found most interesting in the article were the comments from Meta vice-president Vishal Shah trying to get his staff and developers to use their own VR software.</description>
     </item>
     
