@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs on What is wrong with your dog</title>
+    <link>http://example.org/tags/emacs/</link>
+    <description>Recent content in emacs on What is wrong with your dog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 06 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="http://example.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing with Markdown</title>
+      <link>http://example.org/posts/writing-markdown/</link>
+      <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
+      
+      <guid>http://example.org/posts/writing-markdown/</guid>
+      <description>Writing with Markdown Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere. Being able to format you copy as you type, without having to move a mouse or use a menu, allows you to work without having to interrupt your thought process.</description>
+    </item>
+    
+  </channel>
+</rss>

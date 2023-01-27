@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Death on What is wrong with your dog</title>
+    <link>http://example.org/tags/death/</link>
+    <description>Recent content in Death on What is wrong with your dog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 09:05:28 -0600</lastBuildDate><atom:link href="http://example.org/tags/death/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Break a leg</title>
+      <link>http://example.org/posts/break-a-leg/</link>
+      <pubDate>Mon, 23 Jan 2023 09:05:28 -0600</pubDate>
+      
+      <guid>http://example.org/posts/break-a-leg/</guid>
+      <description>Break a leg My grandmother, on my mother&amp;rsquo;s side, passed away due to complications during surgery. It is a pleasing way to say that she was too old and the rigour of the procedure was too much for her system to bear. She was, if I recall correctly, 93 years of age and living with my uncle. They had a small farm in the interior of British Columbia, that my uncle maintained, which they moved to after selling a larger farm in northern BC.</description>
+    </item>
+    
+  </channel>
+</rss>

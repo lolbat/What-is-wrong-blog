@@ -5,7 +5,6 @@ theme = 'poison'
 paginate = 10
 pluralizelisttitles = false
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
-languageCode = 'en-us'
 
 [author]
   name = 'Zac Belado'

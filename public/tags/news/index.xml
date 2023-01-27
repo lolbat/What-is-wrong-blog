@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on What is wrong with your dog</title>
+    <link>http://example.org/tags/news/</link>
+    <description>Recent content in News on What is wrong with your dog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 09:05:28 -0600</lastBuildDate><atom:link href="http://example.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the news</title>
+      <link>http://example.org/posts/all-the-news/</link>
+      <pubDate>Mon, 23 Jan 2023 09:05:28 -0600</pubDate>
+      
+      <guid>http://example.org/posts/all-the-news/</guid>
+      <description>All the news Last month I purchased a Bluetooth speaker to use around the house so I could play music while I worked. We have a very old CD player in the kitchen but the speakers are showing their age and sound rather muffled. It is also not very portable and so a new electronic doodad was purchased. I bought it at Best Buy which is a Canadian electronics chain store.</description>
+    </item>
+    
+  </channel>
+</rss>
