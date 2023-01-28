@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/links/</loc>
+    <lastmod>2023-01-25T18:56:02-06:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/</loc>
+    <lastmod>2023-01-25T18:56:02-06:00</lastmod>
+  </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/posts/all-the-news/</loc>
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
@@ -30,9 +36,6 @@
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/</loc>
-    <lastmod>2023-01-23T09:05:28-06:00</lastmod>
-  </url><url>
-    <loc>https://whatiswrongwithyourdog.netlify.app/</loc>
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/ash-parrish/</loc>

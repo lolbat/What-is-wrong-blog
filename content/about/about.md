@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About this blog"
 type: "Page"
 date: 2021-08-17T18:56:02-06:00
 draft: false
@@ -8,9 +8,7 @@ _build:
      render: true
 ---
 
-# About this blog
-
-So what is this blog all about? 
+So what is this and why did I click the 'About' link?
 
 The world is a puzzling and sometimes terrifying place. This blog will not provide anything to help you with that. Despite the title there is almost no chance of there being posts about dogs or their inability to deal with the rigorous demands of modernity.
 
@@ -19,6 +17,7 @@ The world is a puzzling and sometimes terrifying place. This blog will not provi
 The cute photo of the dog is from reddit user u/Niffer13. Their user page is marked as 18+ so you can’t view it without logging in to Reddit. 
 
 ## The author
+
 Zac is a recovering multimedia and web application developer. He started writing code and building applications before there even was a Javascript. Or a web. He feels very old writing that.
 
 The first language he used was 6502 assembly code on an Apple II+ that he borrowed from his neighbour. After that he started using Pascal on his college's mainframe system. He took a hiatus away from computers and programming while he pursued a degree in history and linguistics.

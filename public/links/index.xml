@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on What is wrong with your dog</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/links/</link>
+    <description>Recent content in Links on What is wrong with your dog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 25 Jan 2023 18:56:02 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/links/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
