@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/hugo/</link>
+    <description>Recent content in Hugo on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building with Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</guid>
+      <description>This site is built using a static site generator called Hugo. Hugo is a command line tool written using the Go language that takes Markdown or HTML pages and builds a website using a theme you specify. The resulting site consists of static HTML pages and so it loads ridiculously quickly and the pages are much smaller than pages built with a CMS.
+I am using a theme for the site based on the Poison theme which is itself based on another theme called Hyde.</description>
+    </item>
+    
+  </channel>
+</rss>

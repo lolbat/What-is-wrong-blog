@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 23 Jan 2023 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building with Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</guid>
+      <description>This site is built using a static site generator called Hugo. Hugo is a command line tool written using the Go language that takes Markdown or HTML pages and builds a website using a theme you specify. The resulting site consists of static HTML pages and so it loads ridiculously quickly and the pages are much smaller than pages built with a CMS.
+I am using a theme for the site based on the Poison theme which is itself based on another theme called Hyde.</description>
+    </item>
+    
+    <item>
+      <title>Hello new blog</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/hellohugo/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/hellohugo/</guid>
+      <description>If you are here reading this post then you have found my blog in its new home. I was, until yesterday, using Wordpress as a hosting service but have moved all of my recent writing to this new location. There are two primary reasons for this.
+I might still be using Wordpress if I hadn’t made the mistake of viewing the site without my ad blocker and saw these:
+At the bottom of every blog post were a series of ads from companies such as Outbrain.</description>
+    </item>
+    
     <item>
       <title>All the news</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/all-the-news/</link>

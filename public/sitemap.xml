@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/ads/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/posts/hellohugo/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/hugo/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/netlify/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/posts/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://whatiswrongwithyourdog.netlify.app/tags/wordpress/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/posts/all-the-news/</loc>
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
@@ -23,16 +53,7 @@
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/news/</loc>
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
-    <loc>https://whatiswrongwithyourdog.netlify.app/posts/</loc>
-    <lastmod>2023-01-23T09:05:28-06:00</lastmod>
-  </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/relatives/</loc>
-    <lastmod>2023-01-23T09:05:28-06:00</lastmod>
-  </url><url>
-    <loc>https://whatiswrongwithyourdog.netlify.app/tags/</loc>
-    <lastmod>2023-01-23T09:05:28-06:00</lastmod>
-  </url><url>
-    <loc>https://whatiswrongwithyourdog.netlify.app/</loc>
     <lastmod>2023-01-23T09:05:28-06:00</lastmod>
   </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/ash-parrish/</loc>
@@ -138,9 +159,6 @@
     <lastmod>2022-12-06T09:05:28-06:00</lastmod>
   </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/mac/</loc>
-    <lastmod>2022-12-06T09:05:28-06:00</lastmod>
-  </url><url>
-    <loc>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</loc>
     <lastmod>2022-12-06T09:05:28-06:00</lastmod>
   </url><url>
     <loc>https://whatiswrongwithyourdog.netlify.app/tags/michel-legrand/</loc>
