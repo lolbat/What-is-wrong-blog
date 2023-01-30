@@ -13,7 +13,7 @@ features = ["blog", "series"]
 [author]
     name = "Zac Belado"
     homepage = ""
-s
+
 # If Porting existing theme
 
 [original]

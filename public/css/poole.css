@@ -48,8 +48,8 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: sans-serif;
+  font-size: 14px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
@@ -84,7 +84,8 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.85rem;
+  font-weight: 500;
 }
 h2 {
   margin-top: 1rem;
@@ -231,7 +232,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
   font-weight: 300;
 }
 
@@ -361,7 +362,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   color: #ccc;
   text-align: center;
 }
