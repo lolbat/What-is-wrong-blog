@@ -19,7 +19,7 @@ Know if you are a Starlink satellite_
 
 2022 has been a year defined by corporations releasing products and services without any thought given to consequences or even such piffling factors as ethics and morality.  SpaceX, an Elon Musk company, pushed 100s of satellites into the sky [causing havoc for earthbound astronomers](https://www.skyatnightmagazine.com/space-science/spacex-starlink-problem-astronomy/). The company has plans for a total of 2700 low-earth orbit satellites which is slightly more than 50% of the existing number of objects in low-earth orbit.
 
->image
+![Starlink's impact](/static/starlink.jpg)
 Credit: NSF’s National Optical-Infrared Astronomy Research Laboratory/CTIO/AURA/DELVE
 
 [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) joined other machine learning tools released this year and while the current version of the tool generates very authentic looking text it has a habit of just making up references when needed. At the moment its main threat is to replace the poor SOBs that have to write content for SEO marketing websites but it is quite easy to see the problems inherent in it.
