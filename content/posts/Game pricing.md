@@ -17,9 +17,13 @@ What made me have a WTF moment was a comment in the piece.
 
 > As mobile games go, Marvel Snap’s been really good about its monetization scheme. You spend $10 a month if you want that season’s new card/premium battle pass filled with premium prizes, which feels fairly standard.
 
-They do qualify the comment by saying "As mobile games go," but the idea that paying $120 US a year to play a game like Marvel Snap is "standard" is shocking. I think that I spent less than $10 Cnd on [Core Defense and its single DLC](https://zacgaming.wordpress.com/2023/01/06/core-defense-an-appreciation/) and while this is probably not a price that reflects that quality of the game (and a topic for another post?) it is a long jump from $10US  to $120US. And this is for a game that has ridiculously priced IAPs as well. Marvel Snap is yet another in a long, long, long, long line of "games" that have $100+ purchases you can make. 
+They do qualify the comment by saying "As mobile games go," but the idea that paying $120 US a year to play a game like Marvel Snap is "standard" is shocking. I think that I spent less than $10 Cnd on [Core Defense and its single DLC](https://zacgaming.wordpress.com/2023/01/06/core-defense-an-appreciation/) and while this is probably not a price that reflects that quality of the game (and a topic for another post?) it is a long jump from $10US  to $120US. And this is for a game that has ridiculously priced IAPs as well. Marvel Snap is yet another in a long, long, long, long line of "games" that have $100+ purchases you can make.
+
+![Am I wrong?](/images/am-i.jpg)
 
 So it is at this point that I will hop over that line that separates me from the youth of today and proudly say  - 
+
+![No, it's the children who are wrong](/images/no-its.jpg)
 
 "No, it's the children who are wrong". 
 
