@@ -8,8 +8,6 @@ tags:
     - Relatives
 ---
 
-# Break a leg
-
 My grandmother, on my mother's side, passed away due to complications during surgery. It is a pleasing way to say that she was too old and the rigour of the procedure was too much for her system to bear. She was, if I recall correctly, 93 years of age and living with my uncle. They had a small farm in the interior of British Columbia, that my uncle maintained, which they moved to after selling a larger farm in northern BC.
 
 The surgery was required because my grandmother fell and broke her leg. She was in bed at the time and got up to get something inconsequential and fell. A fall is never a predictable event. What seems like it might be a simple tumble to the floor can result in any combination of injuries as you pinball your way to horizontal. In the case of my grandmother it resulted in a broken leg. The break was severe enough that it required surgery. I wasn't part of the discussion surrounding the extent of her injuries but I suspect that the concern was that material from her broken bone was making its way into her bloodstream and would cause a potentially life-threatening case of [fat embolism syndrome](https://en.wikipedia.org/wiki/Fat_embolism_syndrome). Whatever the root cause was, surgery was seen as a less risky procedure and so she made her way into the operating theatre.

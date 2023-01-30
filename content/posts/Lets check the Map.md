@@ -10,8 +10,6 @@ tags:
     - Maps
 ---
 
-# Lets check the Map!
-
 The modern internet is the antithesis of curation. This is, for the most part, the common ground for the problems that haunt large web-sites such as YouTube, Facebook and others. They get so many submissions and at such a high rate that it is humanly impossible to sort them in any manner. Machine learning has been trotted out as a solution to at least the worse types of content being submitted by people but the problems of scale and a lack of human input extend to many services available online, not the least of which are maps.
 
 ## Who do we ask for help when we don’t know which way to go?

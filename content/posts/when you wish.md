@@ -12,8 +12,6 @@ tags:
     - SpaceX
 ---
 
-# When you wish upon a...
-
 _Star light, star bright,\
 First star I see tonight;\
 I wish I may, I wish I might\

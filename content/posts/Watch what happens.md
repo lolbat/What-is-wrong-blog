@@ -10,8 +10,6 @@ tags:
     - Vince Guaraldi
 ---
 
-# The mystery of Watch What Happens
-
 I am not as educated in music theory or the specifics of music composition as I would like. This often leads me to puzzles for which I don't have the answers and which are, typically, too detailed for me to find answers online.  Case in point, the rendition of _Watch What Happens_ that Oscar Peterson plays on the _Live At Ronnie Scott's 1974_ set.  First though, if you will indulge me, a brief tangent as I explain how I even started listening to this piece. 
 
 ## The Greatest Solo of All Time

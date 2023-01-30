@@ -1,5 +1,5 @@
 ---
-title: "Game pricing and the yoots"
+title: "Game pricing"
 date: 2023-01-12T09:05:28-06:00
 draft: false
 tags:
@@ -8,8 +8,6 @@ tags:
     - Mobile Games
     - The Children Are Wrong
 ---
-
-# Game pricing and the yoots
 
 Part of getting older is having to realise that times change and that you will invariably not understand what they become.  It is difficult to do. You stop being the generation that taste is made for and start becoming that old man who complains about the music playing in the bookstore. So I realise this and I accept it but there are instances when you wonder whether you are right or "the kids" are and it can be a difficult path to navigate.
 

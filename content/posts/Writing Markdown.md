@@ -9,8 +9,6 @@ tags:
     - emacs
 ---
 
-# Writing with Markdown
-
 Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere. Being able to format you copy as you type, without having to move a mouse or use a menu, allows you to work without having to interrupt your thought process. And you can do some very complex formatting in Markdown without much effort. 
 
 I joined a Mastodon server last week and one of the first things I started looking for were Markdown formatting options in the website. Reddit has then, I thought, so Mastodon must. They don't, sadly, but I suspect that it is a very frequent feature request.

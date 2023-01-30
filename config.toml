@@ -1,7 +1,7 @@
 baseURL = 'https://whatiswrongwithyourdog.netlify.app/'
 languageCode = 'en-us'
 title = 'What is wrong with your dog?'
-theme = 'poison'
+theme = 'wrongdog'
 paginate = 10
 pluralizelisttitles = false
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
@@ -14,22 +14,14 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
     brand_image = "/images/Dog.png"    # path to the image shown in the sidebar
     description = "A blog of writing that is rarely about dogs."
     dark_mode = false                    # optional - defaults to false
-
-    # MENU PLACEHOLDER
-    # Menu dict keys:
-        # Name:         The name to display on the menu.
-        # URL:          The directory relative to the content directory.
-        # HasChildren:  If the directory's files should be listed.  Default is true.
-        # Limit:        If the files should be listed, how many should be shown.
     menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Links", URL = "/links/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "About", URL = "/about/", HasChildren = false, Icon="info.svg"},
+        {Name = "Links", URL = "/links/", HasChildren = false, Icon="list.svg"},
+        {Name = "Recent Posts", URL = "/posts/", HasChildren = true, Limit = 5, Icon="file-text.svg"}
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
     mastodon_url = "https://home.social/@lolzac"
-
 
     # Hex colors for your sidebar.
     sidebar_bg_color = "#202020"            # default is #202020
@@ -40,6 +32,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
     sidebar_socials_color = "#FFF"          # default is #FFF
     moon_sun_color = "#FFF"                 # default is #FFF
     moon_sun_background_color = "#515151"   # default is #515151
+    link_icon_color = "#FFF"
 
     # Hex colors for your content in light mode.
     text_color = "#222"             # default is #222

@@ -9,8 +9,6 @@ tags:
     - Horace Silver
 ---
 
-# Music on tap
-
 So I would prefer, if possible, to own my music. I have a longterm goal of building a decent sound system and buying some older jazz albums to listen to. Putting an Oscar Peterson album on and listening to it and making the timing of my morning work revolve around having to turn the album over each time it finishes playing. 
 
 That said, I recently subscribed to Apple Music and it is almost beyond contemplation how much music I have access to now. I have, for the last few days had the song _Doodlin'_ as sung by Sarah Vaughan on my brain. I bought it decades ago as part of a Blue Note boxed set and the song pops into my head from time to time. Actually, what happens is that every morning I start the day with a song in my head. Sometimes it fades away during the day and sometimes it resides in the back of my brain for days on end. 

@@ -11,8 +11,6 @@ tags:
     - SEO
 ---
 
-## Not like the other Mac users
-
 I am, in a few respects, not the average Mac consumer. I tend to use my hardware until it breaks (I dropped a Macbook Pro onto a floor and split the case once) or it no longer works well for the tasks that I need it. And even then I reuse them. The old iMac I used to do Flex (ugh!) and Director programming on is now in the basement running a Plex server for the family and acting as a print server. 
 
 I have replaced one Mac computer before it became unusable and that is because I needed to get a new Mac with a PCI bus to use for a specific graphic card I wanted. I sure don't miss those days. I am not immune to the appeal of a new computer. I think everyone likes fancy, shiny new toys but I am typically hampered by my lack of disposable income and new Macs typically require foldin' money as the kids say. 

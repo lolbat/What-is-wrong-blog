@@ -9,8 +9,6 @@ tags:
     - Twitter
 ---
 
-# Being rich
-
 Being rich isn't a job. Its not as if members of the 1% come home after a long day of being a billionaire and flop into a well-worn La-Z-Boy, pop open a can of a local discount lager and fall asleep watching the evening news. Being rich is a skill though and I think that Elon Musk is at the pinnacle of the craft of being rich. 
 
 Now it isn't difficult to be rich. Almost anyone can do it and heaven pity the poor person, Eric Trump perhaps, who can't advance themselves even with all the benefits that come with a silver spoon in an orifice. Elon Musk though has done quite a lot with quite a lot and is still, even with all of his problems with Twitter and Tesla, the world's richest person. He has reached such a pinnacle that concerns about his personal politics are a relevant subject for public discourse. 

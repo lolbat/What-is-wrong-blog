@@ -7,8 +7,6 @@ tags:
     - Metaverse
 ---
 
-# All things will die
-
 The Guardian posted an article today [looking at the impact and future](https://www.theguardian.com/technology/2022/dec/07/metaverse-slow-death-facebook-losing-100bn-gamble-virtual-reality-mark-zuckerberg) of Meta’s Metaverse project. It is not a good read if you are holding Meta stock but I guess nothing really has been for the last few months. What I found most interesting in the article were the comments from Meta vice-president Vishal Shah trying to get his staff and developers to use their own VR software.
 
 > “If we don’t love it, how can we expect our users to love it?” Shah wrote. “Everyone in this organisation should make it their mission to fall in love with Horizon Worlds. You can’t do that without using it. Get in there.”

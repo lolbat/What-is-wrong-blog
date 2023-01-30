@@ -1,7 +1,6 @@
 ---
 title: "Links Page"
 type: "Page"
-date: 2021-08-19T
 draft: false
 _build:
      list: false
@@ -16,8 +15,8 @@ Here then is my list of websites that I read on a regular basis or for which I u
 
 ## The Links
 
-* [**Ars Technica**](https://arstechnica.com) - science, fintech, games, all sorts of fun geeky stuff.
-* [**Daring Fireball**](https://daringfireball.net) -  John Gruber has been writing about Macs and tech for as long as there has been either.
-* [**Popular Information**](https://popular.info/) - independent investigative journalism.
-* [**Tedium**](https://tedium.co/) - "Can boring things be made interesting?" Yes, yes it can.
-* [**Pluralistic**](https://pluralistic.net/) - Cory Doctrow is mad as hell and isn't going to take it anymore.
+- [**Ars Technica**](https://arstechnica.com) - science, fintech, games, all sorts of fun geeky stuff.
+- [**Daring Fireball**](https://daringfireball.net) -  John Gruber has been writing about Macs and tech for as long as there has been either.
+- [**Popular Information**](https://popular.info/) - independent investigative journalism.
+- [**Tedium**](https://tedium.co/) - "Can boring things be made interesting?" Yes, yes it can.
+- [**Pluralistic**](https://pluralistic.net/) - Cory Doctrow is mad as hell and isn't going to take it anymore.

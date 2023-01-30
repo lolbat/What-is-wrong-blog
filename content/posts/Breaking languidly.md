@@ -9,8 +9,6 @@ tags:
     - Tower Defence
 ---
 
-# Breaking languidly
-
 The Tower Defence games should have been the first warning. 
 
 I truly love TD games, especially [Core Defense](https://coredefense.ehmprah.com), and have had since I saw [Fieldrunners](https://en.wikipedia.org/wiki/Fieldrunners) on the iPad. Fieldrunners was followed by [Fieldrunners 2](https://en.wikipedia.org/wiki/Fieldrunners_2) which was even better than the original and which I have played to completion several times. 

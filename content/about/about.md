@@ -1,7 +1,6 @@
 ---
 title: "About this blog"
 type: "Page"
-date: 2021-08-17T1
 draft: false
 _build:
      list: false
