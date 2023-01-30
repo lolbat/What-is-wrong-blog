@@ -1,0 +1,22 @@
+name = "Wrong Dog"
+license = "GPL-3.0 License"
+licenselink = "https://github.com/lukeorth/poison/blob/master/LICENSE.md"
+description = "A simple theme for Hugo based on Poison which is based on Hyde. Such is the circle of life"
+min_version = "0.41.0"
+
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/lukeorth/poison"
+
+tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
+features = ["blog", "series"]
+
+[author]
+    name = "Zac Belado"
+    homepage = ""
+s
+# If Porting existing theme
+
+[original]
+author =  "Luke Orth"
+homepage = "https://lukeorth.com"
+repo = "https://github.com/lukeorth/poison"
