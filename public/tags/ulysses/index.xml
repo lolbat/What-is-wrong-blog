@@ -6,11 +6,12 @@
     <description>Recent content in Ulysses on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/ulysses/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/ulysses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown writing tools</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</guid>
       <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed. It is also an electron app and I like to find MacOS options when I can.</description>

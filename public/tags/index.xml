@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drafts</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/drafts/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/drafts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iA Writer</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/ia-writer/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/ia-writer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/macos/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nota</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/nota/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/nota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/obsidian/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/obsidian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ulysses</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/tags/ulysses/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/tags/ulysses/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ads</title>
       <link>https://whatiswrongwithyourdog.netlify.app/tags/ads/</link>
@@ -23,15 +86,6 @@
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/markdown/</guid>
       <description></description>
     </item>
     
@@ -387,15 +441,6 @@
     </item>
     
     <item>
-      <title>Nota</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/nota/</link>
-      <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/nota/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Oscar Peterson</title>
       <link>https://whatiswrongwithyourdog.netlify.app/tags/oscar-peterson/</link>
       <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
@@ -437,51 +482,6 @@
       <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/tags/vince-guaraldi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drafts</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/drafts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/drafts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iA Writer</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/ia-writer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/ia-writer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MacOS</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/macos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Obsidian</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/obsidian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/obsidian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ulysses</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/tags/ulysses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/tags/ulysses/</guid>
       <description></description>
     </item>
     
