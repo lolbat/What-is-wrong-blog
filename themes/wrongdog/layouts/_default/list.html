@@ -2,14 +2,14 @@
 <h1 class="title">{{ .Title }}</h1>
 <ul class="entries">
     {{ range .Pages.GroupByDate "2006" }}
-        <h3 style="text-align: center;">{{ .Key }}</h3>
+        <h3>{{ .Key }}</h3>
         {{ range .Pages }}
             <li>
                 <span class="title">
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
                 </span>
                 <span class="published">
-                    <time class="pull-right post-list">{{ .Date | time.Format ":date_long" }}</time>
+                    <time class="pull-right post-list">{{ .Date | time.Format ":date_full" }}</time>
                 </span>
             </li>
         {{ end }}

@@ -15,18 +15,20 @@
     {{ $postTitle := .Title }}
     <p>
     This is a post in the <b><a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a></b> series.
-        <br>Other posts in this series:
+    </p>
+    
+    <p>Other posts in this series:
         <ul class="series">
             {{ $seriesUrl := print "series/" (.Params.series | urlize) }}
             {{ $series := .Site.GetPage $seriesUrl }}
             {{ range $series.Pages }}
             <li>
-                {{ .Date | time.Format ":date_long" }} -
                 {{ if ne .Title $postTitle }}
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
                 {{ else }}
-                    {{ .Title }}
+                    <strong>{{ .Title }}</strong>
                 {{ end }}
+                <span class="seriesPostDate">posted on {{ .Date | time.Format ":date_full" }}</span>
             </li>
             {{ end }}
         </ul>

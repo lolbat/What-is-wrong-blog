@@ -10,6 +10,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
   name = 'Zac Belado'
 
 [params]
+    dateFormat = "Monday, Jan 2, 2006"
     brand = "'What is wrong with your dog?'"                    # name of your site - appears in the sidebar
     brand_image = "/images/Dog.png"    # path to the image shown in the sidebar
     description = "A blog of writing that is rarely about dogs."

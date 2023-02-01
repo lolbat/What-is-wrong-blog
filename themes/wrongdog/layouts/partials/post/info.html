@@ -3,15 +3,15 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h1>
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">
-        {{ .Date.Format "January 2, 2006" }}
+        {{ .Date.Format .Site.Params.dateFormat }}
     </time>
     
-    {{ $Site := .Site }}
+    <!-- {{ $Site := .Site }}
     {{ if .Params.series }}
         <p class="seriesname">
             Series: <a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a>
         </p>
-    {{ end }}
+    {{ end }} -->
     
     {{ if .Params.featuredImage }}
     <p>

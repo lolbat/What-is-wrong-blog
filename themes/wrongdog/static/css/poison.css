@@ -31,6 +31,11 @@
     }
 }
 
+/* series styles */
+.seriesPostDate {
+    font-size: .65em;
+}
+
 /* menu styles */
 .menuIcon {
    filter: invert(100%);
@@ -57,6 +62,7 @@ h1, h2, h3, h4, h5, strong {
 }
 .page-title, .post-title, .post-title a {
     color: var(--post-title-color);
+    margin-bottom: 0 !important;
 }
 .content li {
     color: var(--list-color);
@@ -147,17 +153,18 @@ h1, h2, h3, h4, h5, strong {
 }
 .entries li .published {
     order: 3;
+    margin-left: 200px;
 }
 .entries li::after {
-    background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
+    /* background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
     background-position: bottom;
     background-size: 1ex 3.5px;
     background-repeat: space no-repeat;
-    content: "";
+    content: "";*/
     flex-grow: 1;
     height: 1.1em;
     order: 2;
-}
+} 
 .article-toc {
     display: none;
     position: fixed;
