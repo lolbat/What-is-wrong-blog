@@ -1,0 +1,20 @@
+{{ define "main" -}}
+
+<h1 class="title">{{ .Title }}</h1>
+
+<ul class="entries">
+
+    {{ range .Pages }}
+        <li>
+            <span class="title">
+                <a href="{{ .Link}}">{{ .Title }}</a>
+            </span>
+            <span class="description">
+               {{ .Desc }}
+            </span>
+        </li>
+    {{ end }}
+
+</ul>
+
+{{ end }}
