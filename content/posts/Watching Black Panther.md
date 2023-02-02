@@ -44,4 +44,6 @@ At the beginning of the movie Shuri and her mother Ramonda discuss Ramonda's sen
 
 Namor is primarily a lever to push Shuri into becoming Black Panther and overcoming her scientific bias. The heart-shaped herbs that are a part of the process of becoming Black Panther work because it opens the recipient up to the power of all previous Black Panthers. It is a religious experience. 
 
-This artificial dichotomy is only possible if you subscribe to a traditional idea of what spirituality is and how it is expressed. Shuri is steeped in Wakandan culture and she should believe, or accept as a fact, that the Blank Panthers have a connection to the previous holders of the title. She can do that and still be a scientist. She can do that and still be able to deal with her grief. x
+This artificial dichotomy is only possible if you subscribe to a traditional idea of what spirituality is and how it is expressed. Shuri is steeped in Wakandan culture and she should believe, or accept as a fact, that the Blank Panthers have a connection to the previous holders of the title. She can do that and still be a scientist. She can do that and still be able to deal with her grief. 
+
+Mind you, it all leads to a great scene with [Michael B. Jordan](https://www.themoviedb.org/person/135651-michael-b-jordan).
