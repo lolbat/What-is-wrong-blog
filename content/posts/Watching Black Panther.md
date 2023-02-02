@@ -35,3 +35,13 @@ The main story of the film is the conflict between Namor's people and Wakanda an
 The story of Wakanda and Namor's people going to war is really something that could have been developed more and even though Black Panther: Wakanda Forever is a long movie it still isn't long enough to build up a complex political situation and then have it unravel in a meaningful way.  
 
 All in all though it was a very fun movie to watch and I'd certainly watch it again if only to see Tenoch Mejía chew up the scenery as Namor. 
+
+So I do have a significant issue with the movie but it is really unrelated to the cast and even the story but is a more complicated issue about the artificial division between spirituality and science that you see far too often in movies and TV. 
+
+## Spoilers Ahoy!
+
+At the beginning of the movie Shuri and her mother Ramonda discuss Ramonda's sense that she has felt the presence of T'Challa while she was in the forest. Shuri dismisses it as sentimental nonsense. Shuri is portrayed early on in the film as rejecting the roll of Black Panther as unnecessary. She wants to build new tech to help defend Wakanda. Shuri is portrayed as being unable to process her grief and emotions as part of her lack of spirituality. 
+
+Namor is primarily a lever to push Shuri into becoming Black Panther and overcoming her scientific bias. The heart-shaped herbs that are a part of the process of becoming Black Panther work because it opens the recipient up to the power of all previous Black Panthers. It is a religious experience. 
+
+This artificial dichotomy is only possible if you subscribe to a traditional idea of what spirituality is and how it is expressed. Shuri is steeped in Wakandan culture and she should believe, or accept as a fact, that the Blank Panthers have a connection to the previous holders of the title. She can do that and still be a scientist. She can do that and still be able to deal with her grief. x
