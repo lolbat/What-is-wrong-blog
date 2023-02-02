@@ -75,5 +75,9 @@ The file is edited to, at this point, add a description to the link. The file is
 
 I may add some additional features to the system at some point but at the moment it allows me to easily add links to the Links page with a minimum of work.
 
+### Footnotes
+
+[^1]: You had to know there was a next step.
+
 
 
