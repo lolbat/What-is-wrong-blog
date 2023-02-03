@@ -1,8 +1,8 @@
 ---
-title: "Interesting Links #1"
+title: "Curious Links #1"
 date: 2023-02-01T09:05:28-06:00
 draft: false
-series: "Interesting Links"
+series: "Curious Links"
 tags:
     - Religion
     - Movies

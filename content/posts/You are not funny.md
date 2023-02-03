@@ -1,5 +1,5 @@
 ---
-title: "You Are Not Funny"
+title: "You Are not funny"
 date: 2023-02-02T15:44:39-07:00
 draft: false
 tags:
