@@ -9,7 +9,7 @@ tags:
     - 
 ---
 
-## Conservatives introduce law to protect vulnerable women
+## Conservatives introduce law indirectly "defend" the fetus
 
 The Conservative Party of Canada announced, [on their website](https://www.conservative.ca/conservatives-introduce-law-to-protect-vulnerable-women/), the addition of a Private Member's Bill by MP Cathay Wagantall.  The Bill has numerous statistical errors and also appears to be yet another attempt my a Conservative Party MP to push anti-abortion legislation under the guise of trying to stand up to crime. 
 
@@ -65,7 +65,6 @@ As noted in the Footnotes, the Violent Crime Index is a comparative value that s
 
 This chart looks at the change in Violent Crime as a percentage of total Police Reported Crimes in each year. 
 
-![[violent_crime_percent.jpg]]
 ![Violent Crime by percentage](/images/violent_crime_percent.jpg)
 
 ### Female victims of partner violence percentage
