@@ -6,7 +6,6 @@ tags:
 	- Politics
 	- Conservative Party of Canada
 	- statistics
-	- 
 ---
 
 ## Conservatives introduce law to indirectly "defend" the fetus
@@ -29,8 +28,8 @@ The Conservative Party of Canada announced, [on their website][1], the addition 
 
 It is of questionable taste to use the continued problem of violence against women as a way to score political points against the current Liberal government. Especially when the Bill in question doesn't necessarily do anything to change sentencing guidelines as they exist today. The Bill seeks to add the following to Criminal Code section 718.2
 
-- (ii.‍2) evidence that the offender, in committing the offence, abused a person whom the offender knew to be pregnant,
-- (ii.‍3) evidence that the offence caused physical or emotional harm to a pregnant victim,
+- (ii.2) evidence that the offender, in committing the offence, abused a person whom the offender knew to be pregnant,
+- (ii.3) evidence that the offence caused physical or emotional harm to a pregnant victim,
 
 Section ii of 718.2 already states:
 
@@ -82,10 +81,14 @@ This chart is the number of Police Reported Intimate Partner crimes that affecte
 ## Footnotes
 
 [^1]:	[Website][2] | [Wikipedia Page][3]
+
 [^2]:	Available on the [Parliamentary website][4]
+
 [^3]:	[Section 718.2][5] of the Criminal Code already allows judges to include "(ii) abused the offender’s intimate partner or a member of the victim or the offender’s family" as a condition in determining a sentence. 
 [^4]:	No mention of which policies these are.
+
 [^5]:	Grammatically and factually incorrect. The Prime Minister is not engaged in a crime wave
+
 [^6]:	The Stats Canada Violent Crime Index has increased 22% since 2015. The last year data is available for is 2021. It is up 5.15% from 2020 which was down 2.56% from 2019. The Index is a percentage of the amount of crime compared to values in 2006. Based on the number of crimes per 100,000 people over the same period the rate is up 17% from 2015. Source: [Statscan][6]
 
 [^7]:	No citation provided.
