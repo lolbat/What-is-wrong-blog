@@ -3,9 +3,9 @@ title: "Conservative Private Member's Bill corrections"
 date: 2023-02-07T14:00:09-07:00
 draft: false
 tags:
-	- Politics
-	- Conservative Party of Canada
-	- statistics
+    - Politics
+    - Conservative Party of Canada
+    - statistics
 ---
 
 ## Conservatives introduce law to indirectly "defend" the fetus
