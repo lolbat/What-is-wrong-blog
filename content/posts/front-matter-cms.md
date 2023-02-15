@@ -1,14 +1,14 @@
 ---
 title: Front Matter CMS
-description: "Adding the Front Matter CMS might have changed how I will be using my blog"
+description: Adding the Front Matter CMS might have changed how I will be using my blog
 date: 2023-02-15T22:29:04.989Z
-draft: true
-tags: 
-    - Front Matter
-    - Hugo
-    - VS Codium
-    - Markdown
-    - Ulysses
+draft: false
+tags:
+  - Front Matter
+  - Hugo
+  - VS Codium
+  - Markdown
+  - Ulysses
 ---
 
 A while ago I was talking about possibly using Ulysses as my Markdown writing tool of choice. I tried using it to write a few posts to this blog but I ran into several issues. I won't go into them in detail but just summarize them by saying that Ulysses will edit the content of the YAML front matter in your files in such a way that is contrary to the YAML specifications. Almost everything I do has a YAML header and this was a dealbreaker for me. 
