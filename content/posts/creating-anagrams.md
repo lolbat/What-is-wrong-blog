@@ -30,6 +30,4 @@ The script asks for a string of text [^1] and then splits the string into indivi
 ![Its not a good anagram but it works](/images/germans_gain_a_cart.jpeg)
 
 ### Footnotes
-[^1]: I don't actually do any checks on this input as it is only for me but at some point I will mess up and add a space to the text and get a 'file no found' error. 
-
-
+[^1]: I don't actually do any checks on this input as it is only for me but at some point I will mess up and add a space to the text and get a 'file no found' error.
