@@ -2,7 +2,7 @@
 title: Germans gain a cart
 description: "How do you build a Shortcut for an app that doesn't support them?"
 date: 2023-02-15T17:40:54.783Z
-draft: true
+draft: false
 tags: 
     - Freeform
     - Apple
