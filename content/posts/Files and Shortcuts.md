@@ -1,7 +1,7 @@
 ---
 title: "Files and Shortcuts"
 date: 2023-02-19T08:35:42-07:00
-draft: true
+draft: false
 tags:
     - Shortcuts
     - MacOS
