@@ -36,7 +36,7 @@ I was only able to figure this out by using [Logger](https://www.logger.rocks) t
 
 All of this let me fix the problem by rewriting the Shortcut to rename the file and then move it to the folder I wanted. Hazel then deletes the original. Its almost like using the transporter in Star Trek. The important thing is that I learned a very critical lesson about how Shortcuts work and what I need to do when I have an external application work with a Shortcut. 
 
-![A screenshot of a Shortcut on MacOS. The Shortcut renames a file using a regular expression and then moves it. ](/images/shortcut-rename.jpeg)
+![A screenshot of a Shortcut on MacOS. The Shortcut renames a file using a regular expression and then moves it. ](/images/shortcut-rename.jpg)
 
 ### Footnotes
 

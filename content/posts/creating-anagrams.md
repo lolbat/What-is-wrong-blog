@@ -11,7 +11,7 @@ tags:
     - Anagrams
 ---
 
-![A title spelt with Scrabble tiles](/images/creating_anagrams_title.jpeg)
+![A title spelt with Scrabble tiles](/images/creating_anagrams_title.jpg)
 
 From time to time I do anagrams. Nothing serious. I certainly don't do it [professionally](https://en.wikipedia.org/wiki/Thomas_Billon) but I have a fondness for making letters jump into new words. I have an odd relationship with words. I like them but I often have difficulty keeping the straight in my head. And my eyes and my brain sometimes disagree on what a series of words actually mean. So it is an odd fascination to have and an even odder skill to practice when you have several disadvantages at work making the process more difficult.
 
@@ -23,11 +23,11 @@ Apple recently released an application called [Freeform](https://www.apple.com/n
 
 Normally in this situation I would write a script to automate the process. The main problem though is that Freeform doesn't have any automation support. The app has no Shortcuts actions nor is it scriptable or controllable in Automator. This isn't a deal breaker but it does limit what I can in the app itself. I initially wanted to create this in Shortcuts but there doesn't seem to be something as basic as a Paste command in Shortcuts. I then looked at doing it in [Keyboard Maestro](https://www.keyboardmaestro.com/main/) but I couldn't seem to find a way to iterate over each character in a string. No worries as Keyboard Maestro allows you to activate and run macros from within Shortcuts so I built the script using the best features of each. 
 
-![The script in Shortcuts](/images/anagramscript.jpeg)
+![The script in Shortcuts](/images/anagramscript.jpg)
 
 The script asks for a string of text [^1] and then splits the string into individual characters. Each character is added as a filename and the file is retrieved from my drive and pasted into Freeform. It works but it is a bit slow so I am currently looking at how I can store multiple files in the clipboard and paste them all at once. Despite the slight speed issue it does now let me enter any text I want and then have all of those letters deposited as Scrabble-like tiles in Freeform.
 
-![Its not a good anagram but it works](/images/germans_gain_a_cart.jpeg)
+![Its not a good anagram but it works](/images/germans_gain_a_cart.jpg)
 
 ### Footnotes
 [^1]: I don't actually do any checks on this input as it is only for me but at some point I will mess up and add a space to the text and get a 'file no found' error.

@@ -63,7 +63,7 @@ The code uses the parameters from the YAML frontmatter in the .md document to fi
 
 The next stage [^1] was to create a Shortcut I could use to make it easier to create these .md files. 
 
-![A quick shortcut](/images/shortcut.jpeg)
+![A quick shortcut](/images/shortcut.jpg)
 
 I am sure that there is probably quite a lot of error and bounds checking I could be doing for this but it is just for personal use. 
 

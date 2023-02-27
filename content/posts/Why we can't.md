@@ -14,7 +14,7 @@ You may be familiar with the name [Taboola][1]. They are a US-based advertising 
 
 While none of the promised content was ever surprising or astounding, the continued presence of the ads and the number of reputable sites that ran them was both. It was the lowest common denominator of advertising. Products and services, that could only look legal if you squinted, being proffered to readers with the most ridiculous of ads. They were [not popular][4], but someone, somewhere, was making money as the ads started to creep onto more and more websites. There was [certainly some backlash][5] as people not only got tired of the content but also the repetitious nature of the ads. 
 
-![A series of ads from a Taboola "chumbar".](/images/ads.jpeg)
+![A series of ads from a Taboola "chumbar".](/images/ads.jpg)
 
 Now, you would be forgiven if the disappearance of those ads from sites like the BBC and the move of them to less reputable sites somehow foretold the death of Taboola. The company is still in business and is flourishing. It even went through an IPO in [2021][6] but, in fitting with its business model, did so by using a [SPAC][7]. 
 
