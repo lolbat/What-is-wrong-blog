@@ -23,7 +23,7 @@ It is, as you would imagine, the exact same as VS Code but it lacks the tracking
 
 ## So what is it?
 
-![The Front Matter dashboard](/images/frontmatterdashboard.jpeg)
+![The Front Matter dashboard](/images/frontmatterdashboard.jpg)
 
 Front Matter is an extension for VS Codium that acts as a CMS for SSGs like Hugo. Without all the TLAs, what that means is that you can use Hugo but have some GUI based control over the process. You can see the images that you have stored in your `static` directory. You can see the files in the `content` directory and see which are drafts and which have been published. You can track the taxonomy that you have built for your site. You can even run the Hugo server and preview your site in VS Codium if you want.
 
