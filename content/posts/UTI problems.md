@@ -78,7 +78,7 @@ The command above will take the results of `duti -e .svg` and then pipes it to t
 
 Then you can use awk to print out the third item in the list which is the UTI that we are looking for.
 
-In the next few days I hope to post an Alfred Workflow that will do this for any file you want.
+If you use Alfred you can [download a Workflow](https://github.com/lolbat/Alfred-Workflow-Read-UTI) that will do all this dirty work for you. 
 
 ### Footnotes
 
