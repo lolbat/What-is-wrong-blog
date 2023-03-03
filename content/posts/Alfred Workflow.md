@@ -18,7 +18,7 @@ In order to test these tools out I decided to create a workflow that would let m
 
 Before I get into the gritty internals of `.csv` and shell scripts, lets take a moment to look at how you build a workflow in Alfred. Here is how the final Workflow currently looks.
 
-![Alfred Workflow](/images/alfred/Alfred Workflow.jpg)
+![Alfred Workflow](/images/alfred/Alfred%20Workflow.jpg)
 
 Alfred has a development environment that might remind you of [Yahoo Pipes](https://en.wikipedia.org/wiki/Yahoo!_Pipes), [Microsoft's VPL](https://learn.microsoft.com/en-us/previous-versions/microsoft-robotics/bb483088(v=msdn.10)) or even [IFTTT](https://ifttt.com/explore/welcome_to_ifttt). Alfred's Workflows are different than many visual programming languages in that the routes in the Workflow are primarily to represent flow and you double-click the icons to configure them or to add scripts and data.
 
