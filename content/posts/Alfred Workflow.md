@@ -3,11 +3,11 @@ title: Building an Alfred workflow
 date: 2023-03-03T21:29:32.080Z
 draft: false
 tags:
-  - Alfred
-  - Automation
-  - Applescript
-  - zsh
-  - MacOS
+ - Alfred
+ - Automation
+ - Applescript
+ - zsh
+ - MacOS
 ---
 
 Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at [Running with Crayons](https://www.alfredapp.com) sent me a key for the [Powerpack](https://www.alfredapp.com/powerpack/) in Alfred. Unlike [LaunchBar](https://www.obdev.at/products/launchbar/index.html) or [Raycast](https://www.raycast.com) you can't access the [Workflow automation tools](https://www.alfredapp.com/workflows/) that come with Powerpack without a license. I am still working on the piece but since the Workflow tools in Alfred are quite distinct from the other launchers on the market I thought I would look at them on their own.
@@ -16,7 +16,7 @@ In order to test these tools out I decided to create a workflow that would let m
 
 ## How to build
 
-Before I get into the gritty internals of `.csv` and shell scripts, lets take a moment to look at how you build a workflow in Alfred.  Here is how the final Workflow currently looks.
+Before I get into the gritty internals of `.csv` and shell scripts, lets take a moment to look at how you build a workflow in Alfred. Here is how the final Workflow currently looks.
 
 ![Alfred Workflow](/images/alfred/Alfred Workflow.jpg)
 
@@ -139,7 +139,7 @@ The Arg object can be used for two things. It can take data from the {query} var
 
 ![Arg object](/images/alfred/arg.jpg)
 
-After we run the first script to replace the placeholder variables in the HTML file we then use a conditional object to check the value of  `showImage`.
+After we run the first script to replace the placeholder variables in the HTML file we then use a conditional object to check the value of `showImage`.
 
 ![conditional2](/images/alfred/conditional2.jpg)
 
@@ -147,7 +147,7 @@ If `showImage` is false then we go to the url branch otherwise we go to the imag
 
 ![second shell script](/images/alfred/second%20shell%20script.jpg)
 
-This final script will call `pageres` and make a 500 x 500 pixel image using the `main` selector in the HTML file. Finally, `qlimage`  is called to display the file to the user.
+This final script will call `pageres` and make a 500 x 500 pixel image using the `main` selector in the HTML file. Finally, `qlimage` is called to display the file to the user.
 
 ## Wasn't that fun
 
