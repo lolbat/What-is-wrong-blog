@@ -1,11 +1,13 @@
 ---
-title: "Building an Alfred workflow"
-date: 2023-02-27T11:56:53-07:00
+title: Building an Alfred workflow
+date: 2023-03-03T21:29:32.080Z
 draft: false
 tags:
-    - Alfred
-    - Automation
-    - MacOS
+  - Alfred
+  - Automation
+  - Applescript
+  - zsh
+  - MacOS
 ---
 
 Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at [Running with Crayons](https://www.alfredapp.com) sent me a key for the [Powerpack](https://www.alfredapp.com/powerpack/) in Alfred. Unlike [LaunchBar](https://www.obdev.at/products/launchbar/index.html) or [Raycast](https://www.raycast.com) you can't access the [Workflow automation tools](https://www.alfredapp.com/workflows/) that come with Powerpack without a license. I am still working on the piece but since the Workflow tools in Alfred are quite distinct from the other launchers on the market I thought I would look at them on their own.
