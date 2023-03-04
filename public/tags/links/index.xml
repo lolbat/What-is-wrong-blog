@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/links/</link>
+    <description>Recent content in Links on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 02 Feb 2023 14:20:36 -0700</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Links page</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</link>
+      <pubDate>Thu, 02 Feb 2023 14:20:36 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</guid>
+      <description>I joke with my friends that a programmer is a person who is a particular type of lazy. They will spend hours or even days on writing code or building a system so they never have to do a task twice. Regardless of the size of the task. I don&amp;rsquo;t know if this is a universal trait but it does describe how I often approach tasks that I know I will repeat again and again.</description>
+    </item>
+    
+  </channel>
+</rss>

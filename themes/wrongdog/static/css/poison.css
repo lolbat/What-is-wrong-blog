@@ -36,6 +36,18 @@
     font-size: .65em;
 }
 
+/* tool image styles */
+
+.toolIcon {
+    float: left;
+    margin-right: 10px;
+}
+
+.toolIconImg {
+    max-width: 64px;
+}
+
+
 /* menu styles */
 .menuIcon {
    filter: invert(100%);

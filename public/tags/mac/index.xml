@@ -7,7 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 31 Jan 2023 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 22:59:58 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UTI Problems</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</link>
+      <pubDate>Wed, 01 Mar 2023 22:59:58 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</guid>
+      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
+Our story begins I wanted to do a very simple thing in Alfred.</description>
+    </item>
+    
+    <item>
+      <title>The Enshittification of Raycast</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</link>
+      <pubDate>Sat, 25 Feb 2023 14:34:58 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</guid>
+      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</description>
+    </item>
+    
+    <item>
+      <title>Why we can&#39;t have nice things</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</link>
+      <pubDate>Mon, 20 Feb 2023 14:44:07 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</guid>
+      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold. Or you would be surprised by how some celebrity looked before they were famous. Perhaps you might be interested in one weird trick?</description>
+    </item>
+    
     <item>
       <title>Begging for scraps</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/begging-for-scraps/</link>

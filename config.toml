@@ -18,6 +18,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false, Icon="info.svg"},
         {Name = "Links", URL = "/links/", HasChildren = false, Icon="list.svg"},
+        {Name = "Tools", URL = "/tools/", HasChildren = false, Icon="tool.svg"},
         {Name = "Recent Posts", URL = "/posts/", HasChildren = true, Limit = 5, Icon="file-text.svg"}
     ]
 

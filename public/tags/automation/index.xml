@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/automation/</link>
+    <description>Recent content in Automation on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 03 Mar 2023 21:29:32 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Alfred workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</link>
+      <pubDate>Fri, 03 Mar 2023 21:29:32 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</guid>
+      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&amp;rsquo;t access the Workflow automation tools that come with Powerpack without a license.</description>
+    </item>
+    
+    <item>
+      <title>The Enshittification of Raycast</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</link>
+      <pubDate>Sat, 25 Feb 2023 14:34:58 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</guid>
+      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</description>
+    </item>
+    
+  </channel>
+</rss>

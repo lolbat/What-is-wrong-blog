@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alfred on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/alfred/</link>
+    <description>Recent content in Alfred on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 03 Mar 2023 21:29:32 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/alfred/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Alfred workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</link>
+      <pubDate>Fri, 03 Mar 2023 21:29:32 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</guid>
+      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&amp;rsquo;t access the Workflow automation tools that come with Powerpack without a license.</description>
+    </item>
+    
+    <item>
+      <title>UTI Problems</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</link>
+      <pubDate>Wed, 01 Mar 2023 22:59:58 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</guid>
+      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
+Our story begins I wanted to do a very simple thing in Alfred.</description>
+    </item>
+    
+  </channel>
+</rss>

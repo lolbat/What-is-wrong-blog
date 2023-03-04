@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/javascript/</link>
+    <description>Recent content in JavaScript on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 03 Feb 2023 14:35:51 -0700</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The frameworks are crazy</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/the-frameworks-are-crazy/</link>
+      <pubDate>Fri, 03 Feb 2023 14:35:51 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/the-frameworks-are-crazy/</guid>
+      <description>I had a break from programming for a bit more than a decade. Prior to that I used to build CMS solutions and do multimedia programming in Director 1. One of my favourite things to do was to build automation workflows and development frameworks. When I was working at Bayleaf Software in Vancouver I developed a framework for our ColdFusion coding projects and also build some tools in VTML which was a markup language that the ColdFusion Studio IDE 2 used.</description>
+    </item>
+    
+  </channel>
+</rss>

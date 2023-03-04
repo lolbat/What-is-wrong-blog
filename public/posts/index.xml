@@ -7,16 +7,136 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 01 Feb 2023 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 21:29:32 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Links #1</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/posts/interesting-links-02012023/</link>
-      <pubDate>Wed, 01 Feb 2023 09:05:28 -0600</pubDate>
+      <title>Building an Alfred workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</link>
+      <pubDate>Fri, 03 Mar 2023 21:29:32 +0000</pubDate>
       
-      <guid>https://whatiswrongwithyourdog.netlify.app/posts/interesting-links-02012023/</guid>
-      <description>This is just something that I am trying out. Mostly to be able to post comments about interesting articles but also to see what it is that I need to do to create a workflow to support doing this type of post.
-Today&amp;rsquo;s links How Hollywood is breaking the VFX industry
-This was posted by Kieron Gillen on Mastodon. It is a very interesting read for many reasons. This has been a problem in the VFX industry for close to 20 years and seems to be getting worse.</description>
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</guid>
+      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&amp;rsquo;t access the Workflow automation tools that come with Powerpack without a license.</description>
+    </item>
+    
+    <item>
+      <title>UTI Problems</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</link>
+      <pubDate>Wed, 01 Mar 2023 22:59:58 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</guid>
+      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
+Our story begins I wanted to do a very simple thing in Alfred.</description>
+    </item>
+    
+    <item>
+      <title>The Enshittification of Raycast</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</link>
+      <pubDate>Sat, 25 Feb 2023 14:34:58 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</guid>
+      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</description>
+    </item>
+    
+    <item>
+      <title>Why we can&#39;t have nice things</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</link>
+      <pubDate>Mon, 20 Feb 2023 14:44:07 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</guid>
+      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold. Or you would be surprised by how some celebrity looked before they were famous. Perhaps you might be interested in one weird trick?</description>
+    </item>
+    
+    <item>
+      <title>Files and Shortcuts</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/</link>
+      <pubDate>Sun, 19 Feb 2023 08:35:42 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/</guid>
+      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets. Items like the year of publication, author etc. The number of these tags isn&amp;rsquo;t always the same and so I needed a regular expression to snip all of them from the filename.</description>
+    </item>
+    
+    <item>
+      <title>Front Matter CMS</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</link>
+      <pubDate>Wed, 15 Feb 2023 22:29:04 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</guid>
+      <description>A while ago I was talking about possibly using Ulysses as my Markdown writing tool of choice. I tried using it to write a few posts to this blog but I ran into several issues. I won&amp;rsquo;t go into them in detail but just summarize them by saying that Ulysses will edit the content of the YAML front matter in your files in such a way that is contrary to the YAML specifications.</description>
+    </item>
+    
+    <item>
+      <title>Germans gain a cart</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/creating-anagrams/</link>
+      <pubDate>Wed, 15 Feb 2023 17:40:54 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/creating-anagrams/</guid>
+      <description>From time to time I do anagrams. Nothing serious. I certainly don&amp;rsquo;t do it professionally but I have a fondness for making letters jump into new words. I have an odd relationship with words. I like them but I often have difficulty keeping the straight in my head. And my eyes and my brain sometimes disagree on what a series of words actually mean. So it is an odd fascination to have and an even odder skill to practice when you have several disadvantages at work making the process more difficult.</description>
+    </item>
+    
+    <item>
+      <title>Sharing is enabling</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/sharing_is/</link>
+      <pubDate>Fri, 10 Feb 2023 15:01:57 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/sharing_is/</guid>
+      <description>There is a very nice JavaScript library available that makes it easy to add a Share to Mastodon link to your website or blog. It is also on GitHub if that is how you roll. The library gives you a significant amount of flexibility to make the button display in a way that works with your site design. It also lets you host the code on your site, which is always a good option to have.</description>
+    </item>
+    
+    <item>
+      <title>Poisoned well</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/poisoned_well/</link>
+      <pubDate>Thu, 09 Feb 2023 12:30:30 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/poisoned_well/</guid>
+      <description>People are, rightly, worried about the impact that systems like ChatGPT will have on the veracity of information in general and our ability to find accurate information on search engines such as Google, Bing and Duck Duck Go. I would like to suggest that this is already a problem and that a relentless AI circle-jerk of content referencing will make most of the internet unusable.
+Battery disposal Google search pages recently started telling people that it was safe to dispose of their car batteries by throwing them in the ocean.</description>
+    </item>
+    
+    <item>
+      <title>Conservative Private Member&#39;s Bill corrections</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/conservative_private_member_bill/</link>
+      <pubDate>Tue, 07 Feb 2023 14:00:09 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/conservative_private_member_bill/</guid>
+      <description>Conservatives introduce law to indirectly &amp;ldquo;defend&amp;rdquo; the fetus The Conservative Party of Canada announced, on their website, the addition of a Private Member&amp;rsquo;s Bill by MP Cathay Wagantall. The Bill has numerous statistical errors and also appears to be yet another attempt by a Conservative Party MP to push anti-abortion legislation under the guise of trying to stand up to crime.
+The announcement OTTAWA, ON — Cathay Wagantall 1, Member of Parliament for Yorkton-Melville, today introduced her private Members’ bill, the Violence Against Pregnant Women Act, in the House of Commons.</description>
+    </item>
+    
+    <item>
+      <title>The frameworks are crazy</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/the-frameworks-are-crazy/</link>
+      <pubDate>Fri, 03 Feb 2023 14:35:51 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/the-frameworks-are-crazy/</guid>
+      <description>I had a break from programming for a bit more than a decade. Prior to that I used to build CMS solutions and do multimedia programming in Director 1. One of my favourite things to do was to build automation workflows and development frameworks. When I was working at Bayleaf Software in Vancouver I developed a framework for our ColdFusion coding projects and also build some tools in VTML which was a markup language that the ColdFusion Studio IDE 2 used.</description>
+    </item>
+    
+    <item>
+      <title>You Are not funny</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/you-are-not-funny/</link>
+      <pubDate>Thu, 02 Feb 2023 15:44:39 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/you-are-not-funny/</guid>
+      <description>Perhaps you have seen it happen online? Someone posts a comment and then appends the phrase &amp;lsquo;It&amp;rsquo;s a joke&amp;rsquo; or &amp;lsquo;Humour for the humour impaired&amp;rsquo; or some variant. I&amp;rsquo;m not talking about the people that post some deplorable remark and then try to dissemble their way clear of critique by claiming to be a humorist. Those people are often racists, sexists, bullies or some combination of the three. No, the people I refer to are those who have, in their time online, been misunderstood so often and by so many people that they feel the need to add a qualifier to their comments to underline that they intend it as a joke.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Links page</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</link>
+      <pubDate>Thu, 02 Feb 2023 14:20:36 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</guid>
+      <description>I joke with my friends that a programmer is a person who is a particular type of lazy. They will spend hours or even days on writing code or building a system so they never have to do a task twice. Regardless of the size of the task. I don&amp;rsquo;t know if this is a universal trait but it does describe how I often approach tasks that I know I will repeat again and again.</description>
+    </item>
+    
+    <item>
+      <title>Watching Black Panther</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/watching-black-panther/</link>
+      <pubDate>Thu, 02 Feb 2023 08:49:37 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/watching-black-panther/</guid>
+      <description>After a significant wait I was finally able to watch Black Panther: Wakanda Forever. It is a long movie so I had to digest it in two sittings but it was well worth the time.
+I will try to avoid discussing specific plot points but if you haven&amp;rsquo;t seen the film yet then you may want to wait to read this until later.
+I am always impressed by Winston Duke&amp;rsquo;s acting skills.</description>
     </item>
     
     <item>

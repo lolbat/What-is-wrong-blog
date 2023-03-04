@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 22:29:04 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front Matter CMS</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</link>
+      <pubDate>Wed, 15 Feb 2023 22:29:04 +0000</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</guid>
+      <description>A while ago I was talking about possibly using Ulysses as my Markdown writing tool of choice. I tried using it to write a few posts to this blog but I ran into several issues. I won&amp;rsquo;t go into them in detail but just summarize them by saying that Ulysses will edit the content of the YAML front matter in your files in such a way that is contrary to the YAML specifications.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Links page</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</link>
+      <pubDate>Thu, 02 Feb 2023 14:20:36 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/</guid>
+      <description>I joke with my friends that a programmer is a person who is a particular type of lazy. They will spend hours or even days on writing code or building a system so they never have to do a task twice. Regardless of the size of the task. I don&amp;rsquo;t know if this is a universal trait but it does describe how I often approach tasks that I know I will repeat again and again.</description>
+    </item>
+    
     <item>
       <title>Building with Hugo</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</link>

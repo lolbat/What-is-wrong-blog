@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/tabs.js"></script>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.110.0">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Enshittification of Raycast &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css">
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css">
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css">
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/tabs.css">
+
+
+    
+    
+    <style>
+    body {
+        --sidebar-bg-color: #202020;
+        --sidebar-img-border-color: #515151;
+        --sidebar-p-color: #909090;
+        --sidebar-h1-color: #FFF;
+        --sidebar-a-color: #FFF;
+        --sidebar-socials-color: #FFF;
+        --text-color: #222;
+        --bkg-color: #FAF9F6;
+        --post-title-color: #303030;
+        --list-color: #5a5a5a;
+        --link-color: #268bd2;
+        --date-color: #515151;
+        --code-color: #bf616a;
+        --code-background-color: #f9f9f9;
+        --moon-sun-color: #FFF;
+        --moon-sun-background-color: #515151;
+    }
+    body.dark-theme {
+        --text-color: #eee;
+        --bkg-color: #121212;
+        --post-title-color: #DBE2E9;
+        --list-color: #9d9d9d;
+        --link-color: #268bd2;
+        --date-color: #9a9a9a;
+        --code-color: #ff7f7f;
+        --code-background-color: #393D47;
+    }
+    body {
+        background-color: var(--bkg-color);
+    }
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+    </h1>
+    <time datetime="2023-02-25T14:34:58-0700" class="post-date">
+        Saturday, Feb 25, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised <a href="https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys">Enshittification</a> as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - <a href="https://fig.io">Fig</a>, <a href="https://www.warp.dev">Warp</a> and <a href="https://www.raycast.com">Raycast</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</p>
+<p>These are all very exciting tools. Especially if you like to write odd scripts to automate workflow <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. I can&rsquo;t get enough of these sorts of applications and so I went to check them all out. Both Fig and Warp are free downloads but they require you to create an account to use them. I don&rsquo;t know about you but I just don&rsquo;t do that anymore  <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Off they went to the trash. Raycast is also a free download and is currently <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> free for personal use. It also doesn&rsquo;t require an account unless you want to access their development tools.</p>
+<h2 id="what-is-raycast">What is Raycast</h2>
+<p>Raycast is a productivity application aimed at developers with the goal to provide them with a tool to help automate their daily tasks.</p>
+<p><img src="/images/Raycast.jpg" alt="A screenshot of the main window for the Raycast app"></p>
+<blockquote>
+<p>Raycast was founded in 2020 by former Facebook software engineers Thomas Paul Mann and Petr Nikolaev, who sought to create a way to recover the time developers lose every day due to continuous context-switching between different SaaS tools.
+<a href="https://techcrunch.com/2021/11/30/developer-productivity-tools-startup-raycast-raises-15m-from-accel-and-coatue/">Techcrunch</a></p>
+</blockquote>
+<p>Raycast is an application similar to Spotlight, <a href="https://www.alfredapp.com">Alfred</a> or <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> on the Mac. It provides a way to quickly launch applications and scripts to perform tasks or get information. It ships with a small core of generic extensions built in and has more available from the <a href="https://www.raycast.com/store">Raycast Store</a>. The long-term goal is to release Windows and Linux versions of Raycast. Consequently, the core functionality of the application focuses on actions and activities that are common across those platforms. Anything else is available as an extension.</p>
+<p>To use it you press the keyboard accelerator to activate it (typically Cmd space) and it pops up a dialog that lets you type the name of the application or command that you want to use. It also has a list of recent commands you have used as well as a list of suggested commands. Unlike most application launchers it doesn&rsquo;t appear to have any predictive search capabilities so you can&rsquo;t use it to find files or folders.</p>
+<h2 id="extensions">Extensions</h2>
+<p>You can add extensions to Raycast through the app itself by typing in the <code>store</code> command <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. There is a large number of extensions available and many of these have been written by Raycast users and submitted to their store. The emphasis is heavily weighted towards extensions that interact with dev tools and systems. So fewer podcast extensions (2) and more cloud extensions (6). From a business perspective this makes a lot of sense. The Raycast team can work on creating a set of core extensions, and an API, and then have users create any platform specific extensions needed.</p>
+<p><img src="/images/Raycast%20store.jpg" alt="A screenshot of the Raycast app showing some of the extensions available through its store."></p>
+<p>Following the developer focus, Raycast has its own API that uses React, Node JS and Typescript to create extensions. You need Node and npm installed locally and they suggest using <a href="https://marketplace.visualstudio.com/items?itemName=tonka3000.raycast">Visual Studio Code</a>​. If that isn&rsquo;t how you want to live your life <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> you can also create Script Commands that let you use shell scripts, AppleScript and other scripting languages. It isn&rsquo;t very well documented and really only consists of <a href="https://github.com/raycast/script-commands">a Github repository</a> with some samples and templates.</p>
+<h2 id="when-does-the-enshittification-come-into-play">When does the Enshittification come into play?</h2>
+<p>Let me start by saying that I don&rsquo;t know any of the folks who work at Raycast nor do I wish them any ill will. They are making what appears to be a fun set of tools. They are a bit more focused on developers than &ldquo;the rest of us&rdquo; for my liking but they are clearly looking at solving a series of problems that the founders both saw during their tenures at companies like Facebook, Audi and WhatsApp.</p>
+<p>In order for an applications like this to grow you need a strong base of users. And so Raycast has made access to their tool free as well as their development tools. All of the extensions produced are also free. Raycast is already developing a lot of buzz, frizzion and engagement <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> amongst developers as well as Mac automation enthusiasts <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. These folks are all happy to have a new free toy and even happier to be able to build extensions and scripts for it. The problem is, as we all know, that everyone will want it to stay free and in order to succeed and prosper Raycast is going to have to make money from all of those users.</p>
+<p>This is the first step on Doctorow&rsquo;s Enshittification stairway to crap. You build the audience and then use the audience to attract the business users. You only have a limited amount of resources <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> so you have to move the focus of your business to getting those business accounts. The users stay for several reasons but the primary one is that they are building their extensions and scripts to an API owned by Raycast and anything they build isn&rsquo;t portable.</p>
+<h2 id="it-is-like-owning-the-highway">It is like owning the highway</h2>
+<p>I recently tested out some code in two different Mac automation systems. It was a shell script that I had written previously and have already used in Keyboard Maestro and Shortcuts. I copied it into LaunchBar as well as Alfred and it worked in both of those systems as well. I can do this because the script was written in an open standard and no-one has to pay to use or interpret those standards. The same holds true for any Python, Perl or PHP code that I could have written.</p>
+<p>Raycast owns and controls the API that the code you write for their platform uses <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. You won&rsquo;t be able to take any of the code you wrote and move it to another platform because Raycast owns and controls the API that your code is written for. So if, in a year or two, you don&rsquo;t like the manner in which the company is treating you or you don&rsquo;t like the new fee structure that they announced you have to weight that against the cost of replicating your</p>
+<h2 id="you-cant-spell-enshittification-without-v-and-c">You can&rsquo;t spell Enshittification without V and C</h2>
+<p>The core problem that Raycast, and any similar company faces, is that they are ultimately beholden to the VCs that funded the company. Raycast has gone through <a href="https://techcrunch.com/2020/10/29/developer-productivity-tools-startup-raycast-raises-2-7m-from-accel/">two</a> <a href="https://techcrunch.com/2021/11/30/developer-productivity-tools-startup-raycast-raises-15m-from-accel-and-coatue/">rounds</a> of funding so far to the tune of 17.7 million US. Venture Capital firm <a href="https://www.accel.com/noteworthy/giving-developers-superpowers-our-investment-in-raycast">Accel</a> was a part of both rounds. Raycast was also a member of the <a href="https://www.ycombinator.com">Y Combinator</a> early startup program <a href="https://www.ycombinator.com/companies?batch=W20">W20</a>.</p>
+<p>Dealing with venture capitalists is rather like taking out a loan from that well dressed fellow who always has a seat at the end of the bar near the pool tables. It is great at first but eventually someone comes and starts asking for <a href="https://www.youtube.com/watch?v=y8_sBd5-iMo">the pretzel money</a>. And so the money must be made and that eventually means, regardless of the intentions of the founders <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>, that someone is going to be made to have to pay for those funding rounds and whatever <a href="https://www.merriam-webster.com/dictionary/vigorish">vig</a> that the VC companies want.</p>
+<p>Enshittification is an inevitable part of the process of trying to build something big enough to be able to cash out from. The founders might have lofty ambitions. The folks working at the company might share them as well. The folks at the VC firms don&rsquo;t give a shit about any of that though and simply want their money. And if they have to squeeze the user base and jack up the fees for business clients to do it then they will.</p>
+<h2 id="you-only-have-yourself-to-blame">You only have yourself to blame</h2>
+<p>Like vampires, venture capitalists have to be invited into your company. To the best of my knowledge no-one cornered the founders of Raycast in an elevator and forced them to take 17.7 million dollars in funding. And by the same measure, no-one is forcing you to use Raycast. If the company needs to pay off Louis Two-chins and his friends at some VC firm and you suddenly have to pay a monthly fee to access your extensions then you can&rsquo;t say that you weren&rsquo;t warned. Or really that you should have known better in any case.</p>
+<p>None of this is new. Open source advocates have been telling us this for decades. I&rsquo;m not turning into <a href="https://en.wikipedia.org/wiki/Richard_Stallman">RSM</a> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> in my old-age but I think that we&rsquo;ve all been bitten enough times to perhaps start to take a look at these &ldquo;free&rdquo; tools and what their impact might be.</p>
+<h3 id="footnotes">Footnotes</h3>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>They also have oddly similar looking websites.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I don&rsquo;t really think I have ever had enough work to justify the amount of time I have spent with scripting and automation tools.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>I may revisit these apps later but I do think that asking people to sigh up for an account without even letting them see how your app works is a dealbreaker and sign of &ldquo;Bad Things&rdquo; to come.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Raycast has been upfront about there being possible subscription fees for users in the future after their beta period is over.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>And when there start be be prices on some of these extensions you can&rsquo;t say you weren&rsquo;t warned as they have clearly labelled it as a store.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>And no-one will blame you if you don&rsquo;t want to.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Pick your favourite buzzword or invent your own.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Maybe I have watched too much British comedy but the word &ldquo;enthusiast&rdquo; always seems pervy.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Unless you are funded by SoftBank or oil power&rsquo;s sovereign wealth fund.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>As well, React is a product of Facebook, TypeScript is a product of Microsoft as is VS Code. The only open source aspect of Raycast is Node and npm.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Remember &ldquo;Don&rsquo;t be evil&rdquo;?&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>I hope not! Thats something people would tell you right? Right?!&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Raycast">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/raycast">Raycast</a>
+        </li>
+        
+        <li class="tag-Mac">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/mac">Mac</a>
+        </li>
+        
+        <li class="tag-Enshittification">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/enshittification">Enshittification</a>
+        </li>
+        
+        <li class="tag-VC">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/vc">VC</a>
+        </li>
+        
+        <li class="tag-Automation">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/automation">Automation</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/?ref=footer">« Why we can&#39;t have nice things</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/?ref=footer">UTI Problems »</a>
+	        
+        
+    
+</div>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-raycast">What is Raycast</a></li>
+    <li><a href="#extensions">Extensions</a></li>
+    <li><a href="#when-does-the-enshittification-come-into-play">When does the Enshittification come into play?</a></li>
+    <li><a href="#it-is-like-owning-the-highway">It is like owning the highway</a></li>
+    <li><a href="#you-cant-spell-enshittification-without-v-and-c">You can&rsquo;t spell Enshittification without V and C</a></li>
+    <li><a href="#you-only-have-yourself-to-blame">You only have yourself to blame</a>
+      <ul>
+        <li><a href="#footnotes">Footnotes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>
