@@ -10,9 +10,7 @@ There is a new addition to the site. I put a link in the sidebar to a [Tools](/t
 
 Shortcodes are a way to allow you to easily insert custom code and/or styles into your content. In this case I wanted to add an icon to the entry for each application on the Tools page. The shortcode is a templating tag, marked with matched `{{` pairs, that gets replaced when the page is rendered by the code in the appropriate shortcode file. I didn't need anything complicated for this task so I created a tag name, `toolIcon`, and added the file name as a parameter.
 
-```go
-{{< toolicon keyboardmaestro-128.png >}}
-```
+![shortcode sample](/images/shortcodeSample.jpg)
 
 When Hugo parses this it looks for `toolicon.html` in the `<theme>/layouts/shortcode/` directory and uses the code there to create the HTML. I don't need to do anything tricky and so the code in the shortcode file is just:
 
@@ -23,7 +21,5 @@ When Hugo parses this it looks for `toolicon.html` in the `<theme>/layouts/short
 ```
 
 In this case the only item that isn't immediately obvious is `{{ index .Params 0 }}`. This references the 0th parameter in the shortcode which is the file name. 
-
-![shortcode sample](/images/shortcodeSample.jpg)
 
 Shortcodes, it turns out, are probably the easiest way to insert custom structure and styles into your Hugo site and they are quite easy to do as well. 
