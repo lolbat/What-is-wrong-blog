@@ -1,6 +1,6 @@
 ---
 title: "Two Apps - One Action"
-date: 2023-03-03T11:42:28-07:00
+date: 2023-03-06T11:42:28-07:00
 draft: false
 tags:
     - Alfred
