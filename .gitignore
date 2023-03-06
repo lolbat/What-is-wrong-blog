@@ -7,3 +7,4 @@ frontmatter.json
 .frontmatter/content/mediaDb.json
 .vscode/settings.json
 .nota/config.ini
+.nova/Configuration.json
