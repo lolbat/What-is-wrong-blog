@@ -11,7 +11,7 @@ tags:
     - FreeForm
 ---
 
-A little while ago I wrote about a Shortcut that I used to [lay out images of Scrabble tiles](creating-anagrams/) [^1] in FreeForm to help solve anagrams. As part of that post I said:
+A little while ago I wrote about a Shortcut that I used to [lay out images of Scrabble tiles](/posts/creating-anagrams/) [^1] in FreeForm to help solve anagrams. As part of that post I said:
 
 > I then looked at doing it in Keyboard Maestro but I couldn’t seem to find a way to iterate over each character in a string.
 
