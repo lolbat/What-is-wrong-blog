@@ -17,7 +17,7 @@ A little while ago I wrote about a Shortcut that I used to [lay out images of Sc
 
 This turned out to not be true at all. Well, the part about me not being able to find a way to do it was certainly true. You can indeed get Keyboard Maestro to iterate over all of the characters in a string and so I am able to replicate the action as a KB macro. 
 
-And as I have been working my way through [Alfred](https://www.alfredapp.com) to learn that system I thought that it would be a fun idea [^2] to create the same action in three different apps and compare them all. The Shortcut version works, a bit slowly, but I'm always interested in trying to see how different environments handle tasks. I've already shown [the Shortcut I made](creating-anagrams/) for this previously so lets start off by looking at how to replicate this in Keyboard Maestro.
+And as I have been working my way through [Alfred](https://www.alfredapp.com) to learn that system I thought that it would be a fun idea [^2] to create the same action in three different apps and compare them all. The Shortcut version works, a bit slowly, but I'm always interested in trying to see how different environments handle tasks. I've already shown [the Shortcut I made](/posts/creating-anagrams/) for this previously so lets start off by looking at how to replicate this in Keyboard Maestro.
 
 ## Keyboard Maestro
 
