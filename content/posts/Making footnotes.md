@@ -1,7 +1,7 @@
 ---
 title: "Making Footnotes"
 date: 2023-03-17T15:59:41-06:00
-draft: true
+draft: false
 tags:
     - Keyboard Maestro
     - Nota
