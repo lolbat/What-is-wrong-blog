@@ -10,7 +10,7 @@ tags:
 
 Last month I purchased a Bluetooth speaker to use around the house so I could play music while I worked. We have a very old CD player in the kitchen but the speakers are showing their age and sound rather muffled. It is also not very portable and so a new electronic doodad was purchased. I bought it at Best Buy which is a Canadian electronics chain store. I spent quite a bit of time looking for a locally owned store that sold them but wasn't able to find one. As part of the purchase I also received three months of free Apple services - TV+, Music, Arcade and [News](https://www.apple.com/apple-news/). 
 
-I used to spend quite a lot of time reading magazines and newspapers. When I lived in Vancouver the neighbourhood I lived in had a wonderful store that carried a vast number of magazines and papers from around the world. If you got in early enough you could get a copy of the Times. It carried British Football Weekly which became my Saturday morning read of choice. It was, for a student with a bit of money and a lot of free time, a mecca. I would go out on Saturday and Sunday morning to get something to read and then spend my morning and early afternoon at Cafe Abruzzo reading and drinking very strong Italian coffee and watching football. 
+I used to spend quite a lot of time reading magazines and newspapers. When I lived in Vancouver the neighbourhood I lived in had a wonderful store that carried a vast number of magazines and papers from around the world. If you got in early enough you could get a copy of the Times. It carried British Football Weekly which became my Saturday morning read of choice. It was, for a student with a bit of money and a lot of free time, a mecca. I would go out on Saturday and Sunday morning to get something to read and then spend my morning and early afternoon at Cafe Abruzzo reading and drinking very strong Italian coffee and watching football [^1]. 
 
 Now I know that the publishing industry has had dramatic changes since I was in university. I've had several long discussions with my family about why it has happened but it wasn't until I started browsing through the News application that I came to realise how those changes have impacted the type of news and content that gets produced. 
 
@@ -30,7 +30,4 @@ The root cause is that not many sites appear to be interested in anything other 
 
 Perhaps a scrolling interface that makes your undifferentiated content flow like a Twitter timeline?
 
-
-
-
-
+[^1]: The other kind.

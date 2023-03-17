@@ -85,6 +85,7 @@ This chart is the number of Police Reported Intimate Partner crimes that affecte
 [^2]:	Available on the [Parliamentary website][4]
 
 [^3]:	[Section 718.2][5] of the Criminal Code already allows judges to include "(ii) abused the offender’s intimate partner or a member of the victim or the offender’s family" as a condition in determining a sentence. 
+
 [^4]:	No mention of which policies these are.
 
 [^5]:	Grammatically and factually incorrect. The Prime Minister is not engaged in a crime wave
@@ -97,7 +98,7 @@ This chart is the number of Police Reported Intimate Partner crimes that affecte
 
 [^9]:	This number is only possible if you use the Statcans statistics in isolation. In 2015 there were 96 gang related killings and in 2021 there were 184. As a percentage of the total number of killings per year the number has increased by 42% or 45% of the amount claimed. 
 
-[^10]:	No explanation of what the gang killings numbers are meant to represent in terms of violence to pregnant women.
+[^10]:	 No explanation of what the gang killings numbers are meant to represent in terms of violence to pregnant women.
 
 [^11]:	[Statscan data][7] has the number of female victims of intimate partner crime raising from 392/100,000 in 2015 to 457/100,000 in 2021. An increase of 16%. As The percentage has varied each year since 2015 and has not increased each year. It fell in three of the six years shown. 
 

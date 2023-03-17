@@ -1,6 +1,6 @@
 ---
 title: "Building with Hugo"
-date: 2023-01-30
+date: 2023-01-30T15:58:17-06:00
 draft: false
 tags:
     - Hugo

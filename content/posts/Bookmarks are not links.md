@@ -1,6 +1,6 @@
 ---
 title: "Bookmarks are no longer a thing"
-date: 2023-03-14T19:11:51.292Z
+date: 2023-03-14T13:34:20-06:00
 draft: false
 tags:
     - Browsers
