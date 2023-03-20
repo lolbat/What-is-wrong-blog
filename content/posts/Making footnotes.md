@@ -35,7 +35,7 @@ The regex that will be used is `(?m)^\[\^(\d+)\]`. Let's rip it apart and explai
 
 The first section `(?m)` tells KB that this regex will search over multiple lines. After that is the `^` beginning of line indicator, which asks KB to only match entries that are at the beginning of a line. Regular expressions have many special characters in them, and so if you are looking for a string that has any of them in it, you have to escape the characters with a forward slash ` \ `. 
 
-So the string ` \[\^ `  is actually asking Keyboard Maestro to look to ` [^ ` but those are special characters, and so they need to be escaped. Next is ` (\d+) `. The brackets in this string mark the data within it as a [capture group](https://www.regular-expressions.info/refcapture.html). A capture group is how you tell the regular expression engine which data you want to return from the match it finds. So in a block of text like:
+So the string `\[\^`  is actually asking Keyboard Maestro to look to `[^` but those are special characters, and so they need to be escaped. Next is  `(\d+)`. The brackets in this string mark the data within it as a [capture group](https://www.regular-expressions.info/refcapture.html). A capture group is how you tell the regular expression engine which data you want to return from the match it finds. So in a block of text like:
 
 ```Markdown
 [^1]: This is a footnote
