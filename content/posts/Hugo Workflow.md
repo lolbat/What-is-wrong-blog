@@ -169,8 +169,6 @@ As part of building this workflow I learned a few new things about Alfred.
 
 You may notice that some of the objects in the Workflow have a blue icon on their incoming arrow. This indicates that the object has an [Inbound Configuration](https://www.alfredapp.com/help/workflows/inbound-configuration/). This is enabled via a right click on the object and selecting the 'Inbound Configuration' option.
 
-![The object menu](/images/hugoworkflow/inboundMenu.jpg)
-
 The Inbound Configuration dialog has options to allow you to configure the object to act in a 'keyword' mode and let you access that object directly. Not shown in the help page is the 'Custom Argument' option that allows you to:
 
 > Set a custom input argument for this object. You can use both {query} and {var:} placeholders.
