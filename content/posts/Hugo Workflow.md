@@ -13,6 +13,8 @@ tags:
 
 I seem to have settled on using [Hugo](https://gohugo.io/) as my blogging platform. Since I have started using Alfred, I have put together one or two Workflows to help make it easier to create and edit posts. Those worked well but there were two problems. All of the paths in the scripts were hard-coded and the actions to create or edit content had different scripts for the two content types on my blog. I wanted to solve these issues and also add a few new tools at the same time. 
 
+**Update**: the Workflow is now [available on Github](https://github.com/lolbat/Alfred-Hugo-Workflow).
+
 ## One keyword
 
 My first goal was to create a workflow that had a single entry point. Once I had entered my keyword, `hugo` in this case, I wanted to hit ⏎ and then be presented with a list of commands in the Workflow. This is easier to do in Alfred than you would think. You add an Input to your Workflow with a keyword and you can then link it to further Inputs and objects. As long as these subsequent objects do not have a keyword added to them you can still have them activated as part of the Workflow. 
