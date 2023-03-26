@@ -1,7 +1,7 @@
 ---
 title: "Python for Lingo programmers"
 date: 2023-03-24T17:10:18-06:00
-draft: true
+draft: false
 tags:
     - Python
     - Lingo
