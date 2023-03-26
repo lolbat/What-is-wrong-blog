@@ -14,7 +14,7 @@ A long time ago, I used to develop projects using [Macromedia/Adobe Director](ht
 
 One of the true joys of using Lingo in Director was the Message Window.
 
-![The Message Window](images/pythonLingo/messagewindow.jpg)
+![The Message Window](/images/pythonLingo/messagewindow.jpg)
 
 The Message Window was one of the first coding playgrounds that I encountered [^1] and it made it simple to test out commands and learn new ways of interacting with elements in Director. You could use it while your project was running to try to debug it. And it even acted as a pseudo console since you could run code in your project from it. It was like someone had opened the side of a rocket engine and let you play around inside it. You never forget your first love and I have never really forgotten just how exciting it was to work in Lingo and in a language that was so intimately wired into the development application itself. 
 
@@ -38,7 +38,7 @@ For those of you who might be interested in learning Python I would like to offe
 
 Python is, like quite a lot of open source software, very easy to mess up if you don't know what you are doing. If you just want to learn Python and not have to mess around with versions, libraries and other command line arcana then I would recommend downloading [Anaconda](https://www.anaconda.com/). It bills itself as a tool for data scientists but just ignore that. What it is, for eager Python learners, is a self-contained Python environment that you can use without having to worry about messing up the version of Python installed on your OS.  The site has pricing information but that is for offline storage and the ability to run your code on servers. If you just want to learn Python you won't need to pay for any subscriptions or applications.
 
-![Anaconda](images/pythonLingo/anacondaNavigator.jpg)
+![Anaconda](/images/pythonLingo/anacondaNavigator.jpg)
 
 The two prime applications that you will want to look at are the [Spyder IDE](https://www.spyder-ide.org/) and [Jupyter Notebooks](https://jupyter.org/). Spyder is a very capable IDE that has many useful functions, including a variable inspector, and Jupyter Notebooks let you create and save code "notebooks" that you can use to explore the Python language. You can even write functions in it and then call them from inside the same notebook. Its like a more formal version of the Message Window.
 
@@ -46,7 +46,7 @@ Both of these applications are available as individual downloads but I would rec
 
 One other benefit of using Anaconda is that it comes with an environment editor. This not only shows you all of the libraries that are loaded but lets you create new environments that have libraries disabled or newer/older versions enabled to work on legacy projects.
 
-![The environment](images/pythonLingo/AnacondaEnviro.jpg)
+![The environment](/images/pythonLingo/AnacondaEnviro.jpg)
 
 ### Writing code
 
@@ -54,11 +54,11 @@ My own exploration in Python began with starting to read [a whirlwind tour of py
 
 Once you have read through, and worked through, the book you can open Spyder and try your hand at writing some code. 
 
-![The Spyder IDE](images/pythonLingo/Spyder.jpg)
+![The Spyder IDE](/images/pythonLingo/Spyder.jpg)
 
 Spyder is never going to win any awards for its UI [^5] and I suspect that if you continue to program in Python you will find your own favourite IDE to use. Spyder is a good IDE to use to learn Python because of the [Variable Explorer](https://docs.spyder-ide.org/current/panes/variableexplorer.html) and the [Interactive Console](https://docs.spyder-ide.org/current/panes/ipythonconsole.html).
 
-[Variable Inspector](images/pythonLingo/VariableInspector.jpg)
+[Variable Inspector](/images/pythonLingo/VariableInspector.jpg)
 
 I used Spyder to write the Python code for my Alfred Workflow and between the Variable Explorer, Console and autocompletion it was quite easy. Spyder also includes code listing that will help you to not keep unused variables in your code or libraries that you end up using.
 
@@ -74,7 +74,7 @@ When I first started out to learn Python I imagined that it would be the same as
 
 And the code looks amazing[^6].
 
-![Pretty!](images/pythonLingo/prettyCode.jpg)
+![Pretty!](/images/pythonLingo/prettyCode.jpg)
 
 I was searching online one day trying to find the reason why Python uses o indexing in lists and [I found this quote](https://www.reddit.com/r/Python/comments/1p2za1/guido_van_rossum_why_python_uses_0based_indexing/). 
 
