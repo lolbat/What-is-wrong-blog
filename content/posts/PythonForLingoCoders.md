@@ -76,7 +76,7 @@ And the code looks amazing[^6].
 
 ![Pretty!](/images/pythonLingo/prettyCode.jpg)
 
-I was searching online one day trying to find the reason why Python uses o indexing in lists and [I found this quote](https://www.reddit.com/r/Python/comments/1p2za1/guido_van_rossum_why_python_uses_0based_indexing/). 
+I was searching online one day trying to find the reason why Python uses 0 indexing in lists and [I found this quote](https://www.reddit.com/r/Python/comments/1p2za1/guido_van_rossum_why_python_uses_0based_indexing/). 
 
 > _But how does the index:length convention work out for other use cases? TBH this is where my memory gets fuzzy, but I think I was swayed by the elegance of half-open intervals. Especially the invariant that when two slices are adjacent, the first slice's end index is the second slice's start index is just too beautiful to ignore. For example, suppose you split a string into three parts at indices i and j -- the parts would be a[:i], a[i:j], and a[j:]._
 
