@@ -81,7 +81,7 @@ So the code works [^3] and it even includes the [argparse library](https://docs.
 
 And the best thing about Python so far? No errors because I forgot to end a line with a `;`. If that isn't reason enough to never use JavaScript again I don't know what is. 
 
-![Checking my work](preflight.jpg)
+![Checking my work](/images/preflight.jpg)
 
 ## Footnotes
 
