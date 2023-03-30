@@ -1,7 +1,7 @@
 ---
 title: "Music on tap"
 date: 2022-12-06T09:05:28-06:00
-draft: false
+draft: true
 tags:
     - Apple Music
     - Napster
@@ -13,8 +13,7 @@ So I would prefer, if possible, to own my music. I have a longterm goal of build
 
 That said, I recently subscribed to Apple Music and it is almost beyond contemplation how much music I have access to now. I have, for the last few days had the song _Doodlin'_ as sung by Sarah Vaughan on my brain. I bought it decades ago as part of a Blue Note boxed set and the song pops into my head from time to time. Actually, what happens is that every morning I start the day with a song in my head. Sometimes it fades away during the day and sometimes it resides in the back of my brain for days on end. 
 
-In this case, the Sarah Vaughan version is from her 1959 release _No Count Sarah_ which has her being backed by the Count Basie Orchestra. The compilation album __The Complete Sarah Vaughan on Mercury,
-Vol. 3: Great Show on Stage (1954-1956)_ has an alternate take of the song that has, as far as I can tell, only a small change at outro. The Count Basie Orchestra  gives the song a much heavier brass punch than the original by Horace Silver. There is also a slight tempo change to make the Sarah Vaughan version sound more like a show tune. 
+In this case, the Sarah Vaughan version is from her 1959 release _No Count Sarah_ which has her being backed by the Count Basie Orchestra. The compilation album __The Complete Sarah Vaughan on Mercury, Vol. 3: Great Show on Stage (1954-1956)_ has an alternate take of the song that has, as far as I can tell, only a small change at outro. The Count Basie Orchestra  gives the song a much heavier brass punch than the original by Horace Silver. There is also a slight tempo change to make the Sarah Vaughan version sound more like a show tune. 
 
 Apple Music easily has more versions of the song than I could probably listen to. There is the Ray Charles version where the trumpets are played with a mute and Ray adds a blues piano section. There are more than three versions with Barney Kessel including two where he is a member of  The Poll Winners and one where he is on a self-titled album but still playing with Ray Brown and Shelle Manne. It seems as if there is an interesting story there. 
 
