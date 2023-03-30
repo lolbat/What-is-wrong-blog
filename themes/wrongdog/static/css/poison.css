@@ -31,13 +31,20 @@
     }
 }
 
+/* Footnote styles */
+.footnote-ref {
+    font-weight: 600;
+    font-size: 1.125em;
+    margin-left: -2px;
+    color: forestgreen;
+}
+
 /* series styles */
 .seriesPostDate {
     font-size: .65em;
 }
 
 /* tool image styles */
-
 .toolIcon {
     float: left;
     margin-right: 10px;
