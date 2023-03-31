@@ -58,7 +58,7 @@ Once you have read through, and worked through, the book you can open Spyder and
 
 Spyder is never going to win any awards for its UI [^5] and I suspect that if you continue to program in Python you will find your own favourite IDE to use. Spyder is a good IDE to use to learn Python because of the [Variable Explorer](https://docs.spyder-ide.org/current/panes/variableexplorer.html) and the [Interactive Console](https://docs.spyder-ide.org/current/panes/ipythonconsole.html).
 
-[Variable Inspector](/images/pythonLingo/VariableInspector.jpg)
+![Variable Inspector](/images/pythonLingo/VariableInspector.jpg)
 
 I used Spyder to write the Python code for my Alfred Workflow and between the Variable Explorer, Console and autocompletion it was quite easy. Spyder also includes code listing that will help you to not keep unused variables in your code or libraries that you end up using.
 
