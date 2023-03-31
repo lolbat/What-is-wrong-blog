@@ -1,6 +1,6 @@
 ---
 title: "Markdown writing tools"
-date: 2023-01-31
+date: 2023-01-31T18:37:25-06:00
 draft: false
 tags:
     - Nota

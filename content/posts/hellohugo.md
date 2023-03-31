@@ -1,6 +1,6 @@
 ---
 title: "Hello new blog"
-date: 2023-01-30
+date: 2023-01-30T18:37:25-06:00
 draft: false
 tags:
     - Wordpress
