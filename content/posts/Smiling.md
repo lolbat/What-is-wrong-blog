@@ -1,7 +1,7 @@
 ---
 title: "Smiling"
 date: 2023-03-31T11:22:25-06:00
-draft: true
+draft: false
 tags:
     - ADHD
     - Spectrum
