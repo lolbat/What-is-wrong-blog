@@ -1,7 +1,7 @@
 ---
 title: Front Matter CMS
 description: Adding the Front Matter CMS might have changed how I will be using my blog
-date: 2023-02-15T22:29:04.989Z
+date: 2023-02-15T12:26:11-06:00
 draft: false
 tags:
   - Front Matter
