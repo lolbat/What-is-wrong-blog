@@ -8,7 +8,7 @@ tags:
     - Rich
 ---
 
-I have continued to work on my [/posts/Preflight/](Preflight) script over the last day or two. After I posted about it I changed the output using the [Rich library](https://github.com/Textualize/rich) to add some command line pizzaz to it. 
+I have continued to work on my [Preflight script](/posts/preflight/) over the last day or two. After I posted about it I changed the output using the [Rich library](https://github.com/Textualize/rich) to add some command line pizzaz to it. 
 
 ![Jazz hands!](/images/pizzaz.jpg)
 
