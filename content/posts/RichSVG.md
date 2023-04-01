@@ -30,11 +30,11 @@ The Workflow starts with a Keyword object that triggers on `Rich`. Since the lib
 
 This requires me to use two Args and Vars objects. Each one will set an export flag as well as an export extension that will be used in a later script. If the ⇧ is held then the values will be for an HTML file and if not they will be for an svg file.
 
-![Args & Vars object](rich_argsvars.jpg)
+![Args & Vars object](/images/rich_argsvars.jpg)
 
 The Automation Task will get the path to the Finder selection and then it is off to a Run Script object.
 
-[Python ahoy!](/images/richpython.jpeg)
+![Python ahoy!](/images/richpython.jpeg)
 
 The Python code uses the pathlib library to get the details of the file. This is a simpler way to get the filename without the extension but it means that the paths are POSIXpath types and need to be rendered as strings to be concatenated with the other data. The code is also running inside of Alfred so all of the references to the file that is going to be rendered as well as the exported file need to be full paths. 
 
