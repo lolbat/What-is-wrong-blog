@@ -1,7 +1,7 @@
 ---
 title: "Opening Obsidian notes"
 date: 2023-04-01T21:03:39-06:00
-draft: true
+draft: false
 tags:
     - Obsidian
     - Alfred
