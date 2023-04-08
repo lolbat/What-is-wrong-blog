@@ -6,6 +6,7 @@ tags:
     - Python
     - PyCharm
     - Textual
+    - Victor
 ---
 
 Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called [Textual](https://github.com/textualize/textual/). It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn't the geekiest thing I have ever done I don't know what is.
