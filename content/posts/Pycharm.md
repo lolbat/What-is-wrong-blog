@@ -53,6 +53,8 @@ And then it will be on to some new features.
 
 I will say that I don't think that I would have been able to do this in Nova. PyCharm provides so much feedback and so much insight into the code and libraries that I am using that I was able to work my way through the issues I ran into. It seems that PyCharm, unlike VS Code, has enough useful features that I can overlook some of the the UI oddities. Mind you, PyCharm has so many settings that I suspect, over time, I will be able to tweak it to the point where it works and looks the way I want it to. 
 
+---
+
 [^1]: Valjean seemed a bit too obscure
 [^2]: It is also from Microsoft. Fuck them.
 [^3]: Not Jet Beans and my brain keeps trying to tell me
