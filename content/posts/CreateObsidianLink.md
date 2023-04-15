@@ -1,7 +1,7 @@
 ---
 title: "Create Obsidian Link Workflow"
 date: 2023-04-15T12:29:10-06:00
-draft: true
+draft: false
 tags:
     - Alfred
     - Obsidian
