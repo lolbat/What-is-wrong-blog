@@ -9,7 +9,7 @@ tags:
     - Advanced URI plugin
 ---
 
-![Workflow Icon](images/CreateLink.png)
+![Workflow Icon](/images/CreateLink.png)
 
 A while ago, I wrote about [an Alfred Workflow to open pages in an Obsidian Vault](posts/obsidiannotes/). It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned. This helps explain the lack of feedback I received about it. 
 
@@ -19,7 +19,7 @@ The Workflow is [now available on Github](https://github.com/lolbat/Alfred-Workf
 
 ## The updates
 
-![The first part of the Workflow](images/colpart1.jpg)
+![The first part of the Workflow](/images/colpart1.jpg)
 
 After being activated the Workflow uses the **Get Current Safari Tab** action to get the title and URL of the tab. This is passed to the next action as tab separated text. The Workflow then uses a small Python snippet to take the tab text and make a Markdown URL from it.
 
@@ -42,7 +42,7 @@ title, url = pageDetails.split('\t')
 
 This is passed to the next action which copies the Markdown URL to the clipboard.
 
-![Part the second](images/colpart2.jpg)
+![Part the second](/images/colpart2.jpg)
 
 The Script Filter parses through the Vault path, and subfolder, provided by the user to get a list of all of the Markdown pages. It then lists those so that the user can select one. 
 
