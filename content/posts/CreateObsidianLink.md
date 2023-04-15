@@ -9,8 +9,6 @@ tags:
     - Advanced URI plugin
 ---
 
-![Workflow Icon](/images/CreateLink.png)
-
 A while ago, I wrote about [an Alfred Workflow to open pages in an Obsidian Vault](posts/obsidiannotes/). It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned. This helps explain the lack of feedback I received about it. 
 
 After I made that initial post I rewrote parts of the Workflow to allow the user to specify a folder that their bookmark pages are in as well as using some Alfred Automation actions to build a Markdown URL to the frontmost page in Safari. 
