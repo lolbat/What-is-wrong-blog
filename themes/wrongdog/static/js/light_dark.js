@@ -10,10 +10,12 @@ if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
     moon.style.display = 'none';
     sun.style.display = 'block';
+    setSyntaxDark(true);
 } else {
     document.body.classList.remove("dark-theme");
     moon.style.display = 'block';
     sun.style.display = 'none';
+    setSyntaxDark(false);
 }
 
 btn.addEventListener("click", function () {
@@ -24,9 +26,34 @@ btn.addEventListener("click", function () {
         theme = "dark";
         moon.style.display = 'none';
         sun.style.display = 'block';
+        setSyntaxDark(true);
     } else {
         moon.style.display = 'block';
         sun.style.display = 'none';
+        setSyntaxDark(false);
     }
     localStorage.setItem("theme", theme);
 });
+
+function getStyleSheet(file_name) {
+  for (var i = 0; i < document.styleSheets.length; i++) {
+    var sheet = document.styleSheets[i];
+    if (sheet.href.includes(file_name)) {
+      return sheet;
+    }
+  }
+}
+
+function setSyntaxDark(isDark) {
+  sheet_light = getStyleSheet("syntax_light")
+  sheet_dark = getStyleSheet("syntax_dark")
+  
+  if (isDark) {
+    sheet_dark.disabled = false
+    sheet_light.disabled = true
+  } else {
+    sheet_dark.disabled = true
+    sheet_light.disabled = false
+  }
+
+}

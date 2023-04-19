@@ -1,7 +1,6 @@
 @media (min-width: 48em) {
     .bullet {
         margin-left: 1em;
-        text-decoration-line: underline;
         text-decoration-style: dotted;
         text-decoration-thickness: 1%;
     }
@@ -67,9 +66,13 @@
 }
 
 .submenu {
-    list-style: none;
+    list-style: ;
     padding-inline-start: 20px;
     padding-top: 10px;
+}
+
+.submenu .bullet {
+    font-size: 0.9em;
 }
 
  /* Handles dark/light themes */
@@ -87,8 +90,8 @@ h1, h2, h3, h4, h5, strong {
     color: var(--list-color);
 }
 .content code {
-    color: var(--code-color);
-    background-color: var(--code-background-color);
+    color: var(--code-color) !important;
+    background-color: var(--code-background-color) !important;
 }
 .btn-light-dark .moon {
     color: var(--moon-sun-color);
@@ -164,16 +167,32 @@ h1, h2, h3, h4, h5, strong {
     background-color: var(--list-color);
     border-radius: 0.2em;
 }
+
+.entries .taxonomyItem {
+    margin-bottom: 5px;
+}
 .entries li {
-    display: flex;
+    display: block;
+    list-style-type: none;
 }
 .entries li .title {
-    order: 1;
+    font-size: 1.25em;
 }
 .entries li .published {
-    order: 3;
-    margin-left: 200px;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 10px;
 }
+
+.entries li .description {
+    font-size: 1em;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;  
+}
+
 .entries li::after {
     /* background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
     background-position: bottom;

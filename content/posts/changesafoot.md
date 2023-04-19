@@ -2,6 +2,7 @@
 title: "Changes are afoot"
 date: 2023-04-17T10:07:01-06:00
 draft: false
+description: Zac talks about the changes to his office.
 tags:
     - workspace
     - MacOS

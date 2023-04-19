@@ -3,12 +3,19 @@ languageCode = 'en-us'
 title = 'What is wrong with your dog?'
 theme = 'wrongdog'
 paginate = 10
+summarylength = 50
 pluralizelisttitles = false
 copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/'
 
 [author]
   name = 'Zac Belado'
 
+[markup]
+    [markup.highlight]
+    linenos = true
+    lineNumbersInTable = false
+    noClasses = false
+    
 [params]
     dateFormat = "Monday, Jan 2, 2006"
     brand = "'What is wrong with your dog?'"       
@@ -19,7 +26,7 @@ copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://cr
         {Name = "About", URL = "/about/", HasChildren = false, Icon="info.svg"},
         {Name = "Links", URL = "/links/", HasChildren = false, Icon="list.svg"},
         {Name = "Tools", URL = "/tools/", HasChildren = false, Icon="tool.svg"},
-        {Name = "Recent Posts", URL = "/posts/", HasChildren = true, Limit = 5, Icon="file-text.svg"}
+        {Name = "Recent Posts", URL = "/posts/", HasChildren = true, Limit = 6, Icon="file-text.svg"}
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
@@ -44,7 +51,7 @@ copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://cr
     link_color = "#268bd2"          
     date_color = "#515151"        
     code_color = "black"
-    code_background_color = "#E0E5EB"
+    code_background_color = "#F5F8FF"
     
     # Hex colors for your content in dark mode
     text_color_dark = "#eee"           
