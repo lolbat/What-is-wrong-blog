@@ -29,7 +29,7 @@ An inconvenient RSI took him out of the programming game for a while and Zac wen
 
 He then took more than a decade off to help take care of a set of delightful twins. This involved more dealing with poo than he was expecting and quite a lot of time building forts out of couch cushions. The twins are now in their teenage years and more than capable of taking care of themselves and so Zac has found that he has more time on his hands and has decided to take time to write articles about whatever random things come to his mind.
 
-Zac has written reviews and articles for several computer and tabletop wargaming websites and was once shortlisted for "The last person we'd ever award a Booker to" prizelist. When he was in university he wrote quite a lot of poetry, as one does, but learned his lesson and hasn't done any since. 
+Zac has written reviews and articles for several computer and tabletop wargaming websites and was once shortlisted for "The last person we'd ever award a Booker to" prize list. When he was in university he wrote quite a lot of poetry, as one does, but learned his lesson and hasn't done any since. 
 
 When not walking his dog and writing introductions to his blog in the third-person, Zac enjoys boardgames, jazz, coffee and trying to figure out why the teens he shares a house with can't tidy up after themselves. Zac is not on Twitter or Facebook but you can find him on [Mastodon](https://home.social/@lolzac) where he often posts and sometimes even manages to post something interesting. Zac is happily married but to the type of person who really wouldn't want to be associated with him publicly so he won't link to her blog. 
 

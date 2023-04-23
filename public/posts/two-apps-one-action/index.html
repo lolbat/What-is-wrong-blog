@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.111.3">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Two Apps - One Action &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Two Apps - One Action" />
+<meta property="og:description" content="A little while ago I wrote about a Shortcut that I used to lay out images of Scrabble tiles 1 in FreeForm to help solve anagrams. As part of that post I said:
+I then looked at doing it in Keyboard Maestro but I couldn’t seem to find a way to iterate over each character in a string." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/two-apps-one-action/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-06T11:42:28-07:00" />
+<meta property="article:modified_time" content="2023-03-06T11:42:28-07:00" />
+
+    
+    
+    <style>
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/two-apps-one-action/">Two Apps - One Action</a>
+    </h1>
+    <time datetime="2023-03-06T11:42:28-0700" class="post-date">
+        Monday, Mar 6, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>A little while ago I wrote about a Shortcut that I used to <a href="/posts/creating-anagrams/">lay out images of Scrabble tiles</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> in FreeForm to help solve anagrams. As part of that post I said:</p>
+<blockquote>
+<p>I then looked at doing it in Keyboard Maestro but I couldn’t seem to find a way to iterate over each character in a string.</p>
+</blockquote>
+<p>This turned out to not be true at all. Well, the part about me not being able to find a way to do it was certainly true. You can indeed get Keyboard Maestro to iterate over all of the characters in a string and so I am able to replicate the action as a KB macro.</p>
+<p>And as I have been working my way through <a href="https://www.alfredapp.com">Alfred</a> to learn that system I thought that it would be a fun idea <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> to create the same action in three different apps and compare them all. The Shortcut version works, a bit slowly, but I&rsquo;m always interested in trying to see how different environments handle tasks. I&rsquo;ve already shown <a href="/posts/creating-anagrams/">the Shortcut I made</a> for this previously so lets start off by looking at how to replicate this in Keyboard Maestro.</p>
+<h2 id="keyboard-maestro">Keyboard Maestro</h2>
+<p>Keyboard Maestro builds macros by adding actions that are then executed sequentially. And this is a  linear action that will suit KM. This workflow also requires access to the system clipboard. Freeform isn&rsquo;t scriptable <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> nor does it support Shortcuts so we have no external access to it. Luckily this is something that Keyboard Maestro excels at.</p>
+<p>The simplest part of the macro is to store the path to the directory that has the letters in it and then ask the user for the letters they would like to use <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<p><p class="md__image">
+  <img src="/images/KMStep1.jpg" alt="The first steps"  width="600" />
+</p></p>
+<p>The macro creates a variable, <code>imagePath</code>, to store the path to the image directory and then uses the Prompt for User Input action to pop up a dialog asking for the letters to use in the anagram.</p>
+<p>Next the Filter action will take the input from the dialog, <code>tileLetters</code>, and turn them all to uppercase letters. The files all use the uppercase letter in the filename. Then FreeForm is activated and brought to the front.</p>
+<p><p class="md__image">
+  <img src="/images/KMStep2.jpg" alt="KM Step 2"  width="600" />
+</p></p>
+<p>Finally the heart of the macro. My earlier problem with doing this task in Keyboard Maestro was that I couldn&rsquo;t see how to iterate over each letter that the user supplied. The <a href="https://wiki.keyboardmaestro.com/action/For_Each">For Each</a> action in KB has several options but none for characters. It turns out that it can search substrings <a href="https://wiki.keyboardmaestro.com/Regular_Expressions#Examples">based on regex patterns</a>. And the simplest substring regex is the &lsquo;.&rsquo; pattern which matches any one character.</p>
+<p>The For Each action works on a set of collections. These can be lines of text, Dictionary keys, Finder selections and substrings. In this case we want the substring collection and we use a regular expression to create a substring that is each letter in the string.</p>
+<p><p class="md__image">
+  <img src="/images/KMStep3.jpg" alt="KM Step 3"  width="600" />
+</p></p>
+<p>First we take the letter (as stored in the <code>tileLetters</code> variable) and use it to create a file path <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. Then we pass that path to the Set System Clipboard action <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> and paste. We already activated Freeform and brought it to the front so it will be the target of the paste events.</p>
+<p><p class="md__image">
+  <img src="/images/KMFinal.jpg" alt="KM final result"  width="600" />
+</p></p>
+<p>This is the type of workflow action that Keyboard Maestro excels at. Freeform has no scripting support at all but we can still make a macro in KM that can still interact with the app nonetheless. This is a benefit of the long history of Keyboard Maestro as it was written well before many of the technologies that we&rsquo;re using were common. Writing macros by getting Keyboard Maestro or some similar application to click locations and send keypresses was more common that writing JavaScript or shell scripts.</p>
+<h2 id="alfred">Alfred</h2>
+<p>As you would expect, the Alfred Workflow for this task is much different. The visual system Alfred uses lets you create (and follow) branching execution flow much easier. That isn&rsquo;t relevant in this workflow though. Alfred, currently, has fewer actions than Keyboard Maestro so this Workflow will lean on scripts more than the KM macro. Whether this is a good or a bad thing depends on your familiarity with, and ease of use, in coding.</p>
+<p>Here is the Alfred Workflow in full. I&rsquo;ve numbered the steps.</p>
+<p><p class="md__image">
+  <img src="/images/AlfredWorkflowAnagrams.jpg" alt="The full Alfred Workflow"  width="600" />
+</p></p>
+<ol>
+<li>The Keyword Input used to trigger the Workflow. It will take a string of letters to use</li>
+<li>A Transform object that will change all of the text to uppercase</li>
+<li>A JavaScript to split the arguments sent by the Transform utility into words and then letters to build the paths to each letter image</li>
+<li>A Split Args object to split the string sent previously into individual file paths and also remove any blanks</li>
+<li>The final AppleScript which will activate Freeform and the copy each file to the clipboard and paste it into Freeform</li>
+</ol>
+<p><p class="md__image">
+  <img src="/images/AlfredAnagramUOI.jpg" alt="Alfred Anagram keyword input"  width="600" />
+</p></p>
+<p>The Keyword Input starts the Workflow and provides some feedback to the user to tell them what data they need to enter. It requires an argument that is sent to the Transform object to change all of the letters to uppercase. The Transform object has no options we can use to help error check the argument being sent to it.</p>
+<p>All of these letters are sent to the Run Script object that has a JavaScript function.</p>
+<p><p class="md__image">
+  <img src="/images/AnagramJSCode.jpg" alt="Anagram JS code"  width="600" />
+</p></p>
+<p>The script splits the text sent by spaces which eliminates any possibility that we get a space used to create an invalid file path. It then create a file path using the letter, the .png extension and the directory path to the letter png files. This is all appended into a string with comma delimiters.</p>
+<p>The data is passed to the Split Args object which will split the string into individual arguments and also remove any blank items.</p>
+<p><p class="md__image">
+  <img src="/images/AnagramSplitArgs.jpg" alt="Split Args"  width="600" />
+</p></p>
+<p>Finally the file paths are passed to a final Run Script object that has an AppleScript function. This function is written in AppleScript because I find it easier to process system events with AppleScript. You could write the same code in JavaScript if you wanted.</p>
+<p><p class="md__image">
+  <img src="/images/AnagramASCode.jpg" alt="Anagram AppleScript code"  width="600" />
+</p></p>
+<p>The code stores the arguments and then iterates over each one using the path to create a <a href="https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/ReferenceFilesandFolders.html">POSIX file</a>. This file reference allows AppleScript to coerce the path into an alias or file reference suitable to the OS if necessary.</p>
+<p>Once those paths are coerced the FreeForm application is activated and then the <code>theFileList</code> array is iterated and each POSIX file reference is sent to the clipboard and then we execute a system event command to press Cmd V to generate a paste call that is targeted at FreeForm which is the active application.</p>
+<h2 id="all-done">All done</h2>
+<p>Unlike the Shortcuts action, both Keyboard Maestro and Alfred can perform the entire workflow internally <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. I have found that both are also significantly quicker than the Shortcut. Once the macro is created in Keyboard Maestro it can be triggered in many different ways. It can be put into a menu, triggered by typing, run from within KM or triggered by an external script.</p>
+<p><p class="md__image">
+  <img src="/images/NotaFootnoteMenu.jpg" alt="My list of KM macros in a menu in Nota"  width="600" />
+</p></p>
+<p>That <em>Footnote</em> macro is available in the menu but it is also available inside Nota when I type <strong>&amp;foot</strong></p>
+<p>Alfred is a bit more restricted in how the Workflows get activated <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> but since Alfred is available at all times via its launcher functionality this isn&rsquo;t as big an issue.</p>
+<p>This was a relatively simple workflow so it doesn&rsquo;t highlight the main benefit of Alfred which is the visual layout of the objects in a Workflow. Both applications allow you to create large workflows but I find it easier to manage them in Alfred. This is a personal preference and mostly a result of my reading issues. There is a lot of text in a Keyboard Maestro workflow. There is a Group action that you can use to contain a lot of steps into a single collapsible entry.</p>
+<p><p class="md__image">
+  <img src="/images/KMGroup.jpg" alt="A Keyboard Maestro Group"  width="600" />
+</p></p>
+<p>This is especially useful if you are creating a macro that has branching actions as you can contain them all in their own group and add notes and colours to make it easier to track.</p>
+<h3 id="footnotes">Footnotes</h3>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Scrabble-like tiles. I don&rsquo;t want any over-enthusiastic junior IP lawyer at Hasbro getting ready to send me a sternly worded Cease and Desist letter.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I am sure that I have commented before on my unique idea of fun.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>And why is that? Surely all Apple applications should have some minimum of script access.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>As I have noted in other posts, I tend not to do a lot of error checking since I am writing these for my own use. Typically you would want to check that the user has provided you with usable and valid data.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>This would be a good spot to do some error checking to make sure that what we were dealing with in the string was a letter and not something else.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Another good spot for error checking.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>If you don&rsquo;t count the scripts as an element external to Alfred.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Which is less a critique of Alfred and more a comment on how flexible Keyboard Maestro is.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Alfred">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/alfred">Alfred</a>
+        </li>
+        
+        <li class="tag-Keyboard Maestro">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/keyboard-maestro">Keyboard Maestro</a>
+        </li>
+        
+        <li class="tag-Shortcuts">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/shortcuts">Shortcuts</a>
+        </li>
+        
+        <li class="tag-JavaScript">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/javascript">JavaScript</a>
+        </li>
+        
+        <li class="tag-AppleScript">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/applescript">AppleScript</a>
+        </li>
+        
+        <li class="tag-FreeForm">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/freeform">FreeForm</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/tools-page.md/?ref=footer">« Building the Tools page</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/moods/?ref=footer">Moods »</a>
+	        
+        
+    
+</div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#keyboard-maestro">Keyboard Maestro</a></li>
+    <li><a href="#alfred">Alfred</a></li>
+    <li><a href="#all-done">All done</a>
+      <ul>
+        <li><a href="#footnotes">Footnotes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>

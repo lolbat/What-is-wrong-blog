@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 <head>
-    <script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
-<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/tabs.js"></script>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.111.3">
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +15,56 @@
     <meta name="description" content="" />
 
     
-    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/tabs.css">
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
 
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Building an Alfred workflow" />
+<meta property="og:description" content="Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-03T21:29:32+00:00" />
+<meta property="article:modified_time" content="2023-03-03T21:29:32+00:00" />
 
     
     
     <style>
-    body {
-        --sidebar-bg-color: #202020;
-        --sidebar-img-border-color: #515151;
-        --sidebar-p-color: #909090;
-        --sidebar-h1-color: #FFF;
-        --sidebar-a-color: #FFF;
-        --sidebar-socials-color: #FFF;
-        --text-color: #222;
-        --bkg-color: #FAF9F6;
-        --post-title-color: #303030;
-        --list-color: #5a5a5a;
-        --link-color: #268bd2;
-        --date-color: #515151;
-        --code-color: #bf616a;
-        --code-background-color: #f9f9f9;
-        --moon-sun-color: #FFF;
-        --moon-sun-background-color: #515151;
-    }
-    body.dark-theme {
-        --text-color: #eee;
-        --bkg-color: #121212;
-        --post-title-color: #DBE2E9;
-        --list-color: #9d9d9d;
-        --link-color: #268bd2;
-        --date-color: #9a9a9a;
-        --code-color: #ff7f7f;
-        --code-background-color: #393D47;
-    }
-    body {
-        background-color: var(--bkg-color);
-    }
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
 </style>
 
 </head>
@@ -122,6 +133,11 @@
                 
                 
             
+            
+            
+                
+                
+            
         
         
             
@@ -147,6 +163,44 @@
             
             
             
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
                 
                 
             
@@ -182,29 +236,38 @@
                         <ul class="submenu">
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
                             </li>
                         
                         </ul>
                         
                     
                     
+                
+                
+            
+            
+            
                 
                 
             
@@ -259,7 +322,9 @@
 <p>In order to test these tools out I decided to create a workflow that would let me search through the available spells for the fantasy rogue-like game <a href="http://www.illwinter.com/coe5/">Conquest of Elysium 5</a>. I just happen to have several <code>.csv</code> files that have entries for the 515 spells available in the game. I am certain that I have less complicated <code>.csv</code> files somewhere but this seemed like a fun project.</p>
 <h2 id="how-to-build">How to build</h2>
 <p>Before I get into the gritty internals of <code>.csv</code> and shell scripts, lets take a moment to look at how you build a workflow in Alfred. Here is how the final Workflow currently looks.</p>
-<p><img src="/images/alfred/Alfred%20Workflow.jpg" alt="Alfred Workflow"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/Alfred%20Workflow.jpg" alt="Alfred Workflow"  width="600" />
+</p></p>
 <p>Alfred has a development environment that might remind you of <a href="https://en.wikipedia.org/wiki/Yahoo!_Pipes">Yahoo Pipes</a>, <a href="https://learn.microsoft.com/en-us/previous-versions/microsoft-robotics/bb483088(v=msdn.10)">Microsoft&rsquo;s VPL</a> or even <a href="https://ifttt.com/explore/welcome_to_ifttt">IFTTT</a>. Alfred&rsquo;s Workflows are different than many visual programming languages in that the routes in the Workflow are primarily to represent flow and you double-click the icons to configure them or to add scripts and data.</p>
 <p>Workflows in Alfred start with an Input. This is how you tell Alfred what you want to work with. There are six types of Inputs that you can use in Alfred:</p>
 <ul>
@@ -272,11 +337,17 @@
 </ul>
 <p>To be accurate you might want to also include the Trigger actions in this group as well but since the Alfred documentation doesn&rsquo;t I won&rsquo;t either.</p>
 <p>This is an example of a Keyword Input <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
-<p><img src="/images/alfred/Keyword%20Input.jpg" alt="Keyword Input"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/Keyword%20Input.jpg" alt="Keyword Input"  width="600" />
+</p></p>
 <p>You can see that you are able to set the keywords used, tell Alfred if it requires an argument and also provide the user with some feedback as to what the Workflow does. The connection between each element in the workflow is dragged from the right side of one object to the left side of the next element in the Workflow.</p>
-<p><img src="/images/alfred/connect%20example.jpg" alt="Connecting objects"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/connect%20example.jpg" alt="Connecting objects"  width="600" />
+</p></p>
 <p>And if you want you can also colour code the elements which will then add the same colour to the output from it. So you can trace an entire logic flow in a complicated workflow by colouring the individual elements of it.</p>
-<p><img src="/images/alfred/colour%20example.jpg" alt="colour example"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/colour%20example.jpg" alt="colour example"  width="600" />
+</p></p>
 <p>Once you have your Input, Alfred has many different types of items you can add to create your automation workflow. Alfred has five other categories of Workflow objects that you can use:</p>
 <ul>
 <li><a href="https://www.alfredapp.com/help/workflows/triggers/">Triggers</a> - Activate Alfred from a URL Handler, a snippet or even remotely</li>
@@ -291,16 +362,22 @@
 <p>The impetus to start working on this Workflow was seeing an example of the <a href="https://www.alfredapp.com/help/workflows/inputs/list-filter/">List Filter</a> input that use a small <code>.csv</code> file as input. So I wondered how well it would work with much more data. The spell list for Conquest of Elysium 5 has 515 entries in it <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and would be an excellent test of how well Alfred handles data.</p>
 <p>Before I could put the data into a Workflow I needed to massage it a bit. The List Filter input will only use three columns worth of data - Title, Subtitle and Args. The Title and Subtitle are used to provide feedback to the user while they are searching through the data. The Args will be the data that is sent to the rest of the Workflow after you have selected an item in the list.</p>
 <p>As the user filters the list of data that is provided in the List Filter the Title and Subtitle are displayed to give them more information about the items they are looking at. The rest of your Workflow can&rsquo;t currently access the Title and Subtitle and will only be able to use the data stored in the Args.</p>
-<p><img src="/images/alfred/usage%20example.jpg" alt="The List Filter in use"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/usage%20example.jpg" alt="The List Filter in use"  width="600" />
+</p></p>
 <p>The spells in the <code>.csv</code> file had 18 columns of data. Obviously I wouldn&rsquo;t be showing them all in this example but I wanted to have more than one to display. Happily it was easy to use <a href="https://vdt-labs.com/easy-csv-editor/">Easy CSV</a> to merge some of the columns together and then delete the ones I didn&rsquo;t want. In addition, Easy CSV was able to put a delimiter between the data from each column. This will be used later to break the data into individual arguments. As well, since the Title won&rsquo;t propagate into the rest of the Workflow, I added the name of each spell to the Args column.</p>
 <p>After that, all I needed to do was drag the List Input into the Workflow area, double click it to open it and then drag the <code>.csv</code> file from the desktop into the CSV area in the List Filter dialog.</p>
-<p><img src="/images/alfred/CSV%20in%20Input.jpg" alt="CSV in the List FIlter"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/CSV%20in%20Input.jpg" alt="CSV in the List FIlter"  width="600" />
+</p></p>
 <p>It was as easy as that. Now we have the data we just need to do something with it.</p>
 <h2 id="doing-something">Doing something</h2>
 <p>The List Filter input has an area at the top where you can select the keyword or characters that will trigger it <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. You can also set an icon for the Workflow <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and a Title and Subtitle that will act as a placeholder in the Alfred window before the user starts enter characters to start filtering the data.</p>
 <p>With only the Keyword entered you can actually trigger the Workflow. It won&rsquo;t do anything other than let you filter the data you entered but it is still fun to watch. It is also interesting just how quickly Alfred can filter through the data.</p>
 <p>The rest of the Workflow is going to determine what happens when the user selects a spell and then hits return. In that instance we want to split the data into individual arguments and then show that data to the user <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. Alfred supplies the <a href="https://www.alfredapp.com/help/workflows/utilities/split-arg/">Split Arg</a> object in the Utilities category to do this very thing.</p>
-<p><img src="/images/alfred/split%20arg.jpg" alt="Split Arg object"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/split%20arg.jpg" alt="Split Arg object"  width="600" />
+</p></p>
 <p>The Split Args object will let you use a standard delimiter or you can select your own. The object can also trim each argument and delete empty arguments if you need. Split Args can also take the data sent to it and turn it into a series of variables if that would make your code easier to write. In this case, the object will split the data using the <code>&amp;</code> delimiter and then pipe the data to the next object as a series of order arguments as you would see in a shell script.</p>
 <h2 id="a-not-so-slight-digression">A not-so-slight digression</h2>
 <p>While I was initially working on this example, I tried using the Notification and Dialog Output objects to display the data. Those both worked quite well but didn&rsquo;t allow me to format the results to make them look good. There is also the problem that many of the spells contain far more data that a notification can display on the Mac. I searched for some options, and even looked at using an AppleScript created window, but in the end I decided that what I would do was create an HTML page and then replace the placeholders <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> in the file with the data that is being generated in Alfred <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. This would then be used to display the data for the user.</p>
@@ -308,30 +385,46 @@
 <p>This then is the plan. I will create and open an HTML page (in the browser) and, if the user presses the Shift key when they select the spell, create a bitmap image of the HTML and show that to them instead <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>.</p>
 <h2 id="the-script">The script</h2>
 <p>So we have the data split into individual arguments and we know how the data is going to be displayed. The first thing to do is to take the arguments passed from the Split Args object and use them in a shell script <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>. Alfred has two options if you want to run a script in a Workflow. The Run Script object will let you run Python, Ruby, AppleScript, JavaScript, Perl, Swift and bash or zsh shell script <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>. You can also use the Run NSAppleScript object <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>. This runs the AppleScript code internally using the <a href="https://www.alfredapp.com/help/workflows/actions/run-nsapplescript/">NSAppleScript</a> engine.</p>
-<p><img src="/images/alfred/shell%20script.jpg" alt="Run Script object"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/shell%20script.jpg" alt="Run Script object"  width="600" />
+</p></p>
 <h4 id="a-second-digression">A second digression</h4>
 <p>During all this mucking about I discovered that the <em>sed</em> command that ships with the Mac is a total pain-in-the-ass to use. There is probably a <a href="https://riptutorial.com/sed/topic/9436/bsd-macos-sed-vs--gnu-sed-vs--the-posix-sed-specification">very complicated explanation</a> of the difference in operation between the two and I couldn&rsquo;t really find a simple one. On the Mac, and some Linux distros, the <em>sed</em> command will generate errors that are clearly based on the command not parsing the data you send to it properly.</p>
 <p>It is an old command that is kept on some Unix flavours primarily to keep POSIX compatibility but it won&rsquo;t work correctly, even with properly formatted commands, on the Mac <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>. I spent a few hours trying to figure out why my sed commands wouldn&rsquo;t work only to have them work without modification using <em>gsed</em>. You can use <a href="https://brew.sh/">Homebrew</a> to install <em>gsed</em> and I highly recommend it.</p>
 <h3 id="back-to-our-regularly-scheduled-shell-script">Back to our regularly scheduled shell script</h3>
 <p>This is the first shell script that gets run.</p>
-<p><img src="/images/alfred/first%20shell%20script.jpg" alt="first shell script"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/first%20shell%20script.jpg" alt="first shell script"  width="600" />
+</p></p>
 <p>There is probably a quicker way to write this as a shell script but this works well enough for what I need. This first script will run a zsh shell script to move to the project directory, copy the original HTML file and then replace the placeholders using <em>gsed</em>.</p>
 <p>The <em>gsed</em> command is:</p>
 <p><code>gsed -i &quot;s/+spellLevel+/${2}/&quot; newSpell.html</code></p>
 <p>The <code>-i</code> flag is to edit the file in place. The first argument replaces the placeholder with the appropriate arguments sent from Split Args and the last argument is the name of the file to work on. Once that file has been updated with the data it can be displayed by using the <a href="https://www.alfredapp.com/help/workflows/actions/open-url/">Open URL</a> object.</p>
-<p><img src="/images/alfred/Open%20URL.jpg" alt="Open URL object"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/Open%20URL.jpg" alt="Open URL object"  width="600" />
+</p></p>
 <h2 id="providing-an-option">Providing an option</h2>
 <p>The plan is also to give the user the option to have the results rendered into a bitmap image that will be displayed for them. In order to do this we need to determine if the user has the keyboard modifier selected and then respond differently when displaying the results for them. The inputs in Alfred can have an optional keyboard modifier attached to them. Objects in Alfred can also have multiple paths coming from them.</p>
-<p><img src="/images/alfred/Action%20Modifier.jpg" alt="Action Modifier"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/Action%20Modifier.jpg" alt="Action Modifier"  width="600" />
+</p></p>
 <p>Our task is complicated by the fact that we have two script objects. One to replace the placeholders in the HTML and a second to display the HTML. You could just split the action after the List Filter input and then duplicate the script objects. That isn&rsquo;t a very satisfying option though.</p>
 <p>Instead we will use the Action Modifier to branch the flow of the Workflow after the initial List Filter input. If the user has the shift key depressed we will go down a branch to an Arg object that will set a variable, <code>showImage</code> ,to true. If not then the workflow goes to an Arg object that will set it to false.</p>
-<p><img src="/images/alfred/conditional.jpg" alt="conditional"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/conditional.jpg" alt="conditional"  width="600" />
+</p></p>
 <p>The Arg object can be used for two things. It can take data from the {query} variable that is propagated from object to object and save it, or arguments in it, to variables <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>. It can also be used to set variables for later use. In this case we will use it to set the <code>showImage</code> variable which we will check after we transform the HTML file.</p>
-<p><img src="/images/alfred/arg.jpg" alt="Arg object"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/arg.jpg" alt="Arg object"  width="600" />
+</p></p>
 <p>After we run the first script to replace the placeholder variables in the HTML file we then use a conditional object to check the value of <code>showImage</code>.</p>
-<p><img src="/images/alfred/conditional2.jpg" alt="conditional2"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/conditional2.jpg" alt="conditional2"  width="600" />
+</p></p>
 <p>If <code>showImage</code> is false then we go to the url branch otherwise we go to the image branch. The url branch leads to an <a href="https://www.alfredapp.com/help/workflows/actions/open-url/">Open URL</a> object that displays the HTML file that was edited using a local file path. The image branch takes us to another Run Script action.</p>
-<p><img src="/images/alfred/second%20shell%20script.jpg" alt="second shell script"></p>
+<p><p class="md__image">
+  <img src="/images/alfred/second%20shell%20script.jpg" alt="second shell script"  width="600" />
+</p></p>
 <p>This final script will call <code>pageres</code> and make a 500 x 500 pixel image using the <code>main</code> selector in the HTML file. Finally, <code>qlimage</code> is called to display the file to the user.</p>
 <h2 id="wasnt-that-fun">Wasn&rsquo;t that fun</h2>
 <p>I tend to like these sorts of experiments when first trying to learn a new tool or environment since they push you in directions that you might not normally go. And this was certainly the case. Alfred is quite a powerful tool despite the friendly visual interface and I think that its real power is in how it lets you take scripts and commands on your Mac and combine them into a unique Workflow.</p>
@@ -423,8 +516,14 @@
 	        
         
 	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/tools-page.md/?ref=footer">Building the Tools page »</a>
+	        
+        
     
 </div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
 
   <div class="article-toc " >
     <h4></h4>

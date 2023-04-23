@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/python/</link>
+    <description>Recent content in Python on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Fri, 21 Apr 2023 15:33:50 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preflight rework</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/</link>
+      <pubDate>Fri, 21 Apr 2023 15:33:50 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/</guid>
+      <description>I did a fair bit of work on my preflight app/command last night. Primarily it was to add an argument to the command line to allow the user to add config data to the code so it knows where the user&amp;rsquo;s Hugo installation is.
+I was reading through the Python Docs for argparse options as I was trying to make sure that the code would display help even if it was missing configuration data.</description>
+    </item>
+    
+    <item>
+      <title>Create Obsidian Link Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</link>
+      <pubDate>Sat, 15 Apr 2023 12:29:10 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</guid>
+      <description>A while ago, I wrote about an Alfred Workflow to open pages in an Obsidian Vault. It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned.</description>
+    </item>
+    
+    <item>
+      <title>Victor update</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/</link>
+      <pubDate>Fri, 07 Apr 2023 17:48:18 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/</guid>
+      <description>The last few days have been taken up with work on my Textual app - Victor. I mentioned it in my last post and I have been typing away getting new features included. This is how the app currently looks.
+The app will read in the path to your local Hugo install and then read through the content directory looking for Markdown files.</description>
+    </item>
+    
+    <item>
+      <title>Subclassing with PyCharm</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</link>
+      <pubDate>Tue, 04 Apr 2023 08:03:09 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</guid>
+      <description>Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called Textual. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&amp;rsquo;t the geekiest thing I have ever done I don&amp;rsquo;t know what is.</description>
+    </item>
+    
+    <item>
+      <title>Opening Obsidian notes</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</link>
+      <pubDate>Sat, 01 Apr 2023 21:03:39 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</guid>
+      <description>A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&amp;rsquo;t have an easy way to get the bookmarks into Obsidian from my browser.</description>
+    </item>
+    
+    <item>
+      <title>Rich CLI .svg Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/richsvg/</link>
+      <pubDate>Sat, 01 Apr 2023 10:22:35 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/richsvg/</guid>
+      <description>Part of the Textual/Rich library ecosystem is a library called Rich CLI. It has a number of features but the one that has me most interested is its ability to export HTML and SVG versions of source code, Markdown and .csv files.
+You can use this command line command
+1rich -n -g _preflight_all.</description>
+    </item>
+    
+    <item>
+      <title>Preflight part 2</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflightpart2/</link>
+      <pubDate>Fri, 31 Mar 2023 17:40:39 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflightpart2/</guid>
+      <description>I have continued to work on my Preflight script over the last day or two. After I posted about it I changed the output using the Rich library to add some command line pizzaz to it.
+The new layout uses the Box layout object in Rich to draw an ASCII style box around the output.</description>
+    </item>
+    
+    <item>
+      <title>Preflight for Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</link>
+      <pubDate>Wed, 29 Mar 2023 11:16:11 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</guid>
+      <description>So following up from this morning&amp;rsquo;s post, I have finished the first version of my python preflight script. It had a few complications but in the end it came out working well.
+The problem As I have mentioned a few times on this blog, I have an issue when uploading new blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Learning a new language</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/learningalanguage/</link>
+      <pubDate>Wed, 29 Mar 2023 08:58:50 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/learningalanguage/</guid>
+      <description>The Python channel on Mastodon posted a link to a video about projects that you could use to inspire yourself while you try to learn Python. This was an interesting co-incidence since I was talking to one of the twins about this very thing this morning. They are learning Python because their favourite game uses it as the language to build mods.</description>
+    </item>
+    
+    <item>
+      <title>Python for Lingo programmers</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</link>
+      <pubDate>Fri, 24 Mar 2023 17:10:18 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</guid>
+      <description>A long time ago, I used to develop projects using Macromedia/Adobe Director. I was primarily a programmer and so I used to spend a lot of time writing code in Lingo. Lingo was a a language less concerned with formalism than it was in flexibility. You could coerce any variable type into another variable type and, as a result, it was a lot of fun to use.</description>
+    </item>
+    
+    <item>
+      <title>Combined Hugo Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</link>
+      <pubDate>Wed, 22 Mar 2023 11:11:07 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</guid>
+      <description>I seem to have settled on using Hugo as my blogging platform. Since I have started using Alfred, I have put together one or two Workflows to help make it easier to create and edit posts. Those worked well but there were two problems. All of the paths in the scripts were hard-coded and the actions to create or edit content had different scripts for the two content types on my blog.</description>
+    </item>
+    
+  </channel>
+</rss>

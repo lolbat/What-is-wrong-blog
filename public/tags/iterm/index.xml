@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iTerm on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/iterm/</link>
+    <description>Recent content in iTerm on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Wed, 22 Mar 2023 11:11:07 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/iterm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combined Hugo Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</link>
+      <pubDate>Wed, 22 Mar 2023 11:11:07 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</guid>
+      <description>I seem to have settled on using Hugo as my blogging platform. Since I have started using Alfred, I have put together one or two Workflows to help make it easier to create and edit posts. Those worked well but there were two problems. All of the paths in the scripts were hard-coded and the actions to create or edit content had different scripts for the two content types on my blog.</description>
+    </item>
+    
+  </channel>
+</rss>

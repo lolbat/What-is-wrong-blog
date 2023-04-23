@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.111.3">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Making Footnotes &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Making Footnotes" />
+<meta property="og:description" content="I like footnotes 1. Part of the blame for this has to lay with Terry Pratchett and his Discworld novels. Pratchett had a propensity for adding footnotes to his stories to, occasionally, add details to a line but, most often, to continue a joke or to sometimes ramble on for a half page." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/making-footnotes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-17T15:59:41-06:00" />
+<meta property="article:modified_time" content="2023-03-17T15:59:41-06:00" />
+
+    
+    
+    <style>
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/making-footnotes/">Making Footnotes</a>
+    </h1>
+    <time datetime="2023-03-17T15:59:41-0600" class="post-date">
+        Friday, Mar 17, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>I like footnotes <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Part of the blame for this has to lay with <a href="https://en.wikipedia.org/wiki/Terry_Pratchett">Terry Pratchett</a> and his <a href="https://en.wikipedia.org/wiki/Discworld">Discworld novels</a>. Pratchett had a propensity for adding footnotes to his stories to, occasionally, add details to a line but, most often, to continue a joke or to sometimes ramble on for a half page. They were marvellous. I don&rsquo;t have anywhere the same skill with them that he does, but they amuse me to no end.</p>
+<p>My Markdown editor of choice, Nota, does not have a command to add footnotes to a file. It understands them and can render them correctly, but sadly does not make it easier to add them to a file as you write <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As I wanted to have some ability to do, so I decided to make an action to try to automate the process for doing so.  Nota is an Electron app and so doesn&rsquo;t have any support for Shortcuts or AppleScript. Brute force was called for.</p>
+<h2 id="keyboard-maestro-to-the-rescue">Keyboard Maestro to the rescue</h2>
+<p>This is the type of task that Keyboard Maestro excels at. Activating apps and using keyboard accelerators and faux key presses to manipulate an app. My KB macro would have to do a few things:</p>
+<ol>
+<li>Get the text of the current document in Nota</li>
+<li>Determine what was the highest value of footnote in the post</li>
+<li>Insert a new footnote at the current insertion point</li>
+<li>Go to the end of the file and insert a footnote definition</li>
+</ol>
+<h3 id="getting-the-current-text">Getting the current text</h3>
+<p>The first part of the macro is very simple. It needs to keep track of the highest value of bookmark, so there is a variable declared <code>footNotes</code> and this is set to 0. Next, Nota is activated and KB sends the <strong>⌘-A</strong> and then the <strong>⌘-C</strong> keyboard accelerators. We now have the text from the window in the Clipboard.</p>
+<p><p class="md__image">
+  <img src="/images/Footnotes1.jpg" alt="The first few steps"  width="600" />
+</p></p>
+<h3 id="determine-the-highest-footnote">Determine the highest footnote</h3>
+<p>This part is a bit trickier. Keyboard Maestro has a <a href="https://wiki.keyboardmaestro.com/action/For_Each">For Each action</a> that can be used in several different ways. It can look for lines, JSON and Dictionary keys, Finder selections, substrings and many more. This action uses the For Each to search for specific substrings that are matches for a regular expression.</p>
+<p>The regex that will be used is <code>(?m)^\[\^(\d+)\]</code>. Let&rsquo;s rip it apart and explain it.</p>
+<p>The first section <code>(?m)</code> tells KB that this regex will search over multiple lines. After that is the <code>^</code> beginning of line indicator, which asks KB to only match entries that are at the beginning of a line. Regular expressions have many special characters in them, and so if you are looking for a string that has any of them in it, you have to escape the characters with a forward slash <code>\</code>.</p>
+<p>So the string <code>\[\^</code>  is actually asking Keyboard Maestro to look to <code>[^</code> but those are special characters, and so they need to be escaped. Next is  <code>(\d+)</code>. The brackets in this string mark the data within it as a <a href="https://www.regular-expressions.info/refcapture.html">capture group</a>. A capture group is how you tell the regular expression engine which data you want to return from the match it finds. So in a block of text like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="line"><span class="ln">1</span><span class="cl">[^1]: This is a footnote
+</span></span><span class="line"><span class="ln">2</span><span class="cl">This isn&#39;t
+</span></span><span class="line"><span class="ln">3</span><span class="cl">[^2]: This is a second footnote
+</span></span></code></pre></div><p>The regular expression will match <code>[^1]</code> and <code>[^2]</code> but it will return the values 1 and 2.</p>
+<p>The <code>\d+</code> part of the expression just looks for 1 or more numbers. And the final part requires there to be a closing square bracket in the match.</p>
+<p>An app like <a href="https://krillapps.com/patterns/">Patterns</a> or the <a href="https://regex101.com/">Regex101 website</a> are invaluable tools for helping to fine-tune your regular expressions.</p>
+<h4 id="a-keyboard-maestro-peculiarity">A Keyboard Maestro peculiarity</h4>
+<p>Let&rsquo;s take a look at the For Each action from Keyboard Maestro.</p>
+<p><p class="md__image">
+  <img src="/images/footnotes2.jpg" alt="For Each action"  width="600" />
+</p></p>
+<p>The first step in the action is to define the regex that will be used to create a list of substrings. KB doesn&rsquo;t specify that it is looking for a regular expression, but Peter Lewis, the developer, explained that anything looking for a match requires a regex. Everything else is a string.</p>
+<p>If you have used this type of dialog in other applications, you would think that the substrings that the For Each action creates would be the matches to the regular expression. This isn&rsquo;t the case. Keyboard Maestro passes along a set of lines or positions where it found the match. This is why the action then searches each variable that is returned with the <strong>same</strong> regular expression. It is at this point that the specific data for the match is found and stored.</p>
+<h4 id="back-to-the-story">Back to the story</h4>
+<p>This macro makes the assumption that the footnotes are numbered sequentially. That is just how I write, and this was written for my use and not for public release. It isn&rsquo;t necessarily a problem as long as the numbers are unique since, as part of the process of rendering to HTML, Markdown will number them all correctly. At this point in the writing process, they just need to be unique, so the return link on the footnote goes to the correct spot.</p>
+<p>Once KB has finished processing through each match, it then takes that number, adds one to it, and then saves that in the <code>footNotes</code> variable. Then a string is created with the Markdown for the new footnote.</p>
+<p><p class="md__image">
+  <img src="/images/footnotes3.jpg" alt="Strings and adding"  width="600" />
+</p></p>
+<h3 id="the-hacky-part">The &lsquo;hacky&rsquo; part</h3>
+<p>The rest of the macro is pure keyboard hackery. The application is called Keyboard Maestro for a reason.</p>
+<p><p class="md__image">
+  <img src="/images/footnotes4.jpg" alt="Keys!"  width="600" />
+</p></p>
+<p>Nota is still active, so the Esc key will dismiss the selection and then the macro sends <strong>⌘-V</strong> to paste in the new footnote <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Then there is more hackery. The <strong>⌘-↓</strong> key press will send the insert point to the end of the document. A few <strong>⏎</strong> keys to add some space and then another <strong>⌘-V</strong> to paste in the Markdown code and an <code>:</code> character and then a space. The insertion point is now exactly where it needs to be to start typing in the details of the footnote.</p>
+<h3 id="activation">Activation</h3>
+<p>There are quite a few ways that a macro in Keyboard Maestro can be activated. In this case, I have chosen to add it to the Nota application menu and to also have it triggered when I type <code>%foot</code>. If you have a text trigger, then KB will also delete the trigger text for you.</p>
+<h3 id="tricky-parts">Tricky parts</h3>
+<p>This was, all things considered, a fairly basic macro. I did spend quite a lot of time trying to figure out the For Each action. It wasn&rsquo;t until Automation <em>dai sensai</em> Stephen Millard answered <a href="https://talk.automators.fm/t/regex-and-for-each-not-working-as-i-would-expect/15395">my question</a> on the Automators Talk forum that I was able to get it working. I&rsquo;ll quote some of his answer here:</p>
+<blockquote>
+<p>The variable footNoteNumbers isn’t receiving a capture group, it is the variable assigned the value of each regular expression match, in order.</p>
+</blockquote>
+<blockquote>
+<p>The capture group in the regular expression is (d+), and would correspond to the digit within the match, but this is not what is mapped to the variable. <em>In fact, nothing is done with the group during the collection generation. It is effectively discarded.</em> (emphasis added)</p>
+</blockquote>
+<p>So the best way to look at how the regex works in the For Each action is that it finds where the substring is located and that you then need to use the same regex to get the text of your match to be placed into variables.</p>
+<p>It isn&rsquo;t obvious until you have it explained to you, but it does make sense after that. But after all of that, I now have a very fast macro that can add footnotes to Nota even though it is an Electron app.</p>
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>No shit.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Thank the sweet lord!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>The macro assumes that it is being called from the insertion point.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Keyboard Maestro">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/keyboard-maestro">Keyboard Maestro</a>
+        </li>
+        
+        <li class="tag-Nota">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/nota">Nota</a>
+        </li>
+        
+        <li class="tag-regular expressions">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/regular-expressions">regular expressions</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/bookmarks-are-not-links/?ref=footer">« Bookmarks are no longer a thing</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/?ref=footer">Combined Hugo Workflow »</a>
+	        
+        
+    
+</div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#keyboard-maestro-to-the-rescue">Keyboard Maestro to the rescue</a>
+      <ul>
+        <li><a href="#getting-the-current-text">Getting the current text</a></li>
+        <li><a href="#determine-the-highest-footnote">Determine the highest footnote</a></li>
+        <li><a href="#the-hacky-part">The &lsquo;hacky&rsquo; part</a></li>
+        <li><a href="#activation">Activation</a></li>
+        <li><a href="#tricky-parts">Tricky parts</a></li>
+      </ul>
+    </li>
+    <li><a href="#footnotes">Footnotes</a></li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>

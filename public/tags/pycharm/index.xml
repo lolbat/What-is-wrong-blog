@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyCharm on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/pycharm/</link>
+    <description>Recent content in PyCharm on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Tue, 04 Apr 2023 08:03:09 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subclassing with PyCharm</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</link>
+      <pubDate>Tue, 04 Apr 2023 08:03:09 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</guid>
+      <description>Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called Textual. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&amp;rsquo;t the geekiest thing I have ever done I don&amp;rsquo;t know what is.</description>
+    </item>
+    
+  </channel>
+</rss>

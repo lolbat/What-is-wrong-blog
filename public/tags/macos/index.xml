@@ -6,15 +6,43 @@
     <description>Recent content in MacOS on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 03 Mar 2023 21:29:32 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Thu, 20 Apr 2023 09:31:20 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artisanal software</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/</link>
+      <pubDate>Thu, 20 Apr 2023 09:31:20 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/</guid>
+      <description>I don&amp;rsquo;t listen to many podcasts. My interests, even when taking my ADHD medication, tend to flit and bounce with the trajectory of a dust mote in a wind funnel. And so I haven&amp;rsquo;t really been interested in many topics long enough to develop a habit of listening to podcasts about them.</description>
+    </item>
+    
+    <item>
+      <title>Changes are afoot</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/</link>
+      <pubDate>Mon, 17 Apr 2023 10:07:01 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/</guid>
+      <description>For the last year or so I have been working on a MacBook Air. This was fine when all I was doing was writing but as I am doing coding I was finding the small screen size to be limiting. So yesterday I went our and bought a 24&amp;quot; monitor, a stand for the MacBook and an Anker USB C port to allow the MacBook to drive the monitor.</description>
+    </item>
+    
+    <item>
+      <title>Inkscape command line on the Mac</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</link>
+      <pubDate>Sun, 02 Apr 2023 08:37:57 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</guid>
+      <description>I have been testing out the Inskscape command line tool for the last few days and thought I would share a small tip.
+On the Mac the command line tools are accessed via an executable inside the Inskscape .app package. It doesn&amp;rsquo;t load any binaries so you have to call it with the path to the Inkscape application.</description>
+    </item>
+    
     <item>
       <title>Building an Alfred workflow</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</link>
       <pubDate>Fri, 03 Mar 2023 21:29:32 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</guid>
-      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&amp;rsquo;t access the Workflow automation tools that come with Powerpack without a license.</description>
+      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred.</description>
     </item>
     
     <item>
@@ -23,16 +51,16 @@
       <pubDate>Sun, 19 Feb 2023 08:35:42 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/</guid>
-      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets. Items like the year of publication, author etc. The number of these tags isn&amp;rsquo;t always the same and so I needed a regular expression to snip all of them from the filename.</description>
+      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets.</description>
     </item>
     
     <item>
       <title>Markdown writing tools</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Jan 2023 18:37:25 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</guid>
-      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed. It is also an electron app and I like to find MacOS options when I can.</description>
+      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed.</description>
     </item>
     
   </channel>

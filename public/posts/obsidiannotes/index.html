@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.111.3">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Opening Obsidian notes &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Opening Obsidian notes" />
+<meta property="og:description" content="A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&rsquo;t have an easy way to get the bookmarks into Obsidian from my browser." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-01T21:03:39-06:00" />
+<meta property="article:modified_time" content="2023-04-01T21:03:39-06:00" />
+
+    
+    
+    <style>
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/">Opening Obsidian notes</a>
+    </h1>
+    <time datetime="2023-04-01T21:03:39-0600" class="post-date">
+        Saturday, Apr 1, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&rsquo;t have an easy way to get the bookmarks into Obsidian from my browser.</p>
+<h2 id="too-much-information">Too much information</h2>
+<p>There were a few problems that I had to overcome. The first is that I was initially going to use the <a href="https://github.com/deathau/markdownload">Markdownload extension</a> for Safari. It claims to be able to open Obsidian notes directly but this doesn&rsquo;t appear to work on the Mac. It can still create a Markdown formatted link based on the name and URL of a page in a tab as well as any text I have selected.</p>
+<p>Like so:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="ln">1</span><span class="cl">[<span class="nt">deathau/markdownload</span>](<span class="na">https://github.com/deathau/markdownload</span>)
+</span></span><span class="line"><span class="ln">2</span><span class="cl">A Firefox and Google Chrome extension to clip websites and 
+</span></span><span class="line"><span class="ln">3</span><span class="cl">download them into a readable markdown file.
+</span></span></code></pre></div><p>I would rather use a macro or some feature in Alfred to build the Markdown text but there is so much information in page titles and typically a lot of crap that you don&rsquo;t need. This will work until I can come up with a better solution.</p>
+<p>I still needed to open the appropriate Obsidian note to then paste that link into. There are a few existing Alfred Workflows for Obsidian. Chris Grieser has an incredible one called <a href="https://github.com/chrisgrieser/shimmering-obsidian">Shimmering Obsidian</a>. The problem, for me, is that it has far too many features when I want to do one simple thing.</p>
+<p>What I wanted was a Workflow that would show me the list of all of the Markdown pages in a Vault and then let me select one. Then it could be opened and the pasting could begin.</p>
+<h2 id="the-workflow">The Workflow</h2>
+<p>I wanted to use Alfred for this particular workflow for two reasons. I like being able to quickly type a few characters to start a Workflow and I also have suspicions that I will expand this Workflow at a later date <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I started an empty Workflow in Alfred and then clicked on the Workflow Configuration button. Currently I just want to store the path to the Vault.</p>
+<h3 id="an-aside">An aside</h3>
+<p>Alfred stores file and directory paths starting with a tilde <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p><code>~/Documents/Obsidian Vaults/Note and Links</code></p>
+<p>Python is not always that jazzed about using these types of paths and so when the user supplied path is read from Alfred it has to be resolved into a posix path.</p>
+<p><code>/Users/Zac/Documents/Obsidian Vaults/Note and Links</code></p>
+<p>Happily there is a method in the python pathlib to do this.</p>
+<h3 id="building-the-workflow">Building the Workflow</h3>
+<p>There are three parts to this Workflow.</p>
+<p><p class="md__image">
+  <img src="/images/obsidianworkflow.jpg" alt="The Workflow"  width="600" />
+</p></p>
+<p>First is the Keyword Input that is used to trigger it. I chose <code>obo</code> as a keyword after being unable to type my original keyword. After it is triggered the Script Filter is run. This is similar to the one that I used in the <a href="/posts/hugo-workflow/">Hugo Workflow</a> I built.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kn">import</span> <span class="nn">copy</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="kn">import</span> <span class="nn">urllib.parse</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="n">vaultPathData</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;obVaultPath&#34;</span><span class="p">)</span> 
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="n">vaultName</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;obVaultName&#34;</span><span class="p">)</span> 
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="n">vaultPath</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">vaultPathData</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="n">vaultPath</span> <span class="o">=</span> <span class="n">vaultPath</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="n">fileList</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span></code></pre></div><p>In addition to the libraries for the previous script, this new python script adds pathlib and the urllib.parse library. I use pathlib as it was suggested to me on Mastadon as a much simpler way to work with paths. And the urllib.parse library will be used to encode the obsidian URL that will open the note.</p>
+<p>Near the end of this code sample is where the path from Alfred is turned into a posix path.</p>
+<p><code>vaultPath = vaultPath.resolve()</code></p>
+<p>Then the pathlib and glob are used to get all of the Markdown files. This is done in two steps. First any files at the root of the Vault and then any that are in any directories</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">#first get the root level files</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="n">rootFiles</span> <span class="o">=</span> <span class="n">vaultPath</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s1">&#39;*.md&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="k">for</span> <span class="n">mdFile</span> <span class="ow">in</span> <span class="n">rootFiles</span><span class="p">:</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">fileList</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">stem</span><span class="p">])</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c1">#now the files in any directories</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="n">directoryFiles</span> <span class="o">=</span> <span class="n">vaultPath</span><span class="o">.</span><span class="n">rglob</span><span class="p">(</span><span class="s1">&#39;*.md&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="k">for</span> <span class="n">mdFile</span> <span class="ow">in</span> <span class="n">directoryFiles</span><span class="p">:</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="n">fileList</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">mdFile</span><span class="o">.</span><span class="n">parts</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">stem</span><span class="p">])</span>
+</span></span></code></pre></div><p>A list is created to store a series of lists for each file. It stores the folder name, the name of the file and the stem. The stem is the filename without the extension.</p>
+<p>This is all then parsed and a JSON file is created and used by the Script Filter.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">jsonFileList</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;items&#34;</span><span class="p">:</span> <span class="p">[]</span> <span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">fileList</span><span class="p">:</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="n">thisJSONItem</span> <span class="o">=</span> <span class="n">copy</span><span class="o">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">fileItem</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">thisJSONItem</span><span class="p">[</span><span class="s2">&#34;title&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">file</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">thisJSONItem</span><span class="p">[</span><span class="s2">&#34;subtitle&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">file</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="n">thisJSONItem</span><span class="p">[</span><span class="s2">&#34;arg&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;obsidian://advanced-uri?filepath=&#34;</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">file</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">safe</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="n">jsonFileList</span><span class="p">[</span><span class="s2">&#34;items&#34;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">thisJSONItem</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">        
+</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">jsonFileList</span><span class="p">))</span>
+</span></span></code></pre></div><p>The arg is the Obsidian Advanced URI to the note. This will be sent from the Script Filter to the Open URL object.</p>
+<h2 id="changes">Changes</h2>
+<p>The action works well but I will be doing some changes. I have all of my links in a single folder and I will add a file path to that directory to cut down on the extraneous file names in the list. I also want to add a List Filter at the beginning of the Workflow to give me some options to view all of the notes or just specific folders <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. As with most of my Workflows, I suspect this will change as I use it more and add or subtract features.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Shock! Incredulity!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I am sure there is a technical term for it&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>It will probably have to be a Script Filter now that I think about it.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Obsidian">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/obsidian">Obsidian</a>
+        </li>
+        
+        <li class="tag-Alfred">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/alfred">Alfred</a>
+        </li>
+        
+        <li class="tag-Python">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/python">Python</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/richsvg/?ref=footer">« Rich CLI .svg Workflow</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/?ref=footer">Inkscape command line on the Mac »</a>
+	        
+        
+    
+</div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#too-much-information">Too much information</a></li>
+    <li><a href="#the-workflow">The Workflow</a>
+      <ul>
+        <li><a href="#an-aside">An aside</a></li>
+        <li><a href="#building-the-workflow">Building the Workflow</a></li>
+      </ul>
+    </li>
+    <li><a href="#changes">Changes</a></li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>

@@ -6,7 +6,7 @@
     <description>Recent content in Mastodon on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
     <lastBuildDate>Fri, 10 Feb 2023 15:01:57 -0700</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sharing is enabling</title>
@@ -14,7 +14,7 @@
       <pubDate>Fri, 10 Feb 2023 15:01:57 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/sharing_is/</guid>
-      <description>There is a very nice JavaScript library available that makes it easy to add a Share to Mastodon link to your website or blog. It is also on GitHub if that is how you roll. The library gives you a significant amount of flexibility to make the button display in a way that works with your site design. It also lets you host the code on your site, which is always a good option to have.</description>
+      <description>There is a very nice JavaScript library available that makes it easy to add a Share to Mastodon link to your website or blog. It is also on GitHub if that is how you roll. The library gives you a significant amount of flexibility to make the button display in a way that works with your site design.</description>
     </item>
     
   </channel>

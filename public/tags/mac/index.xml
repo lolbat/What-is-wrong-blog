@@ -6,16 +6,25 @@
     <description>Recent content in Mac on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 22:59:58 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Sun, 02 Apr 2023 08:37:57 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inkscape command line on the Mac</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</link>
+      <pubDate>Sun, 02 Apr 2023 08:37:57 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</guid>
+      <description>I have been testing out the Inskscape command line tool for the last few days and thought I would share a small tip.
+On the Mac the command line tools are accessed via an executable inside the Inskscape .app package. It doesn&amp;rsquo;t load any binaries so you have to call it with the path to the Inkscape application.</description>
+    </item>
+    
     <item>
       <title>UTI Problems</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</link>
       <pubDate>Wed, 01 Mar 2023 22:59:58 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</guid>
-      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
-Our story begins I wanted to do a very simple thing in Alfred.</description>
+      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work.</description>
     </item>
     
     <item>
@@ -24,7 +33,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Sat, 25 Feb 2023 14:34:58 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</guid>
-      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</description>
+      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1.</description>
     </item>
     
     <item>
@@ -33,7 +42,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Mon, 20 Feb 2023 14:44:07 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</guid>
-      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold. Or you would be surprised by how some celebrity looked before they were famous. Perhaps you might be interested in one weird trick?</description>
+      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold.</description>
     </item>
     
     <item>
@@ -42,7 +51,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Tue, 31 Jan 2023 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/begging-for-scraps/</guid>
-      <description>I am, in a few respects, not the average Mac consumer. I tend to use my hardware until it breaks (I once dropped a Macbook Pro onto a floor and split the case) or it no longer works well for the tasks that I need it. And even then I try to reuse them. The old iMac I used to do Flex (ugh!) and Director programming on is now in the basement running a Plex server for the family and acting as a print server.</description>
+      <description>I am, in a few respects, not the average Mac consumer. I tend to use my hardware until it breaks (I once dropped a Macbook Pro onto a floor and split the case) or it no longer works well for the tasks that I need it. And even then I try to reuse them.</description>
     </item>
     
     <item>
@@ -52,7 +61,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/secret-garden/</guid>
       <description>The internet was, in its infancy, a vast unexplored world filled with new information. You would constantly find new and exciting ideas, groups or sometimes applications that would open you up to new possibilities and ways of working.
-I recall when I found all of Kai Krause’s Power Tools documents on a CompuServe forum. Not the plugins for Photoshop but a series of Word files in which he explained a series of mind-bending techniques he used to create complex and wonderful effects in Photoshop.</description>
+I recall when I found all of Kai Krause’s Power Tools documents on a CompuServe forum.</description>
     </item>
     
   </channel>

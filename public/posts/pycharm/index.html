@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.111.3">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Subclassing with PyCharm &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Subclassing with PyCharm" />
+<meta property="og:description" content="Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called Textual. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&rsquo;t the geekiest thing I have ever done I don&rsquo;t know what is." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/pycharm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-04T08:03:09-06:00" />
+<meta property="article:modified_time" content="2023-04-04T08:03:09-06:00" />
+
+    
+    
+    <style>
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/pycharm/">Subclassing with PyCharm</a>
+    </h1>
+    <time datetime="2023-04-04T08:03:09-0600" class="post-date">
+        Tuesday, Apr 4, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called <a href="https://github.com/textualize/textual/">Textual</a>. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&rsquo;t the geekiest thing I have ever done I don&rsquo;t know what is.</p>
+<p>As a way to learn the system and to help me stretch my Python skills, I have been working on developing a simple CMS for Hugo called Victor <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><p class="md__image">
+  <img src="/images/victor.jpg" alt="Victor for Hugo"  width="600" />
+</p></p>
+<p>Currently it opens your Hugo content directory and lets you browse through the files. It will preview the Markdown text and, eventually, it will let you view and edit the YAML header. As you may be able to see in the treeview, on the left, the <a href="https://textual.textualize.io/widgets/directory_tree/">DirectoryTree</a> shows all of the files in the directory. Not just the Markdown files. So my task today was to stop it from doing that.</p>
+<h2 id="subclasses-for-ten">Subclasses for ten</h2>
+<p>Textual is still in the early stages of its development and the DirectoryTree widget does not let you filter files. In order to do that I need to subclass the DirectoryTree and rewrite one of the methods so it only shows the files I want. Simple enough.</p>
+<p>Except I don&rsquo;t actually know the first thing about that. To the interwebs!</p>
+<p>I am not actually unschooled in the art of subclassing. I have done this sort of thing before but not for quite a long time and definitely not in Python. I did do a quick search and read through a few articles. I then decided to just roll up my sleeves and, like some fevered Ayn Rand protagonist, take my own destiny into my own hands and just wing it. Most people don&rsquo;t write the type of articles or tutorials that I find useful. Many of them tend to focus on abstract issues and concepts instead of just showing you how to write actual code. Something that has a real purpose that you can learn from. When am I going to need to write an app that has classes for dogs or cars? <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> In lieu of finding anything totally useful I decided to just dig into the Textual source code and start writing code and making mistakes.</p>
+<h2 id="pycharm">PyCharm</h2>
+<p>My IDE of choice, on my Mac, is <a href="https://nova.app/">Nova</a> from <a href="https://panic.com/">Panic</a>. It looks good. It has great features. It is Mac native. And Panic has an incredible support team. Nova is a language-agnostic IDE and in the last week or so I have seen the need for something that has more robust tools to support Python. In previous years my coding work has largely been php, css and JavaScript written in support of Wordpress sites or my own JavaScript tools. And Nova is great for that.</p>
+<p>When it comes to Python, Nova has mypy, Flake8 and Black support but not much else. Panic isn&rsquo;t a large company and it relies, to a large extent, on the community developing specific tools for Nova. I checked out VS Code. It has some interesting tools but, despite Microsoft&rsquo;s marketing efforts, they didn&rsquo;t seem to work very well. As well, VS Code is, despite your settings and theme, not very attractive. No matter what I do with the UI, what fonts I use, how I arrange the panels and tabs, it still looks as if it was designed for a race of beings with one more eyes and another set of colour receptors in their eyes <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>I was reading through an article listing some hints for coding in Python and noticed that one of the screenshots was taken from <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>. PyCharm is produced by <a href="https://www.jetbrains.com/">Jet Brains</a> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> who have a wide range of language-specific IDEs. PyCharm is available in a commercial version and a free community/educational edition.</p>
+<p><p class="md__image">
+  <img src="/images/PyCharm.jpg" alt="PyCharm"  width="600" />
+</p></p>
+<p>The interface is, at least compared to Nova, still a bit rough but it is easier to navigate than VS Code. It also has more Python tools installed and available than VS Code. mypy was having trouble in Nova with some of the references to the libraries and classes in Textual. PyCharm had no such problem.</p>
+<p>I have been using PyCharm for most of the day and also spending a fair amount of time tweaking it so it looks the way I want it to. I can even make the code look like it used to when I coded in Pascal <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
+<p><p class="md__image">
+  <img src="/images/fontchoice.jpg" alt="Font options!"  width="600" />
+</p></p>
+<p>I have no idea if I will continue to use it, but PyCharm has already found a logical error in my code and has also made it possible for me to even begin to worry out the details of subclassing in Python.</p>
+<h2 id="back-to-that-subclassing-anecdote">Back to that subclassing anecdote</h2>
+<p>My initial efforts to create a subclass were not very successful. So many errors. Screens of command line errors. It was actually quite impressive in a way. And in a more literal sense it wasn&rsquo;t. I am not entirely sure when &ldquo;the light came on&rdquo; and I figured it out but I do now have a DirectoryTree subclass that will let me filter out files that I don&rsquo;t want to see in my app.</p>
+<p>Dave on the Textual Discord pointed me in the correct direction and I wrote a new method for <code>load_directory()</code> that I will continue to plug away on today to remove everything other than Markdown files from my app.</p>
+<p>And then it will be on to some new features.</p>
+<p>I will say that I don&rsquo;t think that I would have been able to do this in Nova. PyCharm provides so much feedback and so much insight into the code and libraries that I am using that I was able to work my way through the issues I ran into. It seems that PyCharm, unlike VS Code, has enough useful features that I can overlook some of the the UI oddities. Mind you, PyCharm has so many settings that I suspect, over time, I will be able to tweak it to the point where it works and looks the way I want it to.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Valjean seemed a bit too obscure&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>JavaScript is particularly bad for this. Most of the OOP and class related docs border on being useless.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>It is also from Microsoft. Fuck them.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Not Jet Beans and my brain keeps trying to tell me&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Who knew that was a thing that I wanted.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Python">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/python">Python</a>
+        </li>
+        
+        <li class="tag-PyCharm">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/pycharm">PyCharm</a>
+        </li>
+        
+        <li class="tag-Textual">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/textual">Textual</a>
+        </li>
+        
+        <li class="tag-Victor">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/victor">Victor</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/?ref=footer">« Inkscape command line on the Mac</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/?ref=footer">Victor update »</a>
+	        
+        
+    
+</div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#subclasses-for-ten">Subclasses for ten</a></li>
+    <li><a href="#pycharm">PyCharm</a></li>
+    <li><a href="#back-to-that-subclassing-anecdote">Back to that subclassing anecdote</a></li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>

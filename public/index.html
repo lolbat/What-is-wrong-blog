@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 <head>
-    <script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
-<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/tabs.js"></script>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.111.3">
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,47 +15,55 @@
     <meta name="description" content="A blog of writing that is rarely about dogs." />
 
     
-    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/tabs.css">
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
 
 
     
     <link href="https://whatiswrongwithyourdog.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="What is wrong with your dog?" />
+    <meta property="og:title" content="What is wrong with your dog?" />
+<meta property="og:description" content="A blog of writing that is rarely about dogs." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/" />
+
+    
     
     <style>
-    body {
-        --sidebar-bg-color: #202020;
-        --sidebar-img-border-color: #515151;
-        --sidebar-p-color: #909090;
-        --sidebar-h1-color: #FFF;
-        --sidebar-a-color: #FFF;
-        --sidebar-socials-color: #FFF;
-        --text-color: #222;
-        --bkg-color: #FAF9F6;
-        --post-title-color: #303030;
-        --list-color: #5a5a5a;
-        --link-color: #268bd2;
-        --date-color: #515151;
-        --code-color: #bf616a;
-        --code-background-color: #f9f9f9;
-        --moon-sun-color: #FFF;
-        --moon-sun-background-color: #515151;
-    }
-    body.dark-theme {
-        --text-color: #eee;
-        --bkg-color: #121212;
-        --post-title-color: #DBE2E9;
-        --list-color: #9d9d9d;
-        --link-color: #268bd2;
-        --date-color: #9a9a9a;
-        --code-color: #ff7f7f;
-        --code-background-color: #393D47;
-    }
-    body {
-        background-color: var(--bkg-color);
-    }
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
 </style>
 
 </head>
@@ -123,6 +132,11 @@
                 
                 
             
+            
+            
+                
+                
+            
         
         
             
@@ -148,6 +162,44 @@
             
             
             
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
                 
                 
             
@@ -183,29 +235,38 @@
                         <ul class="submenu">
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
                             </li>
                         
                         </ul>
                         
                     
                     
+                
+                
+            
+            
+            
                 
                 
             
@@ -247,10 +308,10 @@
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
     </h1>
-    <time datetime="2023-03-03T21:29:32Z" class="post-date">
-        Friday, Mar 3, 2023
+    <time datetime="2023-04-21T15:33:50-0600" class="post-date">
+        Friday, Apr 21, 2023
     </time>
     
     
@@ -258,20 +319,21 @@
     
 </div>
 
-        Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&rsquo;t access the Workflow automation tools that come with Powerpack without a license.
+        I did a fair bit of work on my preflight app/command last night. Primarily it was to add an argument to the command line to allow the user to add config data to the code so it knows where the user&rsquo;s Hugo installation is.
+I was reading through the Python Docs for argparse options as I was trying to make sure that the code would display help even if it was missing configuration data.
         
         <div class="read-more-link">
-            <a href="/posts/alfred-workflow/">Read More…</a>
+            <a href="/posts/preflightrework/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
     </h1>
-    <time datetime="2023-03-01T22:59:58Z" class="post-date">
-        Wednesday, Mar 1, 2023
+    <time datetime="2023-04-20T09:31:20-0600" class="post-date">
+        Thursday, Apr 20, 2023
     </time>
     
     
@@ -279,21 +341,20 @@
     
 </div>
 
-        The underpinnings of an operating system can be mysterious and complex. This typically isn&rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
-Our story begins I wanted to do a very simple thing in Alfred.
+        I don&rsquo;t listen to many podcasts. My interests, even when taking my ADHD medication, tend to flit and bounce with the trajectory of a dust mote in a wind funnel. And so I haven&rsquo;t really been interested in many topics long enough to develop a habit of listening to podcasts about them.
         
         <div class="read-more-link">
-            <a href="/posts/uti-problems/">Read More…</a>
+            <a href="/posts/artisinalsoftware/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
     </h1>
-    <time datetime="2023-02-25T14:34:58-0700" class="post-date">
-        Saturday, Feb 25, 2023
+    <time datetime="2023-04-19T20:11:32-0600" class="post-date">
+        Wednesday, Apr 19, 2023
     </time>
     
     
@@ -301,20 +362,20 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
 </div>
 
-        I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.
+        I spent yesterday, and a bit of today, doing some work on my blog to add some tweaks to a few features that had been irritating me but clearly not enough to have done anything about it sooner. The recent posts list is now in a smaller font size and has bullets to make each post distinct.
         
         <div class="read-more-link">
-            <a href="/posts/raycast/">Read More…</a>
+            <a href="/posts/blogchanges/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
     </h1>
-    <time datetime="2023-02-20T14:44:07Z" class="post-date">
-        Monday, Feb 20, 2023
+    <time datetime="2023-04-17T10:07:01-0600" class="post-date">
+        Monday, Apr 17, 2023
     </time>
     
     
@@ -322,20 +383,20 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
 </div>
 
-        You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &ldquo;Recommended&rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold. Or you would be surprised by how some celebrity looked before they were famous. Perhaps you might be interested in one weird trick?
+        For the last year or so I have been working on a MacBook Air. This was fine when all I was doing was writing but as I am doing coding I was finding the small screen size to be limiting. So yesterday I went our and bought a 24&quot; monitor, a stand for the MacBook and an Anker USB C port to allow the MacBook to drive the monitor.
         
         <div class="read-more-link">
-            <a href="/posts/why-we-cant/">Read More…</a>
+            <a href="/posts/changesafoot/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
     </h1>
-    <time datetime="2023-02-19T08:35:42-0700" class="post-date">
-        Sunday, Feb 19, 2023
+    <time datetime="2023-04-15T12:29:10-0600" class="post-date">
+        Saturday, Apr 15, 2023
     </time>
     
     
@@ -343,20 +404,20 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
 </div>
 
-        The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets. Items like the year of publication, author etc. The number of these tags isn&rsquo;t always the same and so I needed a regular expression to snip all of them from the filename.
+        A while ago, I wrote about an Alfred Workflow to open pages in an Obsidian Vault. It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned.
         
         <div class="read-more-link">
-            <a href="/posts/files-and-shortcuts/">Read More…</a>
+            <a href="/posts/createobsidianlink/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/">Front Matter CMS</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
     </h1>
-    <time datetime="2023-02-15T22:29:04Z" class="post-date">
-        Wednesday, Feb 15, 2023
+    <time datetime="2023-04-07T17:48:18-0600" class="post-date">
+        Friday, Apr 7, 2023
     </time>
     
     
@@ -364,20 +425,21 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
 </div>
 
-        A while ago I was talking about possibly using Ulysses as my Markdown writing tool of choice. I tried using it to write a few posts to this blog but I ran into several issues. I won&rsquo;t go into them in detail but just summarize them by saying that Ulysses will edit the content of the YAML front matter in your files in such a way that is contrary to the YAML specifications.
+        The last few days have been taken up with work on my Textual app - Victor. I mentioned it in my last post and I have been typing away getting new features included. This is how the app currently looks.
+The app will read in the path to your local Hugo install and then read through the content directory looking for Markdown files.
         
         <div class="read-more-link">
-            <a href="/posts/front-matter-cms/">Read More…</a>
+            <a href="/posts/victorupdate/">Read More…</a>
         </div>
         
     </article>
     <article class="post">
         <div class="info">
     <h1 class="post-title">
-        <a href="https://whatiswrongwithyourdog.netlify.app/posts/creating-anagrams/">Germans gain a cart</a>
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/pycharm/">Subclassing with PyCharm</a>
     </h1>
-    <time datetime="2023-02-15T17:40:54Z" class="post-date">
-        Wednesday, Feb 15, 2023
+    <time datetime="2023-04-04T08:03:09-0600" class="post-date">
+        Tuesday, Apr 4, 2023
     </time>
     
     
@@ -385,10 +447,76 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
 </div>
 
-        From time to time I do anagrams. Nothing serious. I certainly don&rsquo;t do it professionally but I have a fondness for making letters jump into new words. I have an odd relationship with words. I like them but I often have difficulty keeping the straight in my head. And my eyes and my brain sometimes disagree on what a series of words actually mean. So it is an odd fascination to have and an even odder skill to practice when you have several disadvantages at work making the process more difficult.
+        Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called Textual. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&rsquo;t the geekiest thing I have ever done I don&rsquo;t know what is.
         
         <div class="read-more-link">
-            <a href="/posts/creating-anagrams/">Read More…</a>
+            <a href="/posts/pycharm/">Read More…</a>
+        </div>
+        
+    </article>
+    <article class="post">
+        <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/">Inkscape command line on the Mac</a>
+    </h1>
+    <time datetime="2023-04-02T08:37:57-0600" class="post-date">
+        Sunday, Apr 2, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+        I have been testing out the Inskscape command line tool for the last few days and thought I would share a small tip.
+On the Mac the command line tools are accessed via an executable inside the Inskscape .app package. It doesn&rsquo;t load any binaries so you have to call it with the path to the Inkscape application.
+        
+        <div class="read-more-link">
+            <a href="/posts/inskcapemac/">Read More…</a>
+        </div>
+        
+    </article>
+    <article class="post">
+        <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/">Opening Obsidian notes</a>
+    </h1>
+    <time datetime="2023-04-01T21:03:39-0600" class="post-date">
+        Saturday, Apr 1, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+        A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&rsquo;t have an easy way to get the bookmarks into Obsidian from my browser.
+        
+        <div class="read-more-link">
+            <a href="/posts/obsidiannotes/">Read More…</a>
+        </div>
+        
+    </article>
+    <article class="post">
+        <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/richsvg/">Rich CLI .svg Workflow</a>
+    </h1>
+    <time datetime="2023-04-01T10:22:35-0600" class="post-date">
+        Saturday, Apr 1, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+        Part of the Textual/Rich library ecosystem is a library called Rich CLI. It has a number of features but the one that has me most interested is its ability to export HTML and SVG versions of source code, Markdown and .csv files.
+You can use this command line command
+1rich -n -g _preflight_all.
+        
+        <div class="read-more-link">
+            <a href="/posts/richsvg/">Read More…</a>
         </div>
         
     </article>
@@ -419,6 +547,14 @@ Our story begins I wanted to do a very simple thing in Alfred.
     
     
     <a href="/page/5/">5</a>
+    
+    
+    
+    <a href="/page/6/">6</a>
+    
+    
+    
+    <a href="/page/7/">7</a>
     
     
 

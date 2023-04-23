@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 <head>
-    <script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
-<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/tabs.js"></script>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.111.3">
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +15,56 @@
     <meta name="description" content="" />
 
     
-    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/tabs.css">
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
 
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="UTI Problems" />
+<meta property="og:description" content="The underpinnings of an operating system can be mysterious and complex. This typically isn&rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-01T22:59:58+00:00" />
+<meta property="article:modified_time" content="2023-03-01T22:59:58+00:00" />
 
     
     
     <style>
-    body {
-        --sidebar-bg-color: #202020;
-        --sidebar-img-border-color: #515151;
-        --sidebar-p-color: #909090;
-        --sidebar-h1-color: #FFF;
-        --sidebar-a-color: #FFF;
-        --sidebar-socials-color: #FFF;
-        --text-color: #222;
-        --bkg-color: #FAF9F6;
-        --post-title-color: #303030;
-        --list-color: #5a5a5a;
-        --link-color: #268bd2;
-        --date-color: #515151;
-        --code-color: #bf616a;
-        --code-background-color: #f9f9f9;
-        --moon-sun-color: #FFF;
-        --moon-sun-background-color: #515151;
-    }
-    body.dark-theme {
-        --text-color: #eee;
-        --bkg-color: #121212;
-        --post-title-color: #DBE2E9;
-        --list-color: #9d9d9d;
-        --link-color: #268bd2;
-        --date-color: #9a9a9a;
-        --code-color: #ff7f7f;
-        --code-background-color: #393D47;
-    }
-    body {
-        background-color: var(--bkg-color);
-    }
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
 </style>
 
 </head>
@@ -122,6 +133,11 @@
                 
                 
             
+            
+            
+                
+                
+            
         
         
             
@@ -147,6 +163,44 @@
             
             
             
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
                 
                 
             
@@ -182,29 +236,38 @@
                         <ul class="submenu">
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
                             </li>
                         
                         </ul>
                         
                     
                     
+                
+                
+            
+            
+            
                 
                 
             
@@ -258,7 +321,9 @@
   <p>The underpinnings of an operating system can be mysterious and complex. This typically isn&rsquo;t a problem  if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.</p>
 <h2 id="our-story-begins">Our story begins</h2>
 <p>I wanted to do a very simple thing in Alfred. I put a <a href="https://www.alfredapp.com/help/workflows/inputs/file-filter/">File Filter</a> object and connected it to an <a href="https://www.alfredapp.com/help/workflows/actions/open-file/">Open File</a> object. The File Filter was pointed to my project directory and asked it to look for Markdown files by dragging one of the files from that directory to the File Filter.</p>
-<p><img src="/images/firstUTI.jpg" alt="A file type dialog from Alfred showing the public.markdown file type"></p>
+<p><p class="md__image">
+  <img src="/images/firstUTI.jpg" alt="A file type dialog from Alfred showing the public.markdown file type"  width="600" />
+</p></p>
 <p>What this small and simple workflow should have done was let me filter through the Markdown files in my project directory and then open the one I selected.</p>
 <p>It didn&rsquo;t do anything.</p>
 <p>I thought, perhaps, that I was just not using the objects correctly and so I generated a second version of the same Workflow to just look for files anywhere. This Workflow worked. After fiddling around it appears that the problem was (is?) that the system underpinning the Open File action wasn&rsquo;t working correctly. I asked Alfred to look for <code>public.markdown</code> files but when Alfred asked the system for those files the system just shrugged.</p>
@@ -268,7 +333,7 @@
 <h2 id="the-peril-returns">The peril returns</h2>
 <p>I assumed that the issue here was similar. Despite the files only being marked as <code>public.markdown</code> and only have one default application the OS was not returning them as Markdown files when Alfred asked for them because they were missing one or more of the other UTIs in the system. I knew what the issue was but the real challenge was trying to find all of the UTIs that were declared for the Markdown file type.</p>
 <p>My first round of searches lead me to <a href="https://stackoverflow.com/questions/12554187/list-search-all-existing-utis-uniform-type-identifiers">this thread on stackoverflow</a>. One of the responses listed an OS X command line tool you could use to dump a list of the UTIs.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -dump | grep <span style="color:#e6db74">&#39;uti:&#39;</span> | awk <span style="color:#e6db74">&#39;{ print $2 }&#39;</span> | sort | uniq
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -dump <span class="p">|</span> grep <span class="s1">&#39;uti:&#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{ print $2 }&#39;</span> <span class="p">|</span> sort <span class="p">|</span> uniq
 </span></span></code></pre></div><p>It creates an utterly ugly pile of text and I searched through it to find all of the UTIs that were connected with Markdown files.</p>
 <ul>
 <li>net.daringfireball.markdown</li>
@@ -277,19 +342,21 @@
 <li>public.markdown</li>
 </ul>
 <p>I went back into Alfred and manually added those UTIs and the Workflow finally did what I wanted.</p>
-<p><img src="/images/secondUTI.jpg" alt="The File Filter action from Alfred with the four Mac UTIs added to the File Types section"></p>
+<p><p class="md__image">
+  <img src="/images/secondUTI.jpg" alt="The File Filter action from Alfred with the four Mac UTIs added to the File Types section"  width="600" />
+</p></p>
 <p>Huzzah!</p>
 <h2 id="the-story-does-not-end-there">The story does not end there</h2>
 <p>There were a few problems with my solution. I had to dig through a lot of text to find the information and I also had an idea of what I was looking for. What if I didn&rsquo;t know? How could I find this out if, at some point in the future, some other app registered a UTI and suddenly I couldn&rsquo;t search for <code>.svg</code> files? If you are brave (crazy) enough to try the <code>lsregister</code> command then you will see that not only do many apps declare that they can deal with certain file types but they also have multiple extensions applied to those files.</p>
 <p>So I needed a better way to get the UTI information and in a format that allowed me to do a simple search and replace to get the information. After many, many searches <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> I found a command line application called <a href="http://duti.org">duti</a> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. It is available as a download and a source code archive but if you have <a href="https://brew.sh">Homebrew</a> on your Mac then you can install it with a quick <code>brew install duti</code>.</p>
 <p>The main aim of the application is to actually <em>set</em> UTI values but it will also list them for a specific file type. The flag to do that <code>-e</code> is actually undocumented and was only found by someone looking in the source code.</p>
 <p>So with duti installed you can issue the following command in the Terminal:</p>
-<p><code>duti -e .md |  grep UTTypeIdentifier | awk '{ print $3 }'</code>w</p>
+<p><code>duti -e .md |  grep UTTypeIdentifier | awk '{ print $3 }'</code></p>
 <p>Which will give you back the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>public.markdown
-</span></span><span style="display:flex;"><span>com.unknown.md
-</span></span><span style="display:flex;"><span>net.daringfireball.markdown
-</span></span><span style="display:flex;"><span>net.daringfireball
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">public.markdown
+</span></span><span class="line"><span class="ln">2</span><span class="cl">com.unknown.md
+</span></span><span class="line"><span class="ln">3</span><span class="cl">net.daringfireball.markdown
+</span></span><span class="line"><span class="ln">4</span><span class="cl">net.daringfireball
 </span></span></code></pre></div><p>The command above will take the results of <code>duti -e .svg</code> and then pipes it to the grep command which will look for lines with UTTypeIdentifier in them. Those lines look like this:</p>
 <p><code>UTTypeIdentifier = net.daringfireball.markdown</code></p>
 <p>Then you can use awk to print out the third item in the list which is the UTI that we are looking for.</p>
@@ -346,6 +413,8 @@
         
     
 </div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
 
   <div class="article-toc " >
     <h4></h4>

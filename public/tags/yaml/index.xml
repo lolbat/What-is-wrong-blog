@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YAML on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/yaml/</link>
+    <description>Recent content in YAML on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Wed, 29 Mar 2023 11:16:11 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preflight for Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</link>
+      <pubDate>Wed, 29 Mar 2023 11:16:11 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</guid>
+      <description>So following up from this morning&amp;rsquo;s post, I have finished the first version of my python preflight script. It had a few complications but in the end it came out working well.
+The problem As I have mentioned a few times on this blog, I have an issue when uploading new blog posts.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 <head>
-    <script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
-<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/tabs.js"></script>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.111.3">
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +15,56 @@
     <meta name="description" content="" />
 
     
-    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css">
-<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/tabs.css">
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
 
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Creating a Links page" />
+<meta property="og:description" content="I joke with my friends that a programmer is a person who is a particular type of lazy. They will spend hours or even days on writing code or building a system so they never have to do a task twice. Regardless of the size of the task. I don&rsquo;t know if this is a universal trait but it does describe how I often approach tasks that I know I will repeat again and again." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/creating-a-links-page/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-02T14:20:36-07:00" />
+<meta property="article:modified_time" content="2023-02-02T14:20:36-07:00" />
 
     
     
     <style>
-    body {
-        --sidebar-bg-color: #202020;
-        --sidebar-img-border-color: #515151;
-        --sidebar-p-color: #909090;
-        --sidebar-h1-color: #FFF;
-        --sidebar-a-color: #FFF;
-        --sidebar-socials-color: #FFF;
-        --text-color: #222;
-        --bkg-color: #FAF9F6;
-        --post-title-color: #303030;
-        --list-color: #5a5a5a;
-        --link-color: #268bd2;
-        --date-color: #515151;
-        --code-color: #bf616a;
-        --code-background-color: #f9f9f9;
-        --moon-sun-color: #FFF;
-        --moon-sun-background-color: #515151;
-    }
-    body.dark-theme {
-        --text-color: #eee;
-        --bkg-color: #121212;
-        --post-title-color: #DBE2E9;
-        --list-color: #9d9d9d;
-        --link-color: #268bd2;
-        --date-color: #9a9a9a;
-        --code-color: #ff7f7f;
-        --code-background-color: #393D47;
-    }
-    body {
-        background-color: var(--bkg-color);
-    }
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
 </style>
 
 </head>
@@ -122,6 +133,11 @@
                 
                 
             
+            
+            
+                
+                
+            
         
         
             
@@ -147,6 +163,44 @@
             
             
             
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
                 
                 
             
@@ -182,29 +236,38 @@
                         <ul class="submenu">
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/">Building an Alfred workflow</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/">UTI Problems</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/raycast/">The Enshittification of Raycast</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/">Why we can&#39;t have nice things</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/">Files and Shortcuts</a>
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
                             </li>
                         
                         </ul>
                         
                     
                     
+                
+                
+            
+            
+            
                 
                 
             
@@ -260,36 +323,38 @@
 <p>What I want to do is have Hugo create a list of the links when I need them but not actually create any pages or require me to edit anything. I want to dump a file with some YAML frontmatter in it to define the link and then have that data used to display it.</p>
 <p>There are a few ways to do this but Hugo has a very helpful set of <a href="https://gohugo.io/content-management/build-options/">Build options</a> that you can use to help make this type of page easier to build.</p>
 <p>In the front matter for a page you can add a <code>_build</code> parameter and then give it one of three options:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span>[<span style="color:#ae81ff">_build]</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">list = &#39;always&#39;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">publishResources = true</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">render = &#39;always&#39;</span>
-</span></span></code></pre></div><p>In my case I only need to use the <code>list</code> and <code>render</code> options. Setting <code>render</code> to <code>never</code> will stop Hugo from rendering an HTML file based on the .md document I upload. Similarly <code>list</code> will control if Hugo uses that .md document to add data whenever it needs to make a list of the appropriate content type.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-YAML" data-lang="YAML"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">[</span><span class="l">_build]</span><span class="w">
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w">  </span><span class="l">list = &#39;always&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">  </span><span class="l">publishResources = true</span><span class="w">
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w">  </span><span class="l">render = &#39;always&#39;</span><span class="w">
+</span></span></span></code></pre></div><p>In my case I only need to use the <code>list</code> and <code>render</code> options. Setting <code>render</code> to <code>never</code> will stop Hugo from rendering an HTML file based on the .md document I upload. Similarly <code>list</code> will control if Hugo uses that .md document to add data whenever it needs to make a list of the appropriate content type.</p>
 <p>Each link document will only contain YAML frontmatter. Here is the frontmatter for the Popular Information link.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Popular Information&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">type</span>: <span style="color:#e6db74">&#34;Link&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">link</span>: <span style="color:#e6db74">&#34;https://popular.info/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">Desc</span>: <span style="color:#e6db74">&#34;Independent investigative journalism.&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">false</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">_build</span>:
-</span></span><span style="display:flex;"><span>     <span style="color:#f92672">list</span>: <span style="color:#66d9ef">true</span>
-</span></span><span style="display:flex;"><span>     <span style="color:#f92672">render</span>: <span style="color:#66d9ef">false</span>
-</span></span><span style="display:flex;"><span>---
-</span></span></code></pre></div><p>I previously had a page in the <code>content/links/</code> directory called <code>links.html</code> that was used to render the .html content for the Links Page. That initial version has a hard-coded list. I took that hard-coded list out and then created a page in my theme at <code>layouts/links/links.html</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-YAML" data-lang="YAML"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Popular Information&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="w"></span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Link&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="w"></span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://popular.info/&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="w"></span><span class="nt">Desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Independent investigative journalism.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="w"></span><span class="nt">draft</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="w"></span><span class="nt">_build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="w">     </span><span class="nt">list</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="w">     </span><span class="nt">render</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span></code></pre></div><p>I previously had a page in the <code>content/links/</code> directory called <code>links.html</code> that was used to render the .html content for the Links Page. That initial version has a hard-coded list. I took that hard-coded list out and then created a page in my theme at <code>layouts/links/links.html</code>.</p>
 <p>I copied the <code>single.html</code> file from the _default directory and after the content was displayed I added  code to iterate over the list of link pages and create some HTML.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Go" data-lang="Go"><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">ul</span>&gt;
-</span></span><span style="display:flex;"><span>    {{ <span style="color:#66d9ef">range</span> .<span style="color:#a6e22e">Pages</span> }}
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#a6e22e">li</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;<span style="color:#a6e22e">a</span> <span style="color:#a6e22e">href</span>=<span style="color:#e6db74">&#34;{{.Params.Link}}&#34;</span>&gt;&lt;<span style="color:#a6e22e">strong</span>&gt;{{.<span style="color:#a6e22e">Params</span>.<span style="color:#a6e22e">Title</span>}}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">strong</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">a</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;<span style="color:#a6e22e">span</span> <span style="color:#a6e22e">class</span>=<span style="color:#e6db74">&#34;description&#34;</span>&gt;{{.<span style="color:#a6e22e">Params</span>.<span style="color:#a6e22e">Desc</span>}}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">span</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">li</span>&gt;
-</span></span><span style="display:flex;"><span>    {{ <span style="color:#a6e22e">end</span> }}
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">ul</span>&gt;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nx">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="p">{{</span> <span class="k">range</span> <span class="p">.</span><span class="nx">Pages</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">        <span class="p">&lt;</span><span class="nx">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">            <span class="p">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;{{.Params.Link}}&#34;</span><span class="p">&gt;&lt;</span><span class="nx">strong</span><span class="p">&gt;{{.</span><span class="nx">Params</span><span class="p">.</span><span class="nx">Title</span><span class="p">}}&lt;</span><span class="o">/</span><span class="nx">strong</span><span class="p">&gt;&lt;</span><span class="o">/</span><span class="nx">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">            <span class="p">&lt;</span><span class="nx">span</span> <span class="nx">class</span><span class="p">=</span><span class="s">&#34;description&#34;</span><span class="p">&gt;{{.</span><span class="nx">Params</span><span class="p">.</span><span class="nx">Desc</span><span class="p">}}&lt;</span><span class="o">/</span><span class="nx">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">        <span class="p">&lt;</span><span class="o">/</span><span class="nx">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">    <span class="p">{{</span> <span class="nx">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="ln">8</span><span class="cl"><span class="p">&lt;</span><span class="o">/</span><span class="nx">ul</span><span class="p">&gt;</span>
 </span></span></code></pre></div><p>The code uses the parameters from the YAML frontmatter in the .md document to fill in the details of the link as it will appear in the final HTML page.</p>
 <h2 id="can-you-do-better">Can you do better?</h2>
 <p>The next stage <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> was to create a Shortcut I could use to make it easier to create these .md files.</p>
-<p><img src="/images/shortcut.jpg" alt="A quick shortcut"></p>
+<p><p class="md__image">
+  <img src="/images/shortcut.jpg" alt="A quick shortcut"  width="600" />
+</p></p>
 <p>I am sure that there is probably quite a lot of error and bounds checking I could be doing for this but it is just for personal use.</p>
 <p>I get the name of the current page from Safari, truncate it and then use it as the basis for a dialog asking for a name for the .md file. Whatever the user types in gets a quick replace run to escape the spaces in the name and this is then passed to a shell script block.</p>
 <p>I am currently using <a href="https://nota.md">Nota</a> as a writing tool and it has a CLI option. I could also just as easily use the <a href="https://nova.app">Nova</a> CLI as well.</p>
@@ -336,6 +401,8 @@
         
     
 </div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
 
   <div class="article-toc " >
     <h4></h4>

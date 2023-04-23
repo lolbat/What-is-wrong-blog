@@ -6,7 +6,7 @@
     <description>Recent content in emacs on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
     <lastBuildDate>Tue, 06 Dec 2022 09:05:28 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing with Markdown</title>
@@ -14,7 +14,7 @@
       <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/writing-markdown/</guid>
-      <description>Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere. Being able to format you copy as you type, without having to move a mouse or use a menu, allows you to work without having to interrupt your thought process.</description>
+      <description>Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere.</description>
     </item>
     
   </channel>

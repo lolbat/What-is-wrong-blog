@@ -50,8 +50,8 @@ copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://cr
     list_color = "#5a5a5a"          
     link_color = "#268bd2"          
     date_color = "#515151"        
-    code_color = "black"
-    code_background_color = "#F5F8FF"
+    code_color = "#6c6c6c"
+    code_background_color = "#f0f0f0"
     
     # Hex colors for your content in dark mode
     text_color_dark = "#eee"           

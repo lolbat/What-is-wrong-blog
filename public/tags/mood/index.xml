@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mood on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/mood/</link>
+    <description>Recent content in mood on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Sun, 12 Mar 2023 10:13:35 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/mood/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moods</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/moods/</link>
+      <pubDate>Sun, 12 Mar 2023 10:13:35 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/moods/</guid>
+      <description>I have been creating a vault in Obsidian to contain some of my older bookmarks and links to pages for possible blog posts. It makes it easier to search them and I can also copy over the text from any webpages using the MarkDownload extension.
+On a bit of a whim I added a daily notes page and a mood tracker.</description>
+    </item>
+    
+  </channel>
+</rss>

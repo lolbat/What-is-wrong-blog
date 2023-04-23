@@ -6,15 +6,53 @@
     <description>Recent content in Obsidian on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Sat, 15 Apr 2023 12:29:10 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Obsidian Link Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</link>
+      <pubDate>Sat, 15 Apr 2023 12:29:10 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</guid>
+      <description>A while ago, I wrote about an Alfred Workflow to open pages in an Obsidian Vault. It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned.</description>
+    </item>
+    
+    <item>
+      <title>Opening Obsidian notes</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</link>
+      <pubDate>Sat, 01 Apr 2023 21:03:39 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</guid>
+      <description>A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&amp;rsquo;t have an easy way to get the bookmarks into Obsidian from my browser.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks are no longer a thing</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/bookmarks-are-not-links/</link>
+      <pubDate>Tue, 14 Mar 2023 13:34:20 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/bookmarks-are-not-links/</guid>
+      <description>I am not sure about you, but I have been carrying along a huge assortment of bookmarks that I don&amp;rsquo;t use and often forget why I even saved them. It appears to have become a habit, and like many habits, it has outlived its usefulness.
+The first bookmarks appeared in early browsers in 1992 and 1993.</description>
+    </item>
+    
+    <item>
+      <title>Moods</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/moods/</link>
+      <pubDate>Sun, 12 Mar 2023 10:13:35 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/moods/</guid>
+      <description>I have been creating a vault in Obsidian to contain some of my older bookmarks and links to pages for possible blog posts. It makes it easier to search them and I can also copy over the text from any webpages using the MarkDownload extension.
+On a bit of a whim I added a daily notes page and a mood tracker.</description>
+    </item>
+    
     <item>
       <title>Markdown writing tools</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Jan 2023 18:37:25 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</guid>
-      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed. It is also an electron app and I like to find MacOS options when I can.</description>
+      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed.</description>
     </item>
     
   </channel>

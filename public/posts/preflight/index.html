@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/jquery-3.6.4.min.js"></script>
+<script  language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/footnotes.js"></script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.111.3">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preflight for Hugo &middot; What is wrong with your dog?</title>
+    <meta name="description" content="" />
+
+    
+    <link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poole.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/hyde.css" />
+<link type="text/css" rel="stylesheet" href="https://whatiswrongwithyourdog.netlify.app/css/poison.css" />
+
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_dark.css" />
+<link rel="preload stylesheet" as="style" href="https://whatiswrongwithyourdog.netlify.app/css/syntax_light.css" />
+
+
+    
+    <meta property="og:title" content="Preflight for Hugo" />
+<meta property="og:description" content="So following up from this morning&rsquo;s post, I have finished the first version of my python preflight script. It had a few complications but in the end it came out working well.
+The problem As I have mentioned a few times on this blog, I have an issue when uploading new blog posts." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whatiswrongwithyourdog.netlify.app/posts/preflight/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-29T11:16:11-06:00" />
+<meta property="article:modified_time" content="2023-03-29T11:16:11-06:00" />
+
+    
+    
+    <style>
+	body {
+	    --sidebar-bg-color: #202020;
+	    --sidebar-img-border-color: #515151;
+	    --sidebar-p-color: #909090;
+	    --sidebar-h1-color: #FFF;
+	    --sidebar-a-color: #FFF;
+	    --sidebar-socials-color: #FFF;
+	    --text-color: #222;
+	    --bkg-color: #FAF9F6;
+	    --post-title-color: #303030;
+	    --list-color: #5a5a5a;
+	    --link-color: #268bd2;
+	    --date-color: #515151;
+	    --code-color: black;
+	    --code-background-color: #F5F8FF;
+	    --moon-sun-color: #FFF;
+	    --moon-sun-background-color: #515151;
+	}
+	body.dark-theme {
+	    --text-color: #eee;
+	    --bkg-color: #121212;
+	    --post-title-color: #DBE2E9;
+	    --list-color: #9d9d9d;
+	    --link-color: #268bd2;
+	    --date-color: #9a9a9a;
+	    --code-color: white;
+	    --code-background-color: #504B4B;
+	}
+	body {
+	    background-color: var(--bkg-color);
+	}
+</style>
+
+</head>
+
+    <body class="">
+        <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="left">
+    <button class="btn-light-dark">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width=".5em" height=".5em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <img src="/images/Dog.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://whatiswrongwithyourdog.netlify.app/">
+                <h1>&#39;What is wrong with your dog?&#39;</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+        A blog of writing that is rarely about dogs.
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/info.svg"><a href="/about/">About</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/list.svg"><a href="/links/">Links</a>
+                        </li>
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/tool.svg"><a href="/tools/">Tools</a>
+                        </li>
+                    
+                    
+                
+                
+            
+        
+        
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                
+                    
+
+                    
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/file-text.svg"><span class="menuItemNoLink">Recent Posts</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            
+                        </li>
+                        
+                        <ul class="submenu">
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/">Preflight rework</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/">Artisanal software</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/">Blog updates</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/">Changes are afoot</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/">Create Obsidian Link Workflow</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/">Victor update</a>
+                            </li>
+                        
+                        </ul>
+                        
+                    
+                    
+                
+                
+            
+            
+            
+                
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+
+
+
+    <a rel="me" target="_blank" class="social" href="https://home.social/@lolzac">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+        <p class="footnote">
+    Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with my own varaint of <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+</p>
+
+<p class="footnote">
+    &copy; 2023 Zac Belado. All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+        <main class="content container">
+            <div class="post">
+  <div class="info">
+    <h1 class="post-title">
+        <a href="https://whatiswrongwithyourdog.netlify.app/posts/preflight/">Preflight for Hugo</a>
+    </h1>
+    <time datetime="2023-03-29T11:16:11-0600" class="post-date">
+        Wednesday, Mar 29, 2023
+    </time>
+    
+    
+    
+    
+</div>
+
+  <p>So following up from <a href="/posts/LearningALanguage/">this morning&rsquo;s post</a>, I have finished the first version of my python preflight script. It had a few complications but in the end it came out working well.</p>
+<h2 id="the-problem">The problem</h2>
+<p>As I have mentioned a few times on this blog, I have an issue when uploading new blog posts. Typically I either forget to set <code>draft: false</code> in the post. My second most common issue is that I start to write something and then don&rsquo;t finish it for days. This means that the <code>date:</code> in the Hugo file is often a week old.</p>
+<p>Both of these issues result in my posts not appearing on the blog. So I decided to write a short python script that could help me solve this.</p>
+<h2 id="preflight">Preflight</h2>
+<p>In the prepress industry you typically &lsquo;preflight&rsquo; a file before it gets sent to print. This is all done digitally now and there are special preflight software packages that will take PDFs or native files and test them to make sure that there are no missing fonts, that colours a defined correctly and 101 other possible problems.</p>
+<p>So I thought this might be a handy thing to have for my blog posts. Currently the code is very simple.</p>
+<p><p class="md__image">
+  <img src="/images/console2.jpg" alt="Preflight"  width="600" />
+</p></p>
+<p>The code opens the Markdown file and then parses the YAML frontmatter data. It checks to see if <code>draft:</code> is true or false and then it checks <code>date:</code> to see if it is today or not or some time in the dim, dim past. I may add some more features if need be but currently this does everything I need. I may work it into the <a href="posts/hugo-workflow/">Hugo Workflow</a> I wrote for Alfred.</p>
+<h2 id="complications">Complications</h2>
+<p>When you are new to an environment there are always things that can go wrong or that you won&rsquo;t be able to foresee based on your lack of experience. During the writing of this code I ran into a few issues. Happlily I was able to solve all of them.</p>
+<h3 id="cleaning-up">Cleaning up</h3>
+<p>So you know how sometimes you put in a hard-coded value for a variable that you are going to read in and then forget it is there and your results are always wonky because you didn&rsquo;t remove it and change the code to use the real date &lt;exhaused gasp&gt;?</p>
+<p>Well I did that.</p>
+<h3 id="timezones">Timezones</h3>
+<p>The date format that Hugo uses, by default, in its posts contains a <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC timezone</a>. By itself this isn&rsquo;t a big deal but the dates and times you create in your code do not contain this information unless you specifically ask for it. If you try to compare or subtract a datetime with a time zone and one without you get the following error.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="ne">TypeError</span><span class="p">:</span> <span class="n">can</span><span class="s1">&#39;t compare offset-naive and offset-aware datetimes</span>
+</span></span></code></pre></div><p>In order to do comparisions you have to create a datetime object with UTC enabled.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">now_utc</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="s1">&#39;UTC&#39;</span><span class="p">))</span>
+</span></span></code></pre></div><p>And after that you are good to go.</p>
+<h3 id="yaml-library">YAML library</h3>
+<p>The code uses the <a href="https://python-frontmatter.readthedocs.io/en/latest/index.html">Python Frontmatter library</a> to extract the YAML frontmatter. It is a well-documented and easy to use library. I was running into issues with it though as the data I was getting back was giving me incorrect results. It turns out that the YAML library that Frontmatter uses is coercing the values it finds into datetime and boolean types. So if you are assuming that you will be getting strings you are in for a surprise.</p>
+<p>I checked out the docs for the YAML library but couldn&rsquo;t find any mention of this behaviour <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> but after testing it all in a Jupyter Notebook I was able to go back and successfully fix the issues. It is a handy thing for the YAML library to do and really just reinforces that you need to test data with <code>type()</code> if you don&rsquo;t know how it is being sent back to you.</p>
+<h3 id="rich">Rich</h3>
+<p>Not exactly a complication. I am using the <a href="https://rich.readthedocs.io/en/stable/">Rich library</a> to colour code the results. I typically find it easy to misread results in the console and so I am using Rich to let me make the text red or green depending on the results. Using the library was quite easy <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and I was able to get it to start sending coloured text to the console.</p>
+<p><p class="md__image">
+  <img src="/images/rich.jpg" alt="Rich code"  width="600" />
+</p></p>
+<p>One issue that isn&rsquo;t addressed in the docs (see footnote 1) is that the formatting for the <code>Text</code> string you are using continues even if you append new characters to it. So this initial line</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">text</span> <span class="o">=</span> <span class="n">Text</span><span class="p">(</span><span class="s2">&#34;Preflight results</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&#34;bold dodger_blue1 reverse&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>styles the text as reverse characters on a dodger blue background. If you append a new line to this variable it continues to use the style. I was originally just going to append and style everything in one string and then print it but that was starting to be complicated. Printing the text one line at a time solved the problem.</p>
+<p>Rich does have a <a href="https://rich.readthedocs.io/en/stable/markup.html">Console Markup style</a> that you can use to add style tags to your text but I found it easier to just break the text up into individual parts and print them.</p>
+<h2 id="its-alive">Its alive!</h2>
+<p>So the code works <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> and it even includes the <a href="https://docs.python.org/3/library/argparse.html">argparse library</a> to define and proccess the command line arguments. Its quite a handy library and quite simple to use. Once again I found it a joy to work with Python. The code was easy to write and I have mypy, Flake8 and Black enabled in Nova so I get useful prompts while I am coding. Several times I needed to try to figure out how to fix an issue and it was a matter of opening a Jupyter Notebook and testing out various things until it worked. I am looking into whether or not I can add a Variable Inspector to the Electron based Jupyter Notebook  app I use but if not I can use the one that runs via Anaconda.</p>
+<p>And the best thing about Python so far? No errors because I forgot to end a line with a <code>;</code>. If that isn&rsquo;t reason enough to never use JavaScript again I don&rsquo;t know what is.</p>
+<p><p class="md__image">
+  <img src="/images/preflight.jpg" alt="Checking my work"  width="600" />
+</p></p>
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>It is not as if I have a great track record of reading online docs.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I can see why it is so popular.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>For some value of &ldquo;works&rdquo;.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+
+    <ul class="tags">
+        
+        <li class="tag-Python">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/python">Python</a>
+        </li>
+        
+        <li class="tag-Hugo">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/hugo">Hugo</a>
+        </li>
+        
+        <li class="tag-Rich">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/rich">Rich</a>
+        </li>
+        
+        <li class="tag-YAML">
+            <a href="https://whatiswrongwithyourdog.netlify.app/tags/yaml">YAML</a>
+        </li>
+        
+    </ul>
+
+<hr>
+<div class="footer">
+    
+	    
+            
+	            <a class="previous-post" href="https://whatiswrongwithyourdog.netlify.app/posts/learningalanguage/?ref=footer">« Learning a new language</a>
+	        
+        
+	    
+            
+	            <a class="next-post" href="https://whatiswrongwithyourdog.netlify.app/posts/moremusic/?ref=footer">More thoughts about music »</a>
+	        
+        
+    
+</div>
+
+<script defer language="javascript" type="text/javascript" src="https://whatiswrongwithyourdog.netlify.app/js/light_dark.js"></script>
+
+  <div class="article-toc " >
+    <h4></h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-problem">The problem</a></li>
+    <li><a href="#preflight">Preflight</a></li>
+    <li><a href="#complications">Complications</a>
+      <ul>
+        <li><a href="#cleaning-up">Cleaning up</a></li>
+        <li><a href="#timezones">Timezones</a></li>
+        <li><a href="#yaml-library">YAML library</a></li>
+        <li><a href="#rich">Rich</a></li>
+      </ul>
+    </li>
+    <li><a href="#its-alive">Its alive!</a></li>
+    <li><a href="#footnotes">Footnotes</a></li>
+  </ul>
+</nav>
+</div>
+
+</div>
+        </main>
+    </body>
+</html>

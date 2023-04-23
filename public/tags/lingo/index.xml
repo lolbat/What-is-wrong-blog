@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lingo on What is wrong with your dog?</title>
+    <link>https://whatiswrongwithyourdog.netlify.app/tags/lingo/</link>
+    <description>Recent content in Lingo on What is wrong with your dog?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Fri, 24 Mar 2023 17:10:18 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/lingo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python for Lingo programmers</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</link>
+      <pubDate>Fri, 24 Mar 2023 17:10:18 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</guid>
+      <description>A long time ago, I used to develop projects using Macromedia/Adobe Director. I was primarily a programmer and so I used to spend a lot of time writing code in Lingo. Lingo was a a language less concerned with formalism than it was in flexibility. You could coerce any variable type into another variable type and, as a result, it was a lot of fun to use.</description>
+    </item>
+    
+  </channel>
+</rss>

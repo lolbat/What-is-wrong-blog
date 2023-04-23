@@ -6,7 +6,7 @@
     <description>Recent content in NameChanger on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
     <lastBuildDate>Sun, 19 Feb 2023 08:35:42 -0700</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/tags/namechanger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Files and Shortcuts</title>
@@ -14,7 +14,7 @@
       <pubDate>Sun, 19 Feb 2023 08:35:42 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/</guid>
-      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets. Items like the year of publication, author etc. The number of these tags isn&amp;rsquo;t always the same and so I needed a regular expression to snip all of them from the filename.</description>
+      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets.</description>
     </item>
     
   </channel>

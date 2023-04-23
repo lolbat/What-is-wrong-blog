@@ -6,15 +6,234 @@
     <description>Recent content on What is wrong with your dog?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 03 Mar 2023 21:29:32 +0000</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+    <lastBuildDate>Fri, 21 Apr 2023 15:33:50 -0600</lastBuildDate><atom:link href="https://whatiswrongwithyourdog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preflight rework</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/</link>
+      <pubDate>Fri, 21 Apr 2023 15:33:50 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflightrework/</guid>
+      <description>I did a fair bit of work on my preflight app/command last night. Primarily it was to add an argument to the command line to allow the user to add config data to the code so it knows where the user&amp;rsquo;s Hugo installation is.
+I was reading through the Python Docs for argparse options as I was trying to make sure that the code would display help even if it was missing configuration data.</description>
+    </item>
+    
+    <item>
+      <title>Artisanal software</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/</link>
+      <pubDate>Thu, 20 Apr 2023 09:31:20 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/artisinalsoftware/</guid>
+      <description>I don&amp;rsquo;t listen to many podcasts. My interests, even when taking my ADHD medication, tend to flit and bounce with the trajectory of a dust mote in a wind funnel. And so I haven&amp;rsquo;t really been interested in many topics long enough to develop a habit of listening to podcasts about them.</description>
+    </item>
+    
+    <item>
+      <title>Blog updates</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/</link>
+      <pubDate>Wed, 19 Apr 2023 20:11:32 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/blogchanges/</guid>
+      <description>I spent yesterday, and a bit of today, doing some work on my blog to add some tweaks to a few features that had been irritating me but clearly not enough to have done anything about it sooner. The recent posts list is now in a smaller font size and has bullets to make each post distinct.</description>
+    </item>
+    
+    <item>
+      <title>Changes are afoot</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/</link>
+      <pubDate>Mon, 17 Apr 2023 10:07:01 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/changesafoot/</guid>
+      <description>For the last year or so I have been working on a MacBook Air. This was fine when all I was doing was writing but as I am doing coding I was finding the small screen size to be limiting. So yesterday I went our and bought a 24&amp;quot; monitor, a stand for the MacBook and an Anker USB C port to allow the MacBook to drive the monitor.</description>
+    </item>
+    
+    <item>
+      <title>Create Obsidian Link Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</link>
+      <pubDate>Sat, 15 Apr 2023 12:29:10 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/createobsidianlink/</guid>
+      <description>A while ago, I wrote about an Alfred Workflow to open pages in an Obsidian Vault. It was part of the start of a more robust Workflow to let me store all of my bookmarks in Obsidian instead of my browser. I posted about it but I never put the Workflow on Github as I originally planned.</description>
+    </item>
+    
+    <item>
+      <title>Victor update</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/</link>
+      <pubDate>Fri, 07 Apr 2023 17:48:18 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/victorupdate/</guid>
+      <description>The last few days have been taken up with work on my Textual app - Victor. I mentioned it in my last post and I have been typing away getting new features included. This is how the app currently looks.
+The app will read in the path to your local Hugo install and then read through the content directory looking for Markdown files.</description>
+    </item>
+    
+    <item>
+      <title>Subclassing with PyCharm</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</link>
+      <pubDate>Tue, 04 Apr 2023 08:03:09 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pycharm/</guid>
+      <description>Today has been a day filled with writing and rewriting code. For the last few days I have bashing around in a command line UI system called Textual. It is a Python based Rapid Application Development framework that lets you build TUI applications. Terminal User Interface. If it isn&amp;rsquo;t the geekiest thing I have ever done I don&amp;rsquo;t know what is.</description>
+    </item>
+    
+    <item>
+      <title>Inkscape command line on the Mac</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</link>
+      <pubDate>Sun, 02 Apr 2023 08:37:57 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/inskcapemac/</guid>
+      <description>I have been testing out the Inskscape command line tool for the last few days and thought I would share a small tip.
+On the Mac the command line tools are accessed via an executable inside the Inskscape .app package. It doesn&amp;rsquo;t load any binaries so you have to call it with the path to the Inkscape application.</description>
+    </item>
+    
+    <item>
+      <title>Opening Obsidian notes</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</link>
+      <pubDate>Sat, 01 Apr 2023 21:03:39 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/obsidiannotes/</guid>
+      <description>A while back I decided that the best place for my bookmarks was in Obsidian. They look better there, I can tag then easily and I have also split them into distinct pages. Simple enough but I didn&amp;rsquo;t have an easy way to get the bookmarks into Obsidian from my browser.</description>
+    </item>
+    
+    <item>
+      <title>Rich CLI .svg Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/richsvg/</link>
+      <pubDate>Sat, 01 Apr 2023 10:22:35 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/richsvg/</guid>
+      <description>Part of the Textual/Rich library ecosystem is a library called Rich CLI. It has a number of features but the one that has me most interested is its ability to export HTML and SVG versions of source code, Markdown and .csv files.
+You can use this command line command
+1rich -n -g _preflight_all.</description>
+    </item>
+    
+    <item>
+      <title>ThoughtAsylum</title>
+      <link></link>
+      <pubDate>Sat, 01 Apr 2023 06:50:41 -0600</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preflight part 2</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflightpart2/</link>
+      <pubDate>Fri, 31 Mar 2023 17:40:39 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflightpart2/</guid>
+      <description>I have continued to work on my Preflight script over the last day or two. After I posted about it I changed the output using the Rich library to add some command line pizzaz to it.
+The new layout uses the Box layout object in Rich to draw an ASCII style box around the output.</description>
+    </item>
+    
+    <item>
+      <title>Smiling</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/smiling/</link>
+      <pubDate>Fri, 31 Mar 2023 11:22:25 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/smiling/</guid>
+      <description>There is an article making the rounds online, AI and the American Smile, that is a very interesting look at the social construction of the meaning of a smile. I found it rather interesting especially since my facial expressions have been a constant source of problems for me.
+Doing a search for autism facial expressions leads to a wealth of articles and papers discussing the problems that people with spectrum disorders have in reading facial expressions and having their own moods misrepresented.</description>
+    </item>
+    
+    <item>
+      <title>More thoughts about music</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/moremusic/</link>
+      <pubDate>Thu, 30 Mar 2023 09:33:19 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/moremusic/</guid>
+      <description>The first result for it&amp;rsquo;s not the band I hate, it&amp;rsquo;s their fans on Ecosia leads to an old article from the GigCity website 1 about an upcoming Sloan show. I am thinking about Sloan because I am using their song Coax Me to test out several equalizer applications on my Mac and I am using the studio and live versions of Coax Me to test the software out.</description>
+    </item>
+    
+    <item>
+      <title>Preflight for Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</link>
+      <pubDate>Wed, 29 Mar 2023 11:16:11 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/preflight/</guid>
+      <description>So following up from this morning&amp;rsquo;s post, I have finished the first version of my python preflight script. It had a few complications but in the end it came out working well.
+The problem As I have mentioned a few times on this blog, I have an issue when uploading new blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Learning a new language</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/learningalanguage/</link>
+      <pubDate>Wed, 29 Mar 2023 08:58:50 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/learningalanguage/</guid>
+      <description>The Python channel on Mastodon posted a link to a video about projects that you could use to inspire yourself while you try to learn Python. This was an interesting co-incidence since I was talking to one of the twins about this very thing this morning. They are learning Python because their favourite game uses it as the language to build mods.</description>
+    </item>
+    
+    <item>
+      <title>Python for Lingo programmers</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</link>
+      <pubDate>Fri, 24 Mar 2023 17:10:18 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/pythonforlingocoders/</guid>
+      <description>A long time ago, I used to develop projects using Macromedia/Adobe Director. I was primarily a programmer and so I used to spend a lot of time writing code in Lingo. Lingo was a a language less concerned with formalism than it was in flexibility. You could coerce any variable type into another variable type and, as a result, it was a lot of fun to use.</description>
+    </item>
+    
+    <item>
+      <title>Combined Hugo Workflow</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</link>
+      <pubDate>Wed, 22 Mar 2023 11:11:07 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/hugo-workflow/</guid>
+      <description>I seem to have settled on using Hugo as my blogging platform. Since I have started using Alfred, I have put together one or two Workflows to help make it easier to create and edit posts. Those worked well but there were two problems. All of the paths in the scripts were hard-coded and the actions to create or edit content had different scripts for the two content types on my blog.</description>
+    </item>
+    
+    <item>
+      <title>Making Footnotes</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/making-footnotes/</link>
+      <pubDate>Fri, 17 Mar 2023 15:59:41 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/making-footnotes/</guid>
+      <description>I like footnotes 1. Part of the blame for this has to lay with Terry Pratchett and his Discworld novels. Pratchett had a propensity for adding footnotes to his stories to, occasionally, add details to a line but, most often, to continue a joke or to sometimes ramble on for a half page.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks are no longer a thing</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/bookmarks-are-not-links/</link>
+      <pubDate>Tue, 14 Mar 2023 13:34:20 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/bookmarks-are-not-links/</guid>
+      <description>I am not sure about you, but I have been carrying along a huge assortment of bookmarks that I don&amp;rsquo;t use and often forget why I even saved them. It appears to have become a habit, and like many habits, it has outlived its usefulness.
+The first bookmarks appeared in early browsers in 1992 and 1993.</description>
+    </item>
+    
+    <item>
+      <title>Moods</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/moods/</link>
+      <pubDate>Sun, 12 Mar 2023 10:13:35 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/moods/</guid>
+      <description>I have been creating a vault in Obsidian to contain some of my older bookmarks and links to pages for possible blog posts. It makes it easier to search them and I can also copy over the text from any webpages using the MarkDownload extension.
+On a bit of a whim I added a daily notes page and a mood tracker.</description>
+    </item>
+    
+    <item>
+      <title>Two Apps - One Action</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/two-apps-one-action/</link>
+      <pubDate>Mon, 06 Mar 2023 11:42:28 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/two-apps-one-action/</guid>
+      <description>A little while ago I wrote about a Shortcut that I used to lay out images of Scrabble tiles 1 in FreeForm to help solve anagrams. As part of that post I said:
+I then looked at doing it in Keyboard Maestro but I couldn’t seem to find a way to iterate over each character in a string.</description>
+    </item>
+    
+    <item>
+      <title>Building the Tools page</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/tools-page.md/</link>
+      <pubDate>Sat, 04 Mar 2023 15:10:47 -0700</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/tools-page.md/</guid>
+      <description>There is a new addition to the site. I put a link in the sidebar to a Tools page to list all of the Mac apps I make daily(ish) use of. It wasn&amp;rsquo;t difficult to add but it does include the first shortcode I have done for Hugo.
+Shortcodes are a way to allow you to easily insert custom code and/or styles into your content.</description>
+    </item>
+    
     <item>
       <title>Building an Alfred workflow</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</link>
       <pubDate>Fri, 03 Mar 2023 21:29:32 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/alfred-workflow/</guid>
-      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred. Unlike LaunchBar or Raycast you can&amp;rsquo;t access the Workflow automation tools that come with Powerpack without a license.</description>
+      <description>Sometimes the best way to learn how to use a new tool is to just dive in and see what it can do. I am working on a post about various automation tools and apps on the Mac at the moment. And as part of that, the folks at Running with Crayons sent me a key for the Powerpack in Alfred.</description>
     </item>
     
     <item>
@@ -23,8 +242,7 @@
       <pubDate>Wed, 01 Mar 2023 22:59:58 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/uti-problems/</guid>
-      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work. It is never pretty.
-Our story begins I wanted to do a very simple thing in Alfred.</description>
+      <description>The underpinnings of an operating system can be mysterious and complex. This typically isn&amp;rsquo;t a problem if the system is working correctly as you will never need to worry yourself with any of those messy parts. When they start to fail you will, unfortunately, need to dig underneath the calm exterior of your OS into the largely text-based underpinnings that make it work.</description>
     </item>
     
     <item>
@@ -33,7 +251,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Sat, 25 Feb 2023 14:34:58 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/raycast/</guid>
-      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1. These are all attempts to modernise a facet of computing often overlooked (terminals and application launching) as well as adding team and enterprise components to them.</description>
+      <description>I am not sure if he came up with the term but, Cory Doctorow has certainly popularised Enshittification as well as providing the a handy list of the steps companies go through as they enshitiffy themselves. I have been thinking of that process a lot this week as I have been looking at various new software releases - Fig, Warp and Raycast 1.</description>
     </item>
     
     <item>
@@ -42,7 +260,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Mon, 20 Feb 2023 14:44:07 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/why-we-cant/</guid>
-      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold. Or you would be surprised by how some celebrity looked before they were famous. Perhaps you might be interested in one weird trick?</description>
+      <description>You may be familiar with the name Taboola. They are a US-based advertising agency that became infamous for plastering the internet with &amp;ldquo;Recommended&amp;rdquo; links at the end of news articles and online content. You could lose belly fat by not eating one fruit. Or a politician was suggesting you buy gold.</description>
     </item>
     
     <item>
@@ -51,7 +269,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Sun, 19 Feb 2023 08:35:42 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/files-and-shortcuts/</guid>
-      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets. Items like the year of publication, author etc. The number of these tags isn&amp;rsquo;t always the same and so I needed a regular expression to snip all of them from the filename.</description>
+      <description>The last two weeks I have been working, on and off, to solve a problem I had with running a Shortcut in Hazel. I have quite a few rules in Hazel to process files as I download them. One of them attempted to rename a file and then move it. The files had tags in the filename that were separated by brackets.</description>
     </item>
     
     <item>
@@ -64,18 +282,9 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
     </item>
     
     <item>
-      <title>Grids These Days</title>
-      <link></link>
-      <pubDate>Fri, 17 Feb 2023 09:52:23 -0700</pubDate>
-      
-      <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Front Matter CMS</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</link>
-      <pubDate>Wed, 15 Feb 2023 22:29:04 +0000</pubDate>
+      <pubDate>Wed, 15 Feb 2023 12:26:11 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/front-matter-cms/</guid>
       <description>A while ago I was talking about possibly using Ulysses as my Markdown writing tool of choice. I tried using it to write a few posts to this blog but I ran into several issues. I won&amp;rsquo;t go into them in detail but just summarize them by saying that Ulysses will edit the content of the YAML front matter in your files in such a way that is contrary to the YAML specifications.</description>
@@ -87,16 +296,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Wed, 15 Feb 2023 17:40:54 +0000</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/creating-anagrams/</guid>
-      <description>From time to time I do anagrams. Nothing serious. I certainly don&amp;rsquo;t do it professionally but I have a fondness for making letters jump into new words. I have an odd relationship with words. I like them but I often have difficulty keeping the straight in my head. And my eyes and my brain sometimes disagree on what a series of words actually mean. So it is an odd fascination to have and an even odder skill to practice when you have several disadvantages at work making the process more difficult.</description>
-    </item>
-    
-    <item>
-      <title>Front Matter</title>
-      <link></link>
-      <pubDate>Wed, 15 Feb 2023 09:04:23 -0700</pubDate>
-      
-      <guid></guid>
-      <description></description>
+      <description>From time to time I do anagrams. Nothing serious. I certainly don&amp;rsquo;t do it professionally but I have a fondness for making letters jump into new words. I have an odd relationship with words. I like them but I often have difficulty keeping the straight in my head. And my eyes and my brain sometimes disagree on what a series of words actually mean.</description>
     </item>
     
     <item>
@@ -105,7 +305,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Fri, 10 Feb 2023 15:01:57 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/sharing_is/</guid>
-      <description>There is a very nice JavaScript library available that makes it easy to add a Share to Mastodon link to your website or blog. It is also on GitHub if that is how you roll. The library gives you a significant amount of flexibility to make the button display in a way that works with your site design. It also lets you host the code on your site, which is always a good option to have.</description>
+      <description>There is a very nice JavaScript library available that makes it easy to add a Share to Mastodon link to your website or blog. It is also on GitHub if that is how you roll. The library gives you a significant amount of flexibility to make the button display in a way that works with your site design.</description>
     </item>
     
     <item>
@@ -114,8 +314,7 @@ Our story begins I wanted to do a very simple thing in Alfred.</description>
       <pubDate>Thu, 09 Feb 2023 12:30:30 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/poisoned_well/</guid>
-      <description>People are, rightly, worried about the impact that systems like ChatGPT will have on the veracity of information in general and our ability to find accurate information on search engines such as Google, Bing and Duck Duck Go. I would like to suggest that this is already a problem and that a relentless AI circle-jerk of content referencing will make most of the internet unusable.
-Battery disposal Google search pages recently started telling people that it was safe to dispose of their car batteries by throwing them in the ocean.</description>
+      <description>People are, rightly, worried about the impact that systems like ChatGPT will have on the veracity of information in general and our ability to find accurate information on search engines such as Google, Bing and Duck Duck Go. I would like to suggest that this is already a problem and that a relentless AI circle-jerk of content referencing will make most of the internet unusable.</description>
     </item>
     
     <item>
@@ -124,8 +323,7 @@ Battery disposal Google search pages recently started telling people that it was
       <pubDate>Tue, 07 Feb 2023 14:00:09 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/conservative_private_member_bill/</guid>
-      <description>Conservatives introduce law to indirectly &amp;ldquo;defend&amp;rdquo; the fetus The Conservative Party of Canada announced, on their website, the addition of a Private Member&amp;rsquo;s Bill by MP Cathay Wagantall. The Bill has numerous statistical errors and also appears to be yet another attempt by a Conservative Party MP to push anti-abortion legislation under the guise of trying to stand up to crime.
-The announcement OTTAWA, ON — Cathay Wagantall 1, Member of Parliament for Yorkton-Melville, today introduced her private Members’ bill, the Violence Against Pregnant Women Act, in the House of Commons.</description>
+      <description>Conservatives introduce law to indirectly &amp;ldquo;defend&amp;rdquo; the fetus The Conservative Party of Canada announced, on their website, the addition of a Private Member&amp;rsquo;s Bill by MP Cathay Wagantall. The Bill has numerous statistical errors and also appears to be yet another attempt by a Conservative Party MP to push anti-abortion legislation under the guise of trying to stand up to crime.</description>
     </item>
     
     <item>
@@ -152,7 +350,7 @@ The announcement OTTAWA, ON — Cathay Wagantall 1, Member of Parliament for Yor
       <pubDate>Thu, 02 Feb 2023 15:44:39 -0700</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/you-are-not-funny/</guid>
-      <description>Perhaps you have seen it happen online? Someone posts a comment and then appends the phrase &amp;lsquo;It&amp;rsquo;s a joke&amp;rsquo; or &amp;lsquo;Humour for the humour impaired&amp;rsquo; or some variant. I&amp;rsquo;m not talking about the people that post some deplorable remark and then try to dissemble their way clear of critique by claiming to be a humorist. Those people are often racists, sexists, bullies or some combination of the three. No, the people I refer to are those who have, in their time online, been misunderstood so often and by so many people that they feel the need to add a qualifier to their comments to underline that they intend it as a joke.</description>
+      <description>Perhaps you have seen it happen online? Someone posts a comment and then appends the phrase &amp;lsquo;It&amp;rsquo;s a joke&amp;rsquo; or &amp;lsquo;Humour for the humour impaired&amp;rsquo; or some variant. I&amp;rsquo;m not talking about the people that post some deplorable remark and then try to dissemble their way clear of critique by claiming to be a humorist.</description>
     </item>
     
     <item>
@@ -189,8 +387,16 @@ The announcement OTTAWA, ON — Cathay Wagantall 1, Member of Parliament for Yor
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/watching-black-panther/</guid>
       <description>After a significant wait I was finally able to watch Black Panther: Wakanda Forever. It is a long movie so I had to digest it in two sittings but it was well worth the time.
-I will try to avoid discussing specific plot points but if you haven&amp;rsquo;t seen the film yet then you may want to wait to read this until later.
-I am always impressed by Winston Duke&amp;rsquo;s acting skills.</description>
+I will try to avoid discussing specific plot points but if you haven&amp;rsquo;t seen the film yet then you may want to wait to read this until later.</description>
+    </item>
+    
+    <item>
+      <title>Markdown writing tools</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</link>
+      <pubDate>Tue, 31 Jan 2023 18:37:25 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</guid>
+      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed.</description>
     </item>
     
     <item>
@@ -199,37 +405,26 @@ I am always impressed by Winston Duke&amp;rsquo;s acting skills.</description>
       <pubDate>Tue, 31 Jan 2023 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/begging-for-scraps/</guid>
-      <description>I am, in a few respects, not the average Mac consumer. I tend to use my hardware until it breaks (I once dropped a Macbook Pro onto a floor and split the case) or it no longer works well for the tasks that I need it. And even then I try to reuse them. The old iMac I used to do Flex (ugh!) and Director programming on is now in the basement running a Plex server for the family and acting as a print server.</description>
-    </item>
-    
-    <item>
-      <title>Markdown writing tools</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/posts/markdown-editors/</guid>
-      <description>Since starting to write using Markdown it has become, as I have commented, an obsession with me. I currently use Nota to write and organize all of my work and while it is quite good it doesn&amp;rsquo;t have everything that I want. Primarily, it currently doesn&amp;rsquo;t have any Shortcuts or AppleScript support which makes plugging it into an automated workflow trickier than needed. It is also an electron app and I like to find MacOS options when I can.</description>
-    </item>
-    
-    <item>
-      <title>Building with Hugo</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</guid>
-      <description>This site is built using a static site generator called Hugo. Hugo is a command line tool written using the Go language that takes Markdown or HTML pages and builds a website using a theme you specify. The resulting site consists of static HTML pages and so it loads ridiculously quickly and the pages are much smaller than pages built with a CMS.
-I am using a theme for the site based on the Poison theme which is itself based on another theme called Hyde.</description>
+      <description>I am, in a few respects, not the average Mac consumer. I tend to use my hardware until it breaks (I once dropped a Macbook Pro onto a floor and split the case) or it no longer works well for the tasks that I need it. And even then I try to reuse them.</description>
     </item>
     
     <item>
       <title>Hello new blog</title>
       <link>https://whatiswrongwithyourdog.netlify.app/posts/hellohugo/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Jan 2023 18:37:25 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/hellohugo/</guid>
       <description>If you are here reading this post then you have found my blog in its new home. I was, until yesterday, using Wordpress as a hosting service but have moved all of my recent writing to this new location. There are two primary reasons for this.
-I might still be using Wordpress if I hadn’t made the mistake of viewing the site without my ad blocker and saw these:
-At the bottom of every blog post were a series of ads from companies such as Outbrain.</description>
+I might still be using Wordpress if I hadn’t made the mistake of viewing the site without my ad blocker and saw these:</description>
+    </item>
+    
+    <item>
+      <title>Building with Hugo</title>
+      <link>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</link>
+      <pubDate>Mon, 30 Jan 2023 15:58:17 -0600</pubDate>
+      
+      <guid>https://whatiswrongwithyourdog.netlify.app/posts/buildingwithhugo/</guid>
+      <description>This site is built using a static site generator called Hugo. Hugo is a command line tool written using the Go language that takes Markdown or HTML pages and builds a website using a theme you specify. The resulting site consists of static HTML pages and so it loads ridiculously quickly and the pages are much smaller than pages built with a CMS.</description>
     </item>
     
     <item>
@@ -238,7 +433,7 @@ At the bottom of every blog post were a series of ads from companies such as Out
       <pubDate>Mon, 23 Jan 2023 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/all-the-news/</guid>
-      <description>Last month I purchased a Bluetooth speaker to use around the house so I could play music while I worked. We have a very old CD player in the kitchen but the speakers are showing their age and sound rather muffled. It is also not very portable and so a new electronic doodad was purchased. I bought it at Best Buy which is a Canadian electronics chain store. I spent quite a bit of time looking for a locally owned store that sold them but wasn&amp;rsquo;t able to find one.</description>
+      <description>Last month I purchased a Bluetooth speaker to use around the house so I could play music while I worked. We have a very old CD player in the kitchen but the speakers are showing their age and sound rather muffled. It is also not very portable and so a new electronic doodad was purchased.</description>
     </item>
     
     <item>
@@ -247,7 +442,7 @@ At the bottom of every blog post were a series of ads from companies such as Out
       <pubDate>Mon, 23 Jan 2023 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/break-a-leg/</guid>
-      <description>My grandmother, on my mother&amp;rsquo;s side, passed away due to complications during surgery. It is a pleasing way to say that she was too old and the rigour of the procedure was too much for her system to bear. She was, if I recall correctly, 93 years of age and living with my uncle. They had a small farm in the interior of British Columbia, that my uncle maintained, which they moved to after selling a larger farm in northern BC.</description>
+      <description>My grandmother, on my mother&amp;rsquo;s side, passed away due to complications during surgery. It is a pleasing way to say that she was too old and the rigour of the procedure was too much for her system to bear. She was, if I recall correctly, 93 years of age and living with my uncle.</description>
     </item>
     
     <item>
@@ -256,7 +451,7 @@ At the bottom of every blog post were a series of ads from companies such as Out
       <pubDate>Thu, 12 Jan 2023 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/game-pricing/</guid>
-      <description>Part of getting older is having to realise that times change and that you will invariably not understand what they become. It is difficult to do. You stop being the generation that taste is made for and start becoming that old man who complains about the music playing in the bookstore. So I realise this and I accept it but there are instances when you wonder whether you are right or &amp;ldquo;the kids&amp;rdquo; are and it can be a difficult path to navigate.</description>
+      <description>Part of getting older is having to realise that times change and that you will invariably not understand what they become. It is difficult to do. You stop being the generation that taste is made for and start becoming that old man who complains about the music playing in the bookstore.</description>
     </item>
     
     <item>
@@ -266,8 +461,7 @@ At the bottom of every blog post were a series of ads from companies such as Out
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/breaking-languidly/</guid>
       <description>The Tower Defence games should have been the first warning.
-I truly love TD games, especially Core Defense, and have had since I saw Fieldrunners on the iPad. Fieldrunners was followed by Fieldrunners 2 which was even better than the original and which I have played to completion several times.
-I missed playing TD games when they first starting to be come a genre mostly because I didn&amp;rsquo;t really play a lot of Flash games and the games iterated so quickly that it was not a simple task to keep up with them.</description>
+I truly love TD games, especially Core Defense, and have had since I saw Fieldrunners on the iPad. Fieldrunners was followed by Fieldrunners 2 which was even better than the original and which I have played to completion several times.</description>
     </item>
     
     <item>
@@ -276,7 +470,7 @@ I missed playing TD games when they first starting to be come a genre mostly bec
       <pubDate>Sun, 18 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/lets-check-the-map/</guid>
-      <description>The modern internet is the antithesis of curation. This is, for the most part, the common ground for the problems that haunt large web-sites such as YouTube, Facebook and others. They get so many submissions and at such a high rate that it is humanly impossible to sort them in any manner. Machine learning has been trotted out as a solution to at least the worse types of content being submitted by people but the problems of scale and a lack of human input extend to many services available online, not the least of which are maps.</description>
+      <description>The modern internet is the antithesis of curation. This is, for the most part, the common ground for the problems that haunt large web-sites such as YouTube, Facebook and others. They get so many submissions and at such a high rate that it is humanly impossible to sort them in any manner.</description>
     </item>
     
     <item>
@@ -289,7 +483,7 @@ I missed playing TD games when they first starting to be come a genre mostly bec
 First star I see tonight;
 I wish I may, I wish I might
 Know if you are a Starlink satellite
-2022 has been a year defined by corporations releasing products and services without any thought given to consequences or even such piffling factors as ethics and morality. SpaceX, an Elon Musk company, pushed 100s of satellites into the sky causing havoc for earthbound astronomers. The company has plans for a total of 2700 low-earth orbit satellites which is slightly more than 50% of the existing number of objects in low-earth orbit.</description>
+2022 has been a year defined by corporations releasing products and services without any thought given to consequences or even such piffling factors as ethics and morality.</description>
     </item>
     
     <item>
@@ -298,8 +492,7 @@ Know if you are a Starlink satellite
       <pubDate>Sun, 11 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/being-rich/</guid>
-      <description>Being rich isn&amp;rsquo;t a job. Its not as if members of the 1% come home after a long day of being a billionaire and flop into a well-worn La-Z-Boy, pop open a can of a local discount lager and fall asleep watching the evening news. Being rich is a skill though and I think that Elon Musk is at the pinnacle of the craft of being rich.
-Now it isn&amp;rsquo;t difficult to be rich.</description>
+      <description>Being rich isn&amp;rsquo;t a job. Its not as if members of the 1% come home after a long day of being a billionaire and flop into a well-worn La-Z-Boy, pop open a can of a local discount lager and fall asleep watching the evening news. Being rich is a skill though and I think that Elon Musk is at the pinnacle of the craft of being rich.</description>
     </item>
     
     <item>
@@ -308,18 +501,7 @@ Now it isn&amp;rsquo;t difficult to be rich.</description>
       <pubDate>Wed, 07 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/all-things-will-die/</guid>
-      <description>The Guardian posted an article today looking at the impact and future of Meta’s Metaverse project. It is not a good read if you are holding Meta stock but I guess nothing really has been for the last few months. What I found most interesting in the article were the comments from Meta vice-president Vishal Shah trying to get his staff and developers to use their own VR software.
-“If we don’t love it, how can we expect our users to love it?</description>
-    </item>
-    
-    <item>
-      <title>Music on tap</title>
-      <link>https://whatiswrongwithyourdog.netlify.app/posts/music/</link>
-      <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
-      
-      <guid>https://whatiswrongwithyourdog.netlify.app/posts/music/</guid>
-      <description>So I would prefer, if possible, to own my music. I have a longterm goal of building a decent sound system and buying some older jazz albums to listen to. Putting an Oscar Peterson album on and listening to it and making the timing of my morning work revolve around having to turn the album over each time it finishes playing.
-That said, I recently subscribed to Apple Music and it is almost beyond contemplation how much music I have access to now.</description>
+      <description>The Guardian posted an article today looking at the impact and future of Meta’s Metaverse project. It is not a good read if you are holding Meta stock but I guess nothing really has been for the last few months. What I found most interesting in the article were the comments from Meta vice-president Vishal Shah trying to get his staff and developers to use their own VR software.</description>
     </item>
     
     <item>
@@ -329,7 +511,7 @@ That said, I recently subscribed to Apple Music and it is almost beyond contempl
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/secret-garden/</guid>
       <description>The internet was, in its infancy, a vast unexplored world filled with new information. You would constantly find new and exciting ideas, groups or sometimes applications that would open you up to new possibilities and ways of working.
-I recall when I found all of Kai Krause’s Power Tools documents on a CompuServe forum. Not the plugins for Photoshop but a series of Word files in which he explained a series of mind-bending techniques he used to create complex and wonderful effects in Photoshop.</description>
+I recall when I found all of Kai Krause’s Power Tools documents on a CompuServe forum.</description>
     </item>
     
     <item>
@@ -338,7 +520,7 @@ I recall when I found all of Kai Krause’s Power Tools documents on a CompuServ
       <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/watch-what-happens/</guid>
-      <description>I am not as educated in music theory or the specifics of music composition as I would like. This often leads me to puzzles for which I don&amp;rsquo;t have the answers and which are, typically, too detailed for me to find answers online. Case in point, the rendition of Watch What Happens that Oscar Peterson plays on the Live At Ronnie Scott&amp;rsquo;s 1974 set. First though, if you will indulge me, a brief tangent as I explain how I even started listening to this piece.</description>
+      <description>I am not as educated in music theory or the specifics of music composition as I would like. This often leads me to puzzles for which I don&amp;rsquo;t have the answers and which are, typically, too detailed for me to find answers online. Case in point, the rendition of Watch What Happens that Oscar Peterson plays on the Live At Ronnie Scott&amp;rsquo;s 1974 set.</description>
     </item>
     
     <item>
@@ -347,7 +529,7 @@ I recall when I found all of Kai Krause’s Power Tools documents on a CompuServ
       <pubDate>Tue, 06 Dec 2022 09:05:28 -0600</pubDate>
       
       <guid>https://whatiswrongwithyourdog.netlify.app/posts/writing-markdown/</guid>
-      <description>Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere. Being able to format you copy as you type, without having to move a mouse or use a menu, allows you to work without having to interrupt your thought process.</description>
+      <description>Some time ago I started doing most of my writing using Markdown. Almost everything I write end up online, either in a blog or website, and so it made sense to use a formatting system that was web-friendly. The more I used it though the more I wanted to use it everywhere.</description>
     </item>
     
     <item>
