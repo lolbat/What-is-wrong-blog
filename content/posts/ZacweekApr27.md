@@ -15,7 +15,7 @@ So it has been a busy week for me. While I did a lot of coding and a lot of test
 
 ## Coding properly
 
-When I first started writing my Hugo CMS in Textual I didn't structure the project in a way that would make it easy to distribute it. I had [^1 ] a python file titled `victor.py` and that was how you ran the application. There are many reasons why this isn't a good idea and while I am not currently planning on packaging the code and distributing it, I might want to do this in the future and so it seemed as if it might be a good idea to do so. 
+When I first started writing my Hugo CMS in Textual I didn't structure the project in a way that would make it easy to distribute it. I had [^1] a python file titled `victor.py` and that was how you ran the application. There are many reasons why this isn't a good idea and while I am not currently planning on packaging the code and distributing it, I might want to do this in the future and so it seemed as if it might be a good idea to do so. 
 
 Before I go any further, I just want to make it clear that _any_ issues I describe below are my own fault and should not be taken as a critique of the apps or packages. 
 
@@ -57,7 +57,6 @@ I didn't want to have to fuss around getting to the config screen each time I wa
 
 This is also another benefit of keeping my screen classes in external files. I can reuse them easily even inside the same project.
 
----
 
 [^1]: And now have titled it again
 [^2]: Mostly because that is what the Textual devs use and it will also scaffold a project for you. 
