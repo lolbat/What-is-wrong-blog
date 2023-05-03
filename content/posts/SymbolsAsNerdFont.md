@@ -26,7 +26,7 @@ and this is the same one with symbols
 
 ![The new prompt](/images/prompt-symbols.jpg)
 
-I am still working on the layout and how I want the python virtual environments to display but I am so glad I remembered SF Symbols. 
+I am still working on the layout and how I want the python virtual environments to display but I am so glad I remembered SF Symbols. You will still need to use a NerdFont for the rounded corners and chevrons though.
 
 Now if I could only use it in exa.
 
