@@ -1,7 +1,7 @@
 ---
 title: "Obsidian Bookmark Workflow update"
 date: 2023-05-04T14:19:53-06:00
-draft: true
+draft: false
 description: An update on the Obsidian Bookmark Workflow for Alfred
 tags:
     - Obsidian
