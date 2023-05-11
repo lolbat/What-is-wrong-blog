@@ -293,3 +293,8 @@ div.highlight pre {
 .current {
     color: var(--text-color);
 }
+
+.socialIcon {
+    width: 1.2em;
+    height: 1.2em;
+}
