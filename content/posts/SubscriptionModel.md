@@ -2,7 +2,7 @@
 title: "Why a Subscription model"
 date: 2023-05-23T09:34:13-06:00
 draft: false
-description: "A lot of people are arguing about app subscriptions but maybe develoeprs aren't the problem?"
+description: "A lot of people are arguing about app subscriptions but maybe developers aren't the problem?"
 tags:
     - Apple
     - App Store

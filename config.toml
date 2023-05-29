@@ -1,7 +1,7 @@
 baseURL = 'https://whatiswrongwithyourdog.netlify.app/'
 languageCode = 'en-us'
 title = 'What is wrong with your dog?'
-image=['blogimage.jpg']
+images = ['blogimage.jpg']
 theme = 'wrongdog'
 paginate = 10
 summarylength = 75
