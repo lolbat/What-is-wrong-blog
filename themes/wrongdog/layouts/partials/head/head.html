@@ -14,7 +14,7 @@
     {{- else -}}
     <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
     {{- end }}
-    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Summary}}{{end}}" />
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
     <!-- CSS stylesheets -->
     {{ partial "head/stylesheets.html" . }}
