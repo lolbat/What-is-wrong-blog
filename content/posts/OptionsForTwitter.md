@@ -1,7 +1,7 @@
 ---
 title: "Options for Twitter readers"
 date: 2023-05-29T12:57:21-06:00
-draft: true
+draft: false
 images:
     - og/twitterBlogPost.jpg
 description: "If people don't want to leave Twitter, you can always send them a message using Open Graph."
