@@ -1,7 +1,6 @@
 baseURL = 'https://whatiswrongwithyourdog.netlify.app/'
 languageCode = 'en-us'
 title = 'What is wrong with your dog?'
-images = ['blogimage.jpg']
 theme = 'wrongdog'
 paginate = 10
 summarylength = 75
@@ -18,6 +17,7 @@ copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://cr
     noClasses = false
 
 [params]
+    images = ['blogimage.jpg']
     dateFormat = "Monday, Jan 2, 2006"
     brand = "'What is wrong with your dog?'"
     brand_image = "/images/Dog.png"
