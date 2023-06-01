@@ -20,7 +20,7 @@ I have been working on, finally, adding [Open Graph](https://ogp.me/) support to
 
 ## Twitter:image
 
-First I made a test image and added the `twitter:card` meta tag using the URL to the image. I did a quick test and the twitter image was displaying but wasn't being used in any of the other previews. I created a default image for the site and uploaded it and did another test. Once again, the Twitter image was only used in the Twitter preview and my default image was used everywher else.
+First I made a test image and added the `twitter:card` meta tag using the URL to the image. I did a quick test and the twitter image was displaying but wasn't being used in any of the other previews. I created a default image for the site and uploaded it and did another test. Once again, the Twitter image was only used in the Twitter preview and my default image was used everywhere else.
 
 ## Making an image
 
