@@ -11,9 +11,13 @@ So what is this and why did I click the 'About' link?
 
 The world is a puzzling and sometimes terrifying place. This blog will not provide anything to help you with that. Despite the title there is almost no chance of there being posts about dogs or their inability to deal with the rigorous demands of modernity.
 
+## Privacy
+
+This site does track you or store any cookies. There are no analytics packages so I don't know who has come here and no-one knows that you've read this page.
+
 ## That's a nice dog you have there
 
-The cute photo of the dog is from reddit user u/Niffer13. Their user page is marked as 18+ so you can’t view it without logging in to Reddit. 
+The photo is of my dog Bandit. The demonic glow was added using Acorn. My partner would often comment on his 'baleful' glare and I never really saw it until I took this photo. 
 
 ## The author
 
@@ -35,7 +39,7 @@ When not walking his dog and writing introductions to his blog in the third-pers
 
 ## Colophon
 
-This site is created using [Hugo][gohugo] and is hosted on [Netlify][ghp]. The pages were written using [Markdown](https://www.markdownguide.org/) and the site is maintained using [Nova](https://nova.app). Many Markdown writing tools were used depending on what the task is. All of the Hugo command line work is done using [iTerm](https://iterm2.com/index.html) which is really a quite wonderful terminal app. 
+This site is created using [Hugo][gohugo] and is hosted on [Netlify][ghp]. The pages were written using [Markdown](https://www.markdownguide.org/) and the site's code is maintained using [Nova](https://nova.app). Many Markdown writing tools were used depending on what the task is. All of the Hugo command line work is done using [iTerm](https://iterm2.com/index.html) which is really a quite wonderful terminal app. 
 
 [gohugo]: https://gohugo.io "Hugo starts with the letter H"
 [ghp]:https://www.netlify.com
