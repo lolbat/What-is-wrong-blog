@@ -35,7 +35,7 @@ He then took more than a decade off to help take care of a set of delightful twi
 
 Zac has written reviews and articles for several computer and tabletop wargaming websites and was once shortlisted for "The last person we'd ever award a Booker to" prize list. When he was in university he wrote quite a lot of poetry, as one does, but learned his lesson and hasn't done any since. 
 
-When not walking his dog and writing introductions to his blog in the third-person, Zac enjoys boardgames, jazz, coffee and trying to figure out why the teens he shares a house with can't tidy up after themselves. Zac is not on Twitter or Facebook but you can find him on [Mastodon](https://home.social/@lolzac) where he often posts and sometimes even manages to post something interesting. Zac is happily married but to the type of person who really wouldn't want to be associated with him publicly so he won't link to her blog. 
+When not walking his dog and writing introductions to his blog in the third-person, Zac enjoys boardgames, jazz, coffee and trying to figure out why the teens he shares a house with can't tidy up after themselves. Zac is not on [Twitter](posts/optionsfortwitter/) or Facebook but you can find him on [Mastodon](https://fosstodon.org/@lolbat) where he often posts and sometimes even manages to post something interesting. Zac is happily married but to the type of person who really wouldn't want to be associated with him publicly so he won't link to her blog. 
 
 ## Colophon
 
