@@ -12,4 +12,24 @@ tags:
     - Textual
 ---
 
-For the last month or so, I have been hopping between [VS Code](https://code.visualstudio.com/) and [PyCharm](https://blog.jetbrains.com/pycharm/) as I work on my [Textual](https://textual.textualize.io/) app. 
+For the last month or so, I have been hopping between [VS Code](https://code.visualstudio.com/) and [PyCharm](https://blog.jetbrains.com/pycharm/) as I work on my [Textual](https://textual.textualize.io/) app. The idea was that since it is often difficult to categorise what you like or don't like about an app that I would use them both and just see which one I actually looked forward to using. 
+
+## VS Code
+
+The main benefit of VS Code is that it has a larger community of developers creating plugins for the app. There was a [ruff](https://github.com/charliermarsh/ruff) plugin for VS Code well before there was one for PyCharm [^1]. There is also a larger number of plugins available for it. That is a double-edged sword at times as it can be a bit of an issue determining what is the best plugin available from a series that is available. 
+
+VS Code has a settings panel but there are a large number of settings that require you to edit a json file to set them. And if there are in a json file (or more often need to be added to it) then it is difficult to tell that the setting is available. 
+
+VS Code also has a series of seemingly vim-inspired keyboard accelerators that require two keys to be hit in succession. Hitting Cmd-K and then Cmd-T to open the Theme Settings seems odd. Especially when it can be selected from the ubiquitous command panel. 
+
+I have two main objections to VS Code. The first is that everything in it either has too much contrast or too little contrast. I am not sure if this is a side effect of building a complex UI inside a browser or just the style that Microsoft uses when defining the elements in the app. You can apply different themes but none of them seem to reach a happy medium that makes my eyes happy. 
+
+Secondly, VS Code has a habit of enabling features for me that I didn't ask for. I did a git commit of a project and suddenly the git tools (which had been disabled) were re-enabled and my file display was littered with  coloured lines and blocks. As well, the colours of the filenames in the tabs changed. This was also something that I had disabled. 
+
+Also, fuck Microsoft and fuck Electron.
+
+## PyCharm
+
+
+
+[^1]: Both IDEs currently have one

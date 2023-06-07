@@ -43,6 +43,13 @@
     font-size: .65em;
 }
 
+/* align img styles */
+img.alignImg {
+    padding-left: 6px;
+    padding-right: 6px;
+    max-height: 300px;
+}
+
 /* tool image styles */
 .toolIcon {
     float: left;
@@ -190,7 +197,7 @@ h1, h2, h3, h4, h5, strong {
     font-size: 1em;
     margin-top: 5px;
     margin-left: 10px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
 }
 
 .entries li::after {
@@ -202,7 +209,7 @@ h1, h2, h3, h4, h5, strong {
     flex-grow: 1;
     height: 1.1em;
     order: 2;
-} 
+}
 .article-toc {
     display: none;
     position: fixed;
