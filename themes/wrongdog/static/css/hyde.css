@@ -75,7 +75,7 @@ pre {
     scrollbar-width: thin;
     scrollbar-color: rgb(70, 70, 70) auto;
   }
-  
+
   ::-webkit-scrollbar {
     width: 7px;
   }
@@ -90,7 +90,7 @@ pre {
     border-radius: 10px;
   }
 
-  
+
   ::-webkit-scrollbar-thumb:hover {
     background-color:rgb(150, 150, 150);
   }
@@ -196,7 +196,7 @@ a.sidebar-nav-item:focus {
   display:inline;
   vertical-align: bottom;
 }
- 
+
 .badges {
   float: right;
 }
