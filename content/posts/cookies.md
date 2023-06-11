@@ -112,4 +112,4 @@ There is enough third-party surveillance online now that we really don't need to
 [^1]: This is meant to duplicate the length of a t.co URL
 [^2]: Obviously.
 [^3]: The author also makes a Safari extension which does this as well amongst many other things. https://underpassapp.com/StopTheMadness/
-[^4]: And there really isn't anyn reason to use one any more
+[^4]: And there really isn't any reason to use one any more
