@@ -31,7 +31,6 @@ copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://cr
     ]
 
     # Links to your socials.  Delete any you don't need/use.
-    mastodon_url = "https://fosstodon.org/@lolbat"
     codeberg_url = "https://codeberg.org/lolbat"
     github_url = "https://github.com/lolbat"
 
