@@ -24,12 +24,14 @@ VS Code also has a series of seemingly vim-inspired keyboard accelerators that r
 
 I have two main objections to VS Code. The first is that everything in it either has too much contrast or too little contrast. I am not sure if this is a side effect of building a complex UI inside a browser or just the style that Microsoft uses when defining the elements in the app. You can apply different themes but none of them seem to reach a happy medium that makes my eyes happy. 
 
-Secondly, VS Code has a habit of enabling features for me that I didn't ask for. I did a git commit of a project and suddenly the git tools (which had been disabled) were re-enabled and my file display was littered with  coloured lines and blocks. As well, the colours of the filenames in the tabs changed. This was also something that I had disabled. 
-
-Also, fuck Microsoft and fuck Electron.
+Secondly, VS Code has a habit of enabling features for me that I didn't ask for. I did a git commit of a project and suddenly the git tools (which had been disabled) were re-enabled and my file display was littered with  coloured lines and blocks. As well, the colours of the filenames in the tabs changed. This was also something that I had disabled [^2]. 
 
 ## PyCharm
 
+PyCharm looks good and has enough contrast and whitespace in the UI that it isn't difficult to look at or use for extended periods of time. It also is much easier for me to set up the IDE so that it has the two-tone look that I like. 
+
+ I think that PyCharm has a less active community of plugin developers but it does seem to get the required tools and 
 
 
 [^1]: Both IDEs currently have one
+[^2]: Also, fuck Microsoft and fuck Electron.
