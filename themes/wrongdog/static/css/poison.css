@@ -30,6 +30,25 @@
     }
 }
 
+/* figure styles */
+.popupCaption {
+
+}
+
+.popupFigure {
+    width: 225px;
+    text-align: center;
+    align-content: center;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.popupFigure a img {
+    margin: auto;
+    border-radius: 0;
+    align-self: center;
+}
+
 /* Footnote styles */
 .footnote-ref {
     font-weight: 600;
