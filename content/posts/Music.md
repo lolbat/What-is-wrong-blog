@@ -1,12 +1,12 @@
 ---
-title: "Music on tap"
+title: Music on tap
 date: 2022-12-06T09:05:28-06:00
-draft: true
+draft: false
 tags:
-    - Apple Music
-    - Napster
-    - Sarah Vaughan
-    - Horace Silver
+  - Apple Music
+  - Napster
+  - Sarah Vaughan
+  - Horace Silver
 ---
 
 So I would prefer, if possible, to own my music. I have a longterm goal of building a decent sound system and buying some older jazz albums to listen to. Putting an Oscar Peterson album on and listening to it and making the timing of my morning work revolve around having to turn the album over each time it finishes playing. 
