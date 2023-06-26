@@ -6,7 +6,7 @@ description:
 tags:
     - OverLondon
     - Books
-    - Fantasy
+    - Comic Fantasy
 ---
 
 {{< alignimg OverLondon.jpg left>}}I used to read quite a lot of books. This was in the bygone days before there were children, pets and a household to look after. I took a considerable hiatus from recreational reading but now that the kids are capable of taking care of themselves I find that I have more free time to spend as I would like. 
