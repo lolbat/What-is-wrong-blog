@@ -1,6 +1,6 @@
 
 .nova/
 public/
-content/.frontmatter/database/mediaDb.json
-content/.vscode/settings.json
-content/frontmatter.json
+frontmatter.json
+.frontmatter/database/mediaDb.json
+*.json

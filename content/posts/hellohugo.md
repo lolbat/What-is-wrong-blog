@@ -23,4 +23,4 @@ I also want more control over the way the articles look as well as how much is b
 
 When you put material online that you have created I think it is necessary for you not only to control what you say but also how it is being presented and what accompanies it. All of these things determine how your work is viewed by other people. I just want folks to come here, read what I have written and thengo on with the rest of their day. 
 
-With this new site I have stripped the HTMl, CSS and JS down considerably and built a theme (reworked an existing theme to be accurate) that just shows an article with as little extraneous frippery as possible. I like it and I hope that you do as well. 
+With this new site I have stripped the HTML, CSS and JS down considerably and built a theme (reworked an existing theme to be accurate) that just shows an article with as little extraneous frippery as possible. I like it and I hope that you do as well. 
