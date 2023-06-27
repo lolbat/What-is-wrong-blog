@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}"{{end}}>
+<head>
+    {{ partial "head/scripts.html" . }}
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    {{ hugo.Generator }}
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{ if .IsHome -}}
+    <title>{{ .Site.Title }}</title>
+    {{- else -}}
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    {{- end }}
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+
+    <!-- CSS stylesheets -->
+    {{ partial "head/stylesheets.html" . }}
+
+    <!-- RSS etc -->
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    <!-- add a direct Twitter card link -->
+    <meta name="twitter:image" content="https://whatiswrongwithyourdog.netlify.com/og/twittika.jpg"/>
+    <meta name="twitter:title" content="Twitter is run by a Nazi" />
+    <meta name="twitter:description" content="Twitter is owned by a fascist and now actively promotes fascist and nazi thought and content. Isn't it about time you left?" />
+
+    <!-- Custom style tag for parameterized CSS -->
+    {{ partial "head/css.html" . }}
+</head>

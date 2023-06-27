@@ -1,0 +1,6 @@
+
+.nova/
+public/
+frontmatter.json
+.frontmatter/database/mediaDb.json
+*.json

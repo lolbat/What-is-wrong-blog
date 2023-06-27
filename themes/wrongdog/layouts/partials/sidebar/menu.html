@@ -1,0 +1,44 @@
+<nav>
+    <ul class="sidebar-nav">
+
+        {{ $sections := .Site.Sections.ByTitle }}
+        {{ range .Site.Params.menu }}
+        {{ $menu_item := . }}
+            {{ range $sections }}
+            
+            
+                {{ if eq (lower .Title) (lower (strings.TrimSuffix "/" (strings.TrimPrefix "/" $menu_item.URL))) }}
+                
+                    <!-- check to see if it has children and then don't add a link if it does -->
+
+                    {{ if $menu_item.HasChildren }}
+                    
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/{{$menu_item.Icon }}"><span class="menuItemNoLink">{{ $menu_item.Name }}</span>
+                        </li>
+                        
+                        <li class="sub-heading">
+                            {{ $menu_item.Pre }}
+                        </li>
+                        
+                        <ul class="submenu">
+                        {{ range (first $menu_item.Limit .Pages) }}
+                            <li class="bullet">
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </li>
+                        {{ end }}
+                        </ul>
+                        
+                    {{ else }}
+                        <li class="heading">
+                            <img class="menuIcon" src="/images/{{$menu_item.Icon }}"><a href="{{$menu_item.URL }}">{{ $menu_item.Name }}</a>
+                        </li>
+                    {{ end }}
+                    
+                {{ end }}
+                
+            {{ end }}
+        {{ end }}
+
+    </ul>
+</nav>

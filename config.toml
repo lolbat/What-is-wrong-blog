@@ -1,0 +1,70 @@
+baseURL = 'https://whatiswrongwithyourdog.netlify.app/'
+languageCode = 'en-us'
+title = 'What is wrong with your dog?'
+theme = 'wrongdog'
+paginate = 10
+summarylength = 75
+pluralizelisttitles = false
+copyright = 'This work is licensed under the CC BY-NC-ND 4.0 license. https://creativecommons.org/licenses/by-nc-nd/4.0/'
+
+[author]
+  name = 'Zac Belado'
+
+[markup]
+    [markup.highlight]
+    linenos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[params]
+    images = ['og/blogimage.jpg']
+    dateFormat = "Monday, Jan 2, 2006"
+    brand = "'What is wrong with your dog?'"
+    brand_image = "/images/Dog3.png"
+    description = "A blog of writing that is rarely about dogs."
+    dark_mode = false
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false, Icon="info.svg"},
+        {Name = "Links", URL = "/links/", HasChildren = false, Icon="list.svg"},
+        {Name = "Tools", URL = "/tools/", HasChildren = false, Icon="tool.svg"},
+        {Name = "Recent Posts", URL = "/posts/", HasChildren = true, Limit = 7, Icon="file-text.svg"}
+    ]
+
+    # Links to your socials.  Delete any you don't need/use.
+    codeberg_url = "https://codeberg.org/lolbat"
+    github_url = "https://github.com/lolbat"
+
+    # Hex colors for your sidebar.
+    sidebar_bg_color = "#202020"
+    sidebar_img_border_color = "#515151"
+    sidebar_p_color = "#909090"
+    sidebar_h1_color = "#FFF"
+    sidebar_a_color = "#FFF"
+    sidebar_socials_color = "#FFF"
+    moon_sun_color = "#FFF"
+    moon_sun_background_color = "#515151"
+    link_icon_color = "#FFF"
+
+    # Hex colors for your content in light mode.
+    text_color = "#222"
+    content_bg_color = "#FAF9F6"
+    post_title_color = "#303030"
+    list_color = "#5a5a5a"
+    link_color = "#268bd2"
+    date_color = "#515151"
+    code_color = "#6c6c6c"
+    code_background_color = "#f0f0f0"
+
+    # Hex colors for your content in dark mode
+    text_color_dark = "#eee"
+    content_bg_color_dark = "#121212"
+    post_title_color_dark = "#DBE2E9"
+    list_color_dark = "#9d9d9d"
+    link_color_dark = "#268bd2"
+    date_color_dark = "#9a9a9a"
+    code_color_dark = "white"
+    code_background_color_dark = "#504B4B"
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'

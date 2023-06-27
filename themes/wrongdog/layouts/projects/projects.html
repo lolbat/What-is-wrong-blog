@@ -1,0 +1,16 @@
+{{ define "main" -}}
+<h1 class="title">{{ .Title }}</h1>
+<div class="posts">
+    {{ range .Paginator.Pages }}
+        <div class="project">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <p>
+                {{ if .Params.featuredImage }}
+                    <img src="{{ .Params.featuredImage }}"><br>
+                {{ end }}
+                {{ .Summary }}
+            </p>
+        </div>
+    {{ end }}
+</div>
+{{ end }}

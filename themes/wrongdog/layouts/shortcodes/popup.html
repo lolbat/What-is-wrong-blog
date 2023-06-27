@@ -1,0 +1,8 @@
+<figure class="popupFigure">
+    <a href="/images/{{ index .Params 0 }}.jpg" target="_blank">
+        <img src="/images/{{ index .Params 0 }}_sml.jpg" alt="{{ index .Params 3 }}" width="{{ index .Params 1 }}">
+    </a>
+    <figcaption class="popupCaption">
+        <h4>{{ index .Params 2 }}</h4>
+    </figcaption>
+</figure>

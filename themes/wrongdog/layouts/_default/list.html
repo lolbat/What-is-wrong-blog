@@ -1,0 +1,20 @@
+{{ define "main" -}}
+<h1 class="title">Posts about {{ .Title }}</h1>
+<ul class="entries">
+	{{ range .Pages.GroupByDate "2006" }}
+	<h3>{{ .Key }}</h3>
+	{{ range .Pages }}
+	<li class="taxonomyItem">
+		<div class="title">
+			<strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
+		</div>
+		<div class="published">
+			<time class="">{{ .Date | time.Format ":date_full" }}</time>
+		</div>
+		<div class="description">
+			{{ if .Params.Description }} {{ .Description }} {{ else }} {{ .Summary | markdownify}} {{ end }}
+		</div>
+	</li>
+	{{ end }} {{ end }}
+</ul>
+{{ end }}
